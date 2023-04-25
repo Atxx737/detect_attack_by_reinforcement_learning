@@ -24,3 +24,9 @@ https://www.sciencedirect.com/science/article/abs/pii/S0167404821000286
 
 https://arxiv.org/pdf/2009.11274.pdf
 
+## Structure
+
+├───code (code pre process data)
+├───data (dataset)
+├───rl-cartpole (code RL)
+└───images (images for report)
