@@ -31,5 +31,6 @@ https://arxiv.org/pdf/1809.05258.pdf [Online Cyber-Attack Detection in Smart Gri
 
 ├───code (code pre process data)
 ├───data (dataset)
+├───demo (code train and test model)
 ├───rl-cartpole (code RL)
 └───images (images for report)
