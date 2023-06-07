@@ -22,13 +22,14 @@ class DeepQLearning:
     # numberEpisodes - total number of simulation episodes
     
             
-    def __init__(self,data,state_size,action_size,gamma,epsilon,batch_size):
+    def __init__(self,dataset,state_size,action_size,gamma,epsilon):
     
         # self.env=env
         self.gamma = gamma
         self.epsilon = epsilon
-        self.numberEpisodes = 10
-        self.data = data
+        self.numberEpisodes = 1
+        self.dataset = dataset
+        
         # state dimension
         # self.stateDimension=4
         self.state_size = state_size
@@ -40,7 +41,7 @@ class DeepQLearning:
         # this is the maximum size of the replay buffer
         self.replayBufferSize = 300
         # this is the size of the training batch that is randomly sampled from the replay buffer
-        self.batchReplayBufferSize = batch_size
+        self.batchReplayBufferSize = 100
         
         # number of training episodes it takes to update the target network parameters
         # that is, every updateTargetNetworkPeriod we update the target network parameters
@@ -143,7 +144,6 @@ class DeepQLearning:
     ###########################################################################
 
     def trainingEpisodes(self): 
-        
         # here we loop through the episodes = 10
         for indexEpisode in range(self.numberEpisodes):
             
@@ -153,30 +153,43 @@ class DeepQLearning:
             print("Simulating episode {}".format(indexEpisode))
             
             # reset the environment at the beginning of every episode
-            (currentState,_)=self.reset()
-            # (currentState,_)=self.env.reset()
-                      
-            # here we step from one state to another
-            # this will loop until a terminal state is reached
-            # terminalState=False
-            # while not terminalState:
+            # (currentState,_)=self.reset()
+
+            data = self.dataset.sample(frac=1).reset_index(drop=True)
+
+            currentState = data.iloc[0].values[:-1]
+            currentState = numpy.reshape(currentState, [1, self.state_size])
+            currentState = numpy.array(currentState, dtype=numpy.float32)
 
             # print("len(self.data)",self.data.shape[0])
             # print("indexEpisode",indexEpisode)
             # print("len data -1",self.data.shape[0]-1)                        
+            for index in range (data.shape[0]):
 
-            # print("_____begin_train________")
-
-            for indexSample in range (self.data.shape[0] -1):
                 # select an action on the basis of the current state, denoted by currentState
-                action = self.selectAction(currentState,indexSample)
-                
-                # here we step and return the state, reward, and boolean denoting if the state is a terminal state
-                # (nextState, reward, terminalState,_,_) = self.env.step(action)       
-                (nextState, reward, terminalState,_,_) = self.step(action,indexSample)     
+                action = self.selectAction(currentState,index)
 
+                # here we step and return the state, reward, and boolean denoting if the state is a terminal state
+                # (nextState, reward, terminalState,_,_) = self.step(action,index)     
+                
+                #define reward
+                if action == data.iloc[index].values[-1]: 
+                    reward = 1
+                else:  
+                    reward = 0
                 rewardsEpisode.append(reward)
-         
+
+                #define terminated
+                if index == (data.shape[0]-1):
+                    terminalState = True
+                else:
+                    terminalState = False
+
+                # define nextstate
+                next_state = data.iloc[index + 1].values[:-1]
+                next_state = numpy.reshape(next_state, [1, self.state_size])
+                nextState = numpy.array(next_state, dtype=numpy.float32)
+                
                 # add current state, action, reward, next state, and terminal flag to the replay buffer
                 self.replayBuffer.append((currentState,action,reward,nextState,terminalState))
                 
@@ -185,7 +198,7 @@ class DeepQLearning:
                 
                 # set the current state for the next step
                 currentState=nextState
-            print("_____end_for________")
+                print("done",index,"in dataset ",len(self.dataset))
             
             print("Sum of rewards {}".format(numpy.sum(rewardsEpisode)))        
             self.sumRewardsEpisode.append(numpy.sum(rewardsEpisode))
@@ -326,65 +339,3 @@ class DeepQLearning:
     #    END - function trainNetwork() 
     ###########################################################################     
 
-    ###########################################################################
-    # START - function for defining the reset function for ENV 
-    # reset the environment at the beginning of every episode
-    ###########################################################################                
-            
-    def step(self,action,index):
-        
-        # super().reset(seed=seed)
-        # Note that if you use custom reset bounds, it may lead to out-of-bound
-        # state/observations.
-        # print("*",index ,"*")
-        # print("action",action)
-        # print("label",self.data.iloc[index].values[-1])
-        if action == self.data.iloc[index].values[-1]: 
-            reward = 1
-        else:  
-            reward = -1
-        print ("reward",reward)
-        next_state = self.data.iloc[index + 1].values[:-1]
-        next_state = numpy.reshape(next_state, [1, self.state_size])
-
-        # print(self.data.iloc[index].values[:-1])
-        # print("nextState")
-        # print(self.data.iloc[index + 1].values[:-1])
-        
-        if index == (self.data.shape[0]-1):
-            terminated = True
-        terminated = False
-        self.state = next_state
-        # print("_____________")
-        return numpy.array(self.state, dtype=numpy.float32), reward, terminated, False, {}
-
-    ###########################################################################
-    #    END - function for defining the reset function for ENV 
-    ###########################################################################                
-                
-    ###########################################################################
-    # START - function for defining the reset function for ENV 
-    # reset the environment at the beginning of every episode
-    ###########################################################################                
-            
-    def reset(self):
-      
-        # super().reset(seed=seed)
-        # Note that if you use custom reset bounds, it may lead to out-of-bound
-        # state/observations.
-        # self.state = self.np_random.uniform(low=low, high=high, size=(4,))
-
-        #random index in mini-batch
-        print(numpy.random.randint(0, len(self.data) - 1))
-
-        start_index = numpy.random.randint(0, len(self.data) - 1)
-        self.steps_beyond_terminated = None
-        self.state =  self.data.iloc[start_index].values[:-1]
-        # self.label =  self.data.iloc[start_index].values[-1]
-
-        return numpy.array(self.state, dtype=numpy.float32), {}
-
-    ###########################################################################
-    #    END - function for defining the reset function for ENV 
-    ###########################################################################        
-            

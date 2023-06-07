@@ -9,7 +9,8 @@ from tensorflow.keras.losses import mean_squared_error
 import pandas as pd
 from functions_final import DeepQLearning
 
-TRAIN_PATH='../data/matrix1/normal/train-normal.csv'
+# TRAIN_PATH='../data/matrix1/normal/train-normal.csv'
+TRAIN_PATH='/home/yoyoo/KLTN/detect_attack_by_reinforcement_learning/data/matrix1/normal/train-normal.csv'
 dataset = pd.read_csv(TRAIN_PATH)
 # print(type(dataset))
 
@@ -25,23 +26,19 @@ epsilon=0.1
 
 state_size = 38  # column in dataset exculde label
 action_size = 2
-batch_size = 100 # mô hình cập nhật sau khi train 100 dữ liệu
 # episodes = data.shape[0]
 
-for i in range(0,len(dataset),batch_size):
+# print(mini_batch)
+# create an object
+LearningQDeep = DeepQLearning(dataset,state_size,action_size,gamma,epsilon)
+# run the learning process
+LearningQDeep.trainingEpisodes()
+# get the obtained rewards in every episode
+LearningQDeep.sumRewardsEpisode
 
-    mini_batch = dataset[i : i + batch_size]
-    # print(mini_batch)
-    # create an object
-    LearningQDeep = DeepQLearning(mini_batch,state_size,action_size,gamma,epsilon,batch_size)
-    # run the learning process
-    LearningQDeep.trainingEpisodes()
-    # get the obtained rewards in every episode
-    LearningQDeep.sumRewardsEpisode
-    #  summarize the model
-    LearningQDeep.mainNetwork.summary()
-    # save the model, this is important, since it takes long time to train the model 
-    # and we will need model in another file to visualize the trained model performance
-    LearningQDeep.mainNetwork.save("trained_model_temp.h5")
+#  summarize the model
+LearningQDeep.mainNetwork.summary()
+# save the model, this is important, since it takes long time to train the model 
+# and we will need model in another file to visualize the trained model performance
+LearningQDeep.mainNetwork.save("trained_model_temp.h5")
 
-    print("done",i,"in dataset ",len(dataset))
