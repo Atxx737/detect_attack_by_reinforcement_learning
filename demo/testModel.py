@@ -67,4 +67,12 @@ precision = TP / (TP + FP)
 recall = TP / (TP + FN)
 F1_score = 2 * (precision * recall) / (precision + recall)
 
-
+print("TP: ",TP)
+print("TN: ",TN)
+print("FP: ",FP)
+print("FN: ",FN)
+print("_______________")
+print("accurancy: ",accurancy)
+print("precision: ",precision)
+print("recall: ",recall)
+print("F1_score: ",F1_score)
