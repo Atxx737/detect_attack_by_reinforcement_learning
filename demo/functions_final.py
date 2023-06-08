@@ -166,7 +166,7 @@ class DeepQLearning:
             # print("len data -1",self.data.shape[0]-1)    
             
             counter = 0                    
-            for index in range (data.shape[0]-1):
+            for index in range (data.shape[0]):
 
                 # select an action on the basis of the current state, denoted by currentState
                 action = self.selectAction(currentState,index)
