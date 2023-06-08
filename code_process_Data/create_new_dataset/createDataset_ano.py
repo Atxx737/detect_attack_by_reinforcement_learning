@@ -50,8 +50,7 @@ def create_fwaf():
                 '../../new_data/anomalous/fwaf/OK_fwaf-badqueries_RFI.txt',
                 '../../new_data/anomalous/fwaf/OK_fwaf-badqueries_SQL_Injection.txt',
                 '../../new_data/anomalous/fwaf/OK_fwaf-badqueries_SSI.txt',
-                '../../new_data/anomalous/fwaf/OK_fwaf-badqueries_XSS.txt',
-                '../../new_data/normal/OK_Nomal/fwaf/OK_fwaf_normal.txt'
+                '../../new_data/anomalous/fwaf/OK_fwaf-badqueries_XSS.txt'
             ]
     print("------FWAF-----")
     for file in listPath:
@@ -59,11 +58,13 @@ def create_fwaf():
 
     print(sum_lines)
 
-    print(f"Number line of fwaf in TRAIN dataset: {count_lines(sum_lines)}, and number normal request: {sum_lines[-1]}")
+    print(f"Number line of fwaf in TRAIN dataset: {count_lines(sum_lines)}")
 
     with open(TEST_FWAF_PATH, 'r', encoding='cp1252') as file:
         lines = file.readlines()
         print(f" Number lines in TEST fwaf dataset {len(lines)} ")
+
+# =========================================================================================
 
 def create_csic2010():
     TEST_csic2010_PATH='../../data/matrix2/origin/TEST_OK_csic2010.txt'
@@ -72,8 +73,7 @@ def create_csic2010():
     listPath = [ '../../new_data/anomalous/HTTP_DATASET_CSIC_2010/OK_csic2010-anomalous_Restricted_files.txt',
             '../../new_data/anomalous/HTTP_DATASET_CSIC_2010/OK_csic2010-anomalous_SQL_Injection.txt',
             '../../new_data/anomalous/HTTP_DATASET_CSIC_2010/OK_csic2010-anomalous_SSI.txt',
-            '../../new_data/anomalous/HTTP_DATASET_CSIC_2010/OK_csic2010-anomalous_XSS.txt',
-            '../../new_data/normal/OK_Nomal/HTTP_DATASET_CSIC_2010/OK_csic2010-normal.txt'
+            '../../new_data/anomalous/HTTP_DATASET_CSIC_2010/OK_csic2010-anomalous_XSS.txt'
         ]
     print("------CSIC2010-----")
     
@@ -82,11 +82,13 @@ def create_csic2010():
 
     print(sum_lines)
 
-    print(f"Number line of csic in TRAIN dataset: {count_lines(sum_lines)}, and number normal request: {sum_lines[-1]}")
+    print(f"Number line of csic in TRAIN dataset: {count_lines(sum_lines)}")
 
     with open(TEST_csic2010_PATH, 'r', encoding='cp1252') as file:
         lines = file.readlines()
         print(f" Number lines in TEST csic2010 dataset {len(lines)} ")
+
+# =========================================================================================
 
 def create_https():
     TEST_https_PATH='../../data/matrix2/origin/TEST_OK_httpParams.txt'
@@ -95,7 +97,6 @@ def create_https():
             '../../new_data/anomalous/HttpParamsDataset-master/http-params/OK_payload_full.csv_path-traversal.txt',
             '../../new_data/anomalous/HttpParamsDataset-master/http-params/OK_payload_full.csv_sqli.txt',
             '../../new_data/anomalous/HttpParamsDataset-master/http-params/OK_payload_full.csv_xss.txt',
-            '../../new_data/normal/OK_Nomal/HttpParamsDataset-master/OK_params-normal.txt'
         ]
     print("------HTTP-PARAMS-----")
     
@@ -103,7 +104,7 @@ def create_https():
             sum_lines.append(distribute_lines(file, TEST_https_PATH))
 
     print(sum_lines)
-    print(f"Number line of http-params in TRAIN dataset: {count_lines(sum_lines)}, and number normal request: {sum_lines[-1]}")
+    print(f"Number line of http-params in TRAIN dataset: {count_lines(sum_lines)}")
 
     with open(TEST_https_PATH, 'r',encoding='cp1252') as file:
         lines = file.readlines()

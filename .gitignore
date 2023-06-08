@@ -1,4 +1,19 @@
 desktop.ini
-*/desktop.ini
+/desktop.ini
+code_process_Data/desktop.ini
+
+data/desktop.ini
+data/matrix1/minmax/desktop.ini
+data/matrix1/binary/desktop.ini
+data/matrix1/origin/desktop.ini
+data/matrix1/normal/desktop.ini
+# data/matrix2/minmax/desktop.ini
+# data/matrix2/binary/desktop.ini
+data/matrix2/origin/desktop.ini
+data/matrix2/normal/desktop.ini
+demo/desktop.ini
+images/desktop.ini
+mini-batch/desktop.ini
+rl-cartpole/desktop.ini
 
 __pycache__/functions_final.cpython-310.pyc
