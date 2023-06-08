@@ -6,9 +6,9 @@ import pandas as pd
 import numpy as np
 import random
 
-TEST_PATH='../data/matrix1/normal/test_csic2010-normal.csv'
+# TEST_PATH='../data/matrix1/normal/test_csic2010-normal.csv'
 # TEST_PATH='../data/matrix1/normal/test_fwaf-normal.csv'
-# TEST_PATH='../data/matrix1/normal/test_http_param-normal.csv'
+TEST_PATH='../data/matrix1/normal/test_http_param-normal.csv'
 
 dataTest = pd.read_csv(TEST_PATH)
 # print(type(dataset))
@@ -24,7 +24,7 @@ batch_size = 100 # mô hình cập nhật sau khi train 100 dữ liệu
 # episodes = data.shape[0]
 
 # load the model
-loaded_model = keras.models.load_model("trained_model.h5",custom_objects={'my_loss_fn':DeepQLearning.my_loss_fn})
+loaded_model = keras.models.load_model("trained_model_in_episode_0.h5",custom_objects={'my_loss_fn':DeepQLearning.my_loss_fn})
 
 accurancy=0
 TN=0
@@ -76,3 +76,5 @@ print("accurancy: ",accurancy)
 print("precision: ",precision)
 print("recall: ",recall)
 print("F1_score: ",F1_score)
+
+print(TEST_PATH)
