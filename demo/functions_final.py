@@ -27,7 +27,7 @@ class DeepQLearning:
         # self.env=env
         self.gamma = gamma
         self.epsilon = epsilon
-        self.numberEpisodes = 1
+        self.numberEpisodes = 2
         self.dataset = dataset
         
         # state dimension
@@ -163,7 +163,9 @@ class DeepQLearning:
 
             # print("len(self.data)",self.data.shape[0])
             # print("indexEpisode",indexEpisode)
-            # print("len data -1",self.data.shape[0]-1)                        
+            # print("len data -1",self.data.shape[0]-1)    
+            
+            counter = 0                    
             for index in range (data.shape[0]):
 
                 # select an action on the basis of the current state, denoted by currentState
@@ -192,9 +194,12 @@ class DeepQLearning:
                 
                 # add current state, action, reward, next state, and terminal flag to the replay buffer
                 self.replayBuffer.append((currentState,action,reward,nextState,terminalState))
-                
+
+                counter +=1
+                if counter == 100:
                 # train network
-                self.trainNetwork()
+                    self.trainNetwork()
+                    counter = 0
                 
                 # set the current state for the next step
                 currentState=nextState
@@ -202,6 +207,11 @@ class DeepQLearning:
             
             print("Sum of rewards {}".format(numpy.sum(rewardsEpisode)))        
             self.sumRewardsEpisode.append(numpy.sum(rewardsEpisode))
+            try:
+                
+                self.mainNetwork.save(f"trained_model_in_episode_{indexEpisode}.h5")
+            except:
+                pass
     ###########################################################################
     #   END - function trainingEpisodes()
     ###########################################################################
