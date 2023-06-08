@@ -166,7 +166,7 @@ class DeepQLearning:
             # print("len data -1",self.data.shape[0]-1)    
             
             counter = 0                    
-            for index in range (data.shape[0]):
+            for index in range (data.shape[0]-1):
 
                 # select an action on the basis of the current state, denoted by currentState
                 action = self.selectAction(currentState,index)
@@ -184,11 +184,13 @@ class DeepQLearning:
                 #define terminated
                 if index == (data.shape[0]-1):
                     terminalState = True
+                    next_state = data.iloc[0].values[:-1]
+                    print("terminalState",terminalState)
                 else:
                     terminalState = False
+                    next_state = data.iloc[index + 1].values[:-1]
 
                 # define nextstate
-                next_state = data.iloc[index + 1].values[:-1]
                 next_state = numpy.reshape(next_state, [1, self.state_size])
                 nextState = numpy.array(next_state, dtype=numpy.float32)
                 
