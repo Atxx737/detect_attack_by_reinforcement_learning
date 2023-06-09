@@ -137,7 +137,7 @@ class DeepQLearning:
         model.add(Dense(256,input_dim=self.state_size,activation='relu'))
         model.add(Dense(128,activation='relu'))
         model.add(Dense(56,activation='relu'))
-        model.add(Dense(self.action_dimension,activation='linear'))
+        model.add(Dense(self.state_size,activation='linear'))
 
         # compile the network with the custom loss defined in my_loss_fn
         model.compile(optimizer = RMSprop(), loss = self.my_loss_fn, metrics = ['accuracy'])
