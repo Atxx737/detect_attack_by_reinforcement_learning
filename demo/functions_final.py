@@ -27,7 +27,7 @@ class DeepQLearning:
         # self.env=env
         self.gamma = gamma
         self.epsilon = epsilon
-        self.numberEpisodes = 2
+        self.numberEpisodes = 20
         self.dataset = dataset
         
         # state dimension
@@ -41,11 +41,11 @@ class DeepQLearning:
         # this is the maximum size of the replay buffer
         self.replayBufferSize = 300
         # this is the size of the training batch that is randomly sampled from the replay buffer
-        self.batchReplayBufferSize = 100
+        self.batchReplayBufferSize = 64
         
         # number of training episodes it takes to update the target network parameters
         # that is, every updateTargetNetworkPeriod we update the target network parameters
-        self.updateTargetNetworkPeriod = 100
+        self.updateTargetNetworkPeriod = 32
         
         # this is the counter for updating the target network 
         # if this counter exceeds (updateTargetNetworkPeriod-1) we update the network 
@@ -125,11 +125,20 @@ class DeepQLearning:
     # create a neural network
     def  createNetwork(self):
         model=Sequential()
-        # model.add(Dense(128,input_dim=self.stateDimension,activation='relu'))
-        model.add(Dense(128,input_dim=self.state_size,activation='relu'))
+
+        # # model.add(Dense(128,input_dim=self.stateDimension,activation='relu'))
+        # model.add(Dense(128,input_dim=self.state_size,activation='relu'))
+        # model.add(Dense(56,activation='relu'))
+        # # model.add(Dense(self.actionDimension,activation='linear'))
+        # model.add(Dense(self.action_size,activation='linear'))
+        # # compile the network with the custom loss defined in my_loss_fn
+        # model.compile(optimizer = RMSprop(), loss = self.my_loss_fn, metrics = ['accuracy'])
+
+        model.add(Dense(256,input_dim=self.state_size,activation='relu'))
+        model.add(Dense(128,activation='relu'))
         model.add(Dense(56,activation='relu'))
-        # model.add(Dense(self.actionDimension,activation='linear'))
-        model.add(Dense(self.action_size,activation='linear'))
+        model.add(Dense(self.action_dimension,activation='linear'))
+
         # compile the network with the custom loss defined in my_loss_fn
         model.compile(optimizer = RMSprop(), loss = self.my_loss_fn, metrics = ['accuracy'])
         return model
@@ -198,7 +207,7 @@ class DeepQLearning:
                 self.replayBuffer.append((currentState,action,reward,nextState,terminalState))
 
                 counter +=1
-                if counter == 100:
+                if counter == self.batchReplayBufferSize:
                 # train network
                     self.trainNetwork()
                     counter = 0
