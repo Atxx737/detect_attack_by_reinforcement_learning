@@ -22,7 +22,7 @@ class DeepQLearning:
     # numberEpisodes - total number of simulation episodes
     
             
-    def __init__(self,dataset,state_size,action_size,gamma,epsilon):
+    def __init__(self,dataset,stateDimension,actionDimension,gamma,epsilon):
     
         # self.env=env
         self.gamma = gamma
@@ -32,11 +32,11 @@ class DeepQLearning:
         
         # state dimension
         # self.stateDimension=4
-        self.state_size = state_size
+        self.stateDimension = stateDimension
 
         # action dimension
         # self.actionDimension=2 # right or left
-        self.action_size = action_size # attack or not
+        self.actionDimension = actionDimension # attack or not
 
         # this is the maximum size of the replay buffer
         self.replayBufferSize = 300
@@ -45,7 +45,7 @@ class DeepQLearning:
         
         # number of training episodes it takes to update the target network parameters
         # that is, every updateTargetNetworkPeriod we update the target network parameters
-        self.updateTargetNetworkPeriod = 32
+        self.updateTargetNetworkPeriod = 64
         
         # this is the counter for updating the target network 
         # if this counter exceeds (updateTargetNetworkPeriod-1) we update the network 
@@ -98,7 +98,7 @@ class DeepQLearning:
     def my_loss_fn(self,y_true, y_pred):
         
         s1,s2=y_true.shape
-        #print(s1,s2)
+        # print(s1,s2)
         
         # this matrix defines indices of a set of entries that we want to 
         # extract from y_true and y_pred
@@ -127,17 +127,17 @@ class DeepQLearning:
         model=Sequential()
 
         # # model.add(Dense(128,input_dim=self.stateDimension,activation='relu'))
-        # model.add(Dense(128,input_dim=self.state_size,activation='relu'))
+        # model.add(Dense(128,input_dim=self.stateDimension,activation='relu'))
         # model.add(Dense(56,activation='relu'))
         # # model.add(Dense(self.actionDimension,activation='linear'))
-        # model.add(Dense(self.action_size,activation='linear'))
+        # model.add(Dense(self.actionDimension,activation='linear'))
         # # compile the network with the custom loss defined in my_loss_fn
         # model.compile(optimizer = RMSprop(), loss = self.my_loss_fn, metrics = ['accuracy'])
 
-        model.add(Dense(256,input_dim=self.state_size,activation='relu'))
+        model.add(Dense(256,input_dim=self.stateDimension,activation='relu'))
         model.add(Dense(128,activation='relu'))
         model.add(Dense(56,activation='relu'))
-        model.add(Dense(self.state_size,activation='linear'))
+        model.add(Dense(self.actionDimension,activation='linear'))
 
         # compile the network with the custom loss defined in my_loss_fn
         model.compile(optimizer = RMSprop(), loss = self.my_loss_fn, metrics = ['accuracy'])
@@ -167,7 +167,7 @@ class DeepQLearning:
             data = self.dataset.sample(frac=1).reset_index(drop=True)
 
             currentState = data.iloc[0].values[:-1]
-            currentState = numpy.reshape(currentState, [1, self.state_size])
+            currentState = numpy.reshape(currentState, [1, self.stateDimension])
             currentState = numpy.array(currentState, dtype=numpy.float32)
 
             # print("len(self.data)",self.data.shape[0])
@@ -200,7 +200,7 @@ class DeepQLearning:
                     next_state = data.iloc[index + 1].values[:-1]
 
                 # define nextstate
-                next_state = numpy.reshape(next_state, [1, self.state_size])
+                next_state = numpy.reshape(next_state, [1, self.stateDimension])
                 nextState = numpy.array(next_state, dtype=numpy.float32)
                 
                 # add current state, action, reward, next state, and terminal flag to the replay buffer
@@ -241,7 +241,7 @@ class DeepQLearning:
         # first index episodes we select completely random actions to have enough exploration
         # change this
         if index<1:
-            return numpy.random.choice(self.action_size)   
+            return numpy.random.choice(self.actionDimension)   
             
         # Returns a random real number in the half-open interval [0.0, 1.0)
         # this number is used for the epsilon greedy approach
@@ -256,7 +256,7 @@ class DeepQLearning:
         # if this condition is satisfied, we are exploring, that is, we select random actions
         if randomNumber < self.epsilon:
             # returns a random action selected from: 0,1,...,actionNumber-1
-            return numpy.random.choice(self.action_size)            
+            return numpy.random.choice(self.actionDimension)            
         
         # otherwise, we are selecting greedy actions
         else:
@@ -264,7 +264,7 @@ class DeepQLearning:
             # that is, since the index denotes an action, we select greedy actions
                        
             # Qvalues=self.mainNetwork.predict(state.reshape(1,4))
-            Qvalues=self.mainNetwork.predict(state.reshape(1,self.state_size))
+            Qvalues=self.mainNetwork.predict(state.reshape(1,self.stateDimension))
           
             return numpy.random.choice(numpy.where(Qvalues[0,:]==numpy.max(Qvalues[0,:]))[0])
             # here we need to return the minimum index since it can happen
@@ -299,17 +299,17 @@ class DeepQLearning:
             # they are used as inputs for prediction
             # currentStateBatch=numpy.zeros(shape=(self.batchReplayBufferSize,4))
             # nextStateBatch=numpy.zeros(shape=(self.batchReplayBufferSize,4))    
-            currentStateBatch=numpy.zeros(shape=(self.batchReplayBufferSize,self.state_size))
-            nextStateBatch=numpy.zeros(shape=(self.batchReplayBufferSize,self.state_size))            
+            currentStateBatch=numpy.zeros(shape=(self.batchReplayBufferSize,self.stateDimension))
+            nextStateBatch=numpy.zeros(shape=(self.batchReplayBufferSize,self.stateDimension))            
             # this will enumerate the tuple entries of the randomSampleBatch
             # index will loop through the number of tuples
             for index,tupleS in enumerate(randomSampleBatch):
                 # first entry of the tuple is the current state
                 # currentStateBatch[index,:]=tupleS[0]
-                currentStateBatch[index, :] = numpy.reshape(tupleS[0], (1, self.state_size))
+                currentStateBatch[index, :] = numpy.reshape(tupleS[0], (1, self.stateDimension))
                 # fourth entry of the tuple is the next state
                 # nextStateBatch[index,:]=tupleS[3]
-                nextStateBatch[index, :] = numpy.reshape(tupleS[3], (1, self.state_size))
+                nextStateBatch[index, :] = numpy.reshape(tupleS[3], (1, self.stateDimension))
             
             # here, use the target network to predict Q-values 
             QnextStateTargetNetwork=self.targetNetwork.predict(nextStateBatch)
@@ -321,7 +321,7 @@ class DeepQLearning:
             inputNetwork=currentStateBatch
             # output for training
             # outputNetwork=numpy.zeros(shape=(self.batchReplayBufferSize,2))
-            outputNetwork=numpy.zeros(shape=(self.batchReplayBufferSize,self.state_size))
+            outputNetwork=numpy.zeros(shape=(self.batchReplayBufferSize,self.actionDimension))
             
             # this list will contain the actions that are selected from the batch 
             # this list is used in my_loss_fn to define the loss-function

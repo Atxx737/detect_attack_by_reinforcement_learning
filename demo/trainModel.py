@@ -27,13 +27,13 @@ epsilon=0.1
 # DO NOT WORRY, THE PARAMETERS WILL BE MEMORIZED
 # numberEpisodes=100
 
-state_size = 38  # column in dataset exculde label
-action_size = 2
+stateDimension = 38  # column in dataset exculde label
+actionDimension = 2
 # episodes = data.shape[0]
 
 # print(mini_batch)
 # create an object
-LearningQDeep = DeepQLearning(dataset,state_size,action_size,gamma,epsilon)
+LearningQDeep = DeepQLearning(dataset,stateDimension,actionDimension,gamma,epsilon)
 # run the learning process
 LearningQDeep.trainingEpisodes()
 # get the obtained rewards in every episode
