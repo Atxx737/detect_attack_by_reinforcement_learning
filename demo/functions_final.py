@@ -320,7 +320,8 @@ class DeepQLearning:
             # input for training
             inputNetwork=currentStateBatch
             # output for training
-            outputNetwork=numpy.zeros(shape=(self.batchReplayBufferSize,2))
+            # outputNetwork=numpy.zeros(shape=(self.batchReplayBufferSize,2))
+            outputNetwork=numpy.zeros(shape=(self.batchReplayBufferSize,self.state_size))
             
             # this list will contain the actions that are selected from the batch 
             # this list is used in my_loss_fn to define the loss-function
