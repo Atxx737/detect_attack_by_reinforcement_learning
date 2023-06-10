@@ -1,14 +1,12 @@
 import numpy
 import random
+import gc
 from collections import deque 
 from tensorflow import gather_nd
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.optimizers import RMSprop
-
 from tensorflow.keras.losses import mean_squared_error 
-
-
 
 class DeepQLearning:
     
@@ -22,12 +20,12 @@ class DeepQLearning:
     # numberEpisodes - total number of simulation episodes
     
             
-    def __init__(self,dataset,stateDimension,actionDimension,gamma,epsilon):
+    def __init__(self,dataset,stateDimension,actionDimension,gamma,epsilon,numberEpisodes):
     
         # self.env=env
         self.gamma = gamma
         self.epsilon = epsilon
-        self.numberEpisodes = 20
+        self.numberEpisodes = numberEpisodes
         self.dataset = dataset
         
         # state dimension
@@ -152,19 +150,20 @@ class DeepQLearning:
     #   - trainNetwork()
     ###########################################################################
 
-    def trainingEpisodes(self): 
+    def trainingEpisodes(self):
+        ## khong random dataset sau moi episode, de giu dung nextstate cho moi currentstate
+        data = self.dataset
+
         # here we loop through the episodes = 10
         for indexEpisode in range(self.numberEpisodes):
-            
             # list that stores rewards per episode - this is necessary for keeping track of convergence 
             rewardsEpisode=[]
-                       
             print("Simulating episode {}".format(indexEpisode))
             
             # reset the environment at the beginning of every episode
             # (currentState,_)=self.reset()
 
-            data = self.dataset.sample(frac=1).reset_index(drop=True)
+            # data = self.dataset.sample(frac=1).reset_index(drop=True)
 
             currentState = data.iloc[0].values[:-1]
             currentState = numpy.reshape(currentState, [1, self.stateDimension])
@@ -206,23 +205,31 @@ class DeepQLearning:
                 # add current state, action, reward, next state, and terminal flag to the replay buffer
                 self.replayBuffer.append((currentState,action,reward,nextState,terminalState))
 
-                counter +=1
-                if counter == self.batchReplayBufferSize:
                 # train network
-                    self.trainNetwork()
+                self.trainNetwork()
+
+                ## Update and clean memory after 1000 records
+                counter +=1
+                if counter % 1000 == 0:
+                    print("done",index,"in dataset ",len(self.dataset))
                     counter = 0
+
+                    ## free unused memory
+                    print('Free unused memory of episode %s: %s' %(indexEpisode, gc.get_count()))
+                    gc.collect()
+                    print(gc.get_count())
                 
                 # set the current state for the next step
                 currentState=nextState
-                print("done",index,"in dataset ",len(self.dataset))
             
             print("Sum of rewards {}".format(numpy.sum(rewardsEpisode)))        
             self.sumRewardsEpisode.append(numpy.sum(rewardsEpisode))
             try:
-                
                 self.mainNetwork.save(f"trained_model_in_episode_{indexEpisode}.h5")
+                print('Saved model of episode %s.' %(indexEpisode))
             except:
                 pass
+
     ###########################################################################
     #   END - function trainingEpisodes()
     ###########################################################################

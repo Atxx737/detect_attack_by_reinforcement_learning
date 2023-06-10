@@ -7,9 +7,11 @@ import numpy as np
 import random
 import sys
 
-# TEST_PATH='../data/matrix1/normal/test_csic2010-normal.csv'
-TEST_PATH='../data/matrix1/normal/test_fwaf-normal.csv'
-#TEST_PATH='../data/matrix1/normal/test_http_param-normal.csv'
+# TEST_PATH='../data/matrix2/normal/TEST_OK_csic2010.csv'
+# TEST_PATH='../data/matrix2/normal/TEST_OK_fwaf.csv'
+TEST_PATH='../data/matrix2/normal/TEST_OK_httpParams.csv'
+
+MODEL_PATH = 'trained_model_in_episode_1.h5'
 
 dataTest = pd.read_csv(TEST_PATH)
 # print(type(dataset))
@@ -25,13 +27,14 @@ batch_size = 100 # mô hình cập nhật sau khi train 100 dữ liệu
 # episodes = data.shape[0]
 
 # load the model
-loaded_model = keras.models.load_model("trained_model_in_episode_1.h5",custom_objects={'my_loss_fn':DeepQLearning.my_loss_fn})
+loaded_model = keras.models.load_model(MODEL_PATH,custom_objects={'my_loss_fn':DeepQLearning.my_loss_fn})
 
-accurancy=0
 TN=0
 FN=0
 TP=0
 FP=0
+
+accurancy=0
 precision=0
 F1_score=0
 recall=0
@@ -56,9 +59,9 @@ for row in range(0,len(dataTest),1):
         TP +=1
     elif label==0 and action==0:
         TN +=1
-    elif label==0 and action==1:
-        FP +=1
     elif label==1 and action==0:
+        FP +=1
+    elif label==0 and action==1:
         FN +=1
     # sum the rewards
 
@@ -68,6 +71,8 @@ precision = TP / (TP + FP)
 recall = TP / (TP + FN)
 F1_score = 2 * (precision * recall) / (precision + recall)
 
+print('Dataset records: %s' %len(dataTest))
+print("_______________")
 print("TP: ",TP)
 print("TN: ",TN)
 print("FP: ",FP)
@@ -77,5 +82,7 @@ print("accurancy: ",accurancy)
 print("precision: ",precision)
 print("recall: ",recall)
 print("F1_score: ",F1_score)
+print("_______________")
 
+print(MODEL_PATH)
 print(TEST_PATH)

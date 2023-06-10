@@ -25,7 +25,7 @@ epsilon=0.1
 # NOTE HERE THAT AFTER CERTAIN NUMBERS OF EPISODES, WHEN THE PARAMTERS ARE LEARNED
 # THE EPISODE WILL BE LONG, AT THAT POINT YOU CAN STOP THE TRAINING PROCESS BY PRESSING CTRL+C
 # DO NOT WORRY, THE PARAMETERS WILL BE MEMORIZED
-# numberEpisodes=100
+numberEpisodes=100
 
 stateDimension = 38  # column in dataset exculde label
 actionDimension = 2
@@ -33,7 +33,7 @@ actionDimension = 2
 
 # print(mini_batch)
 # create an object
-LearningQDeep = DeepQLearning(dataset,stateDimension,actionDimension,gamma,epsilon)
+LearningQDeep = DeepQLearning(dataset,stateDimension,actionDimension,gamma,epsilon,numberEpisodes)
 # run the learning process
 LearningQDeep.trainingEpisodes()
 # get the obtained rewards in every episode
