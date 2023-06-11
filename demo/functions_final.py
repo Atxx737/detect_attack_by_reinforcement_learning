@@ -154,7 +154,7 @@ class DeepQLearning:
         ## khong random dataset sau moi episode, de giu dung nextstate cho moi currentstate
         data = self.dataset
 
-        # here we loop through the episodes = 10
+        # here we loop through the episodes = 100
         for indexEpisode in range(self.numberEpisodes):
             # list that stores rewards per episode - this is necessary for keeping track of convergence 
             rewardsEpisode=[]
