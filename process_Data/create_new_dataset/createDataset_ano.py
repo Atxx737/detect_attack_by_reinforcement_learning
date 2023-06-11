@@ -26,15 +26,15 @@ def distribute_lines(input_files, test_file):
     lines_for_file1 = int(total_lines * 0.8)
     lines_file1 = lines[:lines_for_file1]
     lines_file2 = lines[lines_for_file1:]
-    print(f"80% line: {lines_for_file1} in {total_lines}")
+    # print(f"80% line: {lines_for_file1} in {total_lines}")
 
-    # with open(TRAIN_PATH, 'a', encoding='cp1252') as file1:
-    #     file1.writelines(lines_file1)
+    with open(TRAIN_PATH, 'a', encoding='cp1252') as file1:
+        file1.writelines(lines_file1)
 
-    # with open(test_file, 'a', encoding='cp1252') as file2:
-    #     file2.writelines(lines_file2)
+    with open(test_file, 'a', encoding='cp1252') as file2:
+        file2.writelines(lines_file2)
 
-    return total_lines
+    return lines_for_file1
 
 ########################
 def create_fwaf():
