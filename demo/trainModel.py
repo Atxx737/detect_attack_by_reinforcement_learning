@@ -8,11 +8,11 @@ from tensorflow import gather_nd
 from tensorflow.keras.losses import mean_squared_error 
 import pandas as pd
 from functions_final import DeepQLearning
-
+# os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 # TRAIN_PATH='../data/matrix1/normal/train-normal.csv'
 # TRAIN_PATH='/home/yoyoo/KLTN/detect_attack_by_reinforcement_learning/data/matrix1/normal/train-normal.csv'
 # TRAIN_PATH='../data/matrix2/normal/train.csv'
-TRAIN_PATH='../data/matrix2/normal1/train.csv'
+TRAIN_PATH='../data/matrix3/normal/train.csv'
 
 
 dataset = pd.read_csv(TRAIN_PATH)

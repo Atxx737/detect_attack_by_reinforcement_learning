@@ -7,11 +7,11 @@ import numpy as np
 import random
 import sys
 
-# TEST_PATH='../data/matrix2/normal/TEST_OK_csic2010.csv'
-# TEST_PATH='../data/matrix2/normal/TEST_OK_fwaf.csv'
-TEST_PATH='../data/matrix2/normal/TEST_OK_httpParams.csv'
+# TEST_PATH='../data/matrix3/normal/TEST_OK_csic2010.csv'
+# TEST_PATH='../data/matrix3/normal/TEST_OK_fwaf.csv'
+TEST_PATH='../data/matrix3/normal/TEST_OK_httpParams.csv'
 
-MODEL_PATH = 'trained_model_in_episode_1.h5'
+MODEL_PATH = 'trained_model_in_episode_0.h5'
 
 dataTest = pd.read_csv(TEST_PATH)
 # print(type(dataset))
