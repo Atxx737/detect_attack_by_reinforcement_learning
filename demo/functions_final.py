@@ -165,7 +165,7 @@ class DeepQLearning:
             # reset the environment at the beginning of every episode
             # (currentState,_)=self.reset()
 
-            # data = self.dataset.sample(frac=1).reset_index(drop=True)
+            data = self.dataset.sample(frac=1).reset_index(drop=True)
 
             currentState = data.iloc[0].values[:-1]
             currentState = numpy.reshape(currentState, [1, self.stateDimension])
@@ -176,6 +176,7 @@ class DeepQLearning:
             # print("len data -1",self.data.shape[0]-1)    
             
             counter = 0                    
+            # for index in range (0, data.shape[0], 128):
             for index in range (data.shape[0]):
 
                 # select an action on the basis of the current state, denoted by currentState
@@ -297,11 +298,11 @@ class DeepQLearning:
         # if the replay buffer has at least batchReplayBufferSize elements,
         # then train the model 
         # otherwise wait until the size of the elements exceeds batchReplayBufferSize
-        if (len(self.replayBuffer)>self.batchReplayBufferSize):
+        if (len(self.replayBuffer)>self.batchReplayBufferSize): #bỏ dòng này 
             
 
             # sample a batch from the replay buffer
-            randomSampleBatch=random.sample(self.replayBuffer, self.batchReplayBufferSize)
+            randomSampleBatch=random.sample(self.replayBuffer, self.batchReplayBufferSize) # bỏ dòng này luoon
             
             # here we form current state batch 
             # and next state batch
