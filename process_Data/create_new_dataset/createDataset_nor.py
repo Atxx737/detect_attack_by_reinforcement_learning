@@ -9,18 +9,15 @@ from urllib.parse import urlparse
 import pandas as pd
 
 # define PATH
-TRAIN_PATH='../../data/matrix2/origin/train_nor.txt'
+TRAIN_PATH='../../data/matrix4/origin/train_nor.txt'
 
-# TEST_https_PATH='../../data/matrix2/origin/TEST_OK_httpParams_nor.txt'
-# TEST_FWAF_PATH='../../data/matrix2/origin/TEST_OK_fwaf_nor.txt'
-# TEST_csic2010_PATH='../../data/matrix2/origin/TEST_OK_csic2010_nor.txt'
 
 ########################
 
 my_dict = {
-        '../../new_data/normal/OK_Nomal/HttpParamsDataset-master/OK_params-normal.txt': '../../data/matrix2/origin/TEST_OK_httpParams_nor.txt',
-        '../../new_data/normal/OK_Nomal/HTTP_DATASET_CSIC_2010/OK_csic2010-normal.txt': '../../data/matrix2/origin/TEST_OK_csic2010_nor.txt', 
-        '../../new_data/normal/OK_Nomal/fwaf/OK_fwaf_normal.txt': '../../data/matrix2/origin/TEST_OK_fwaf_nor.txt'
+        '../../new_data/normal/OK_Nomal/HttpParamsDataset-master/OK_params-normal.txt': '../../data/matrix4/origin/TEST_OK_httpParams_nor.txt',
+        '../../new_data/normal/OK_Nomal/HTTP_DATASET_CSIC_2010/OK_csic2010-normal.txt': '../../data/matrix4/origin/TEST_OK_csic2010_nor.txt', 
+        '../../new_data/normal/OK_Nomal/fwaf/OK_fwaf_normal.txt': '../../data/matrix4/origin/TEST_OK_fwaf_nor.txt'
      }
 
 
