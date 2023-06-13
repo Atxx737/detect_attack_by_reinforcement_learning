@@ -1,5 +1,4 @@
-import numpy
-import random
+import numpy as np
 import gc
 import tensorflow
 from collections import deque 
@@ -10,6 +9,7 @@ from tensorflow.keras.optimizers import RMSprop
 from tensorflow.keras.losses import mean_squared_error 
 
 tensorflow.keras.utils.disable_interactive_logging()
+
 class DeepQLearning:
     
     ###########################################################################
@@ -31,21 +31,20 @@ class DeepQLearning:
         self.dataset = dataset
         
         # state dimension
-        # self.stateDimension=4
         self.stateDimension = stateDimension
 
         # action dimension
-        # self.actionDimension=2 # right or left
         self.actionDimension = actionDimension # attack or not
 
         # this is the maximum size of the replay buffer
-        self.replayBufferSize = 300
+        # self.replayBufferSize = 300
+
         # this is the size of the training batch that is randomly sampled from the replay buffer
         self.batchReplayBufferSize = 128
         
         # number of training episodes it takes to update the target network parameters
         # that is, every updateTargetNetworkPeriod we update the target network parameters
-        self.updateTargetNetworkPeriod = 4
+        self.updateTargetNetworkPeriod = 8
         
         # this is the counter for updating the target network 
         # if this counter exceeds (updateTargetNetworkPeriod-1) we update the network 
@@ -102,15 +101,12 @@ class DeepQLearning:
         
         # this matrix defines indices of a set of entries that we want to 
         # extract from y_true and y_pred
-        # s2=2
-        # s1=self.batchReplayBufferSize
-        indices=numpy.zeros(shape=(s1,s2))
-        indices[:,0]=numpy.arange(s1)
+        indices=np.zeros(shape=(s1,s2))
+        indices[:,0]=np.arange(s1)
         indices[:,1]=self.actionsAppend
         
         # gather_nd and mean_squared_error are TensorFlow functions
         loss = mean_squared_error(gather_nd(y_true,indices=indices.astype(int)), gather_nd(y_pred,indices=indices.astype(int)))
-        #print(loss)
         return loss    
     ###########################################################################
     #   END - of function my_loss_fn
@@ -126,18 +122,9 @@ class DeepQLearning:
     def  createNetwork(self):
         model=Sequential()
 
-        # model.add(Dense(128,input_dim=self.stateDimension,activation='relu'))
         model.add(Dense(128,input_dim=self.stateDimension,activation='relu'))
         model.add(Dense(56,activation='relu'))
-        # model.add(Dense(self.actionDimension,activation='linear'))
-        model.add(Dense(self.actionDimension,activation='linear'))
-        # # compile the network with the custom loss defined in my_loss_fn
-        # model.compile(optimizer = RMSprop(), loss = self.my_loss_fn, metrics = ['accuracy'])
-
-        # model.add(Dense(256,input_dim=self.stateDimension,activation='relu'))
-        # model.add(Dense(128,activation='relu'))
-        # model.add(Dense(56,activation='relu'))
-        # model.add(Dense(self.actionDimension,activation='linear'))
+        model.add(Dense(self.actionDimension,activation='relu'))
 
         # compile the network with the custom loss defined in my_loss_fn
         model.compile(optimizer = RMSprop(), loss = self.my_loss_fn, metrics = ['accuracy'])
@@ -153,22 +140,14 @@ class DeepQLearning:
     ###########################################################################
 
     def trainingEpisodes(self):
-        import pandas as pd
-        ## khong random dataset sau moi episode, de giu dung nextstate cho moi currentstate
-        data = self.dataset
-
-        # here we loop through the episodes = 10
+        # here we loop through the episodes
         for indexEpisode in range(self.numberEpisodes):
             # list that stores rewards per episode - this is necessary for keeping track of convergence 
             rewardsEpisode=[]
-            print("Simulating episode {}".format(indexEpisode))
-            
-            print("data.shape[0]:",data.shape[0])
-            
-            # reset the environment at the beginning of every episode
-            # (currentState,_)=self.reset()
 
-            data = self.dataset.sample(frac=1).reset_index(drop=True)
+            print("Training in episode {}".format(indexEpisode))
+
+            np.random.shuffle(self.dataset)
             
             counter = 0                    
             for index in range (0, data.shape[0], self.batchReplayBufferSize):
