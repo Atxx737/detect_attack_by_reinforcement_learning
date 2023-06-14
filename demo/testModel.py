@@ -11,7 +11,7 @@ import sys
 # TEST_PATH='../data/matrix3/normal/TEST_OK_fwaf.csv'
 TEST_PATH='../data/matrix3/normal/TEST_OK_httpParams.csv'
 
-MODEL_PATH = 'trained_model_in_episode_0.h5'
+MODEL_PATH = 'trained_model_in_episode_2.h5'
 
 dataTest = pd.read_csv(TEST_PATH)
 # print(type(dataset))
@@ -57,19 +57,17 @@ for row in range(0,len(dataTest),1):
 
     if label==1 and action==1:
         TP +=1
+        print(f"label: {label} - action {action}", end='')
+        print(' - TP')
     elif label==0 and action==0:
         TN +=1
     elif label==1 and action==0:
         FP +=1
     elif label==0 and action==1:
         FN +=1
+        print(f"label: {label} - action {action}", end='')
+        print(' - FN')
     # sum the rewards
-
-
-accurancy = (TP + TN) / (TP + TN + FP + FN)
-precision = TP / (TP + FP)
-recall = TP / (TP + FN)
-F1_score = 2 * (precision * recall) / (precision + recall)
 
 print('Dataset records: %s' %len(dataTest))
 print("_______________")
@@ -78,6 +76,13 @@ print("TN: ",TN)
 print("FP: ",FP)
 print("FN: ",FN)
 print("_______________")
+
+accurancy = (TP + TN) / (TP + TN + FP + FN)
+precision = TP / (TP + FP)
+recall = TP / (TP + FN)
+F1_score = 2 * (precision * recall) / (precision + recall)
+
+
 print("accurancy: ",accurancy)
 print("precision: ",precision)
 print("recall: ",recall)
