@@ -59,3 +59,4 @@ print("==========TRAIN========")
 with open(TRAIN_PATH, 'r') as file:
         lines = file.readlines()
         print(f" Number lines in TRAIN dataset {len(lines)} ")
+print(TRAIN_PATH)
