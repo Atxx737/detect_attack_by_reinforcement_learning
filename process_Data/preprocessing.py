@@ -5,7 +5,7 @@ from urllib.parse import unquote
 from urllib.parse import urlparse
 import pandas as pd
 
-# PATTERN = r'^(GET|get|POST|post)\s(.*)(HTTP/\d{1}.\d{1})'
+PATTERN = r'^(GET|get|POST|post)\s(.*)(HTTP/\d{1}.\d{1})'
 # URL_PUNCTUATIONS = '/+?&;=,()<>*!$#|^{}\~@.`[]:\'\"'
 
 ### Detecting URL encoding format
@@ -16,11 +16,11 @@ import pandas as pd
 QUERY_NUMBER_TRANSFORMATION = r'^[0-9]+'
 QUERY_PURE_STR_TRANSFORMATION = r'^[a-zA-Z\-\_]+$'
 # QUERY_UNICODE_STR_TRANSFORMATION = r'[\w]+'
-QUERY_UNICODE_STR_TRANSFORMATION = r"[^\u0020-\u007F]+"
+# QUERY_UNICODE_STR_TRANSFORMATION = r"[^\u0020-\u007F]+"
 # QUERY_HEX_STR_TRANSFORMATION = r'^((0x|0X)?[a-fA-F0-9]{2})+$'
 QUERY_HEX_STR_TRANSFORMATION =r"^[a-fA-F0-9]+$"
 
-RestrictedFile_TRANSFORMATION = r"^.*?\b(htaccess|htdigest|htpasswd|asa|asax|ascx|backup|bak|bat|cdx|cer|cfg|cmd|config|conf|csproj|csr|dat|db|dbf|dll|dos|htr|htw|ida|idc|idq|inc|ini|key|licx|lnk|exe|old|mdb|sql|php|pwd|log|nsconfig|svn|bash_history|cs|git|wwwacl|proclog|www_acl|bashrc)\b.*$"
+RestrictedFile_TRANSFORMATION = r"^.*?\b(htaccess|htdigest|.htpasswd|asa|asax|ascx|backup|bak|bat|cdx|cer|cfg|cmd|config|conf|csproj|csr|dat|db|dbf|dll|dos|htr|htw|ida|idc|idq|inc|ini|key|licx|lnk|exe|old|mdb|sql|php|pwd|log|nsconfig|svn|bash_history|cs|git|wwwacl|proclog|www_acl|bashrc)\b.*$"
 
 
 QUERY_RFI_TRANSFORMATION =r"^.*?\b(http|https|ftp|file)\b.*$"
@@ -28,7 +28,7 @@ QUERY_RFI_TRANSFORMATION =r"^.*?\b(http|https|ftp|file)\b.*$"
 QUERY_LFI_TRANSFORMATION =r"^.*?\b(etc|htpasswd|passwd|system|usr)\b.*$"
 # QUERY_XXE_TRANSFORMATION =r"(doctype|entity|system|xmlns)"
 
-QUERY_NULL_CHAR_TRANSFORMATION =  r"(x00|%00)"
+QUERY_NULL_CHAR_TRANSFORMATION =  r"(x00)"
 QUERY_CRLF_TRANSFORMATION =r"(%0d|%0a)"
 
 
@@ -42,17 +42,39 @@ QUERY_OS_COMMAND_TRANSFORMATION = ['useradd', 'snap', 'hash', 'history', 'shasum
 
 DATASET_FEATURES = ["../","..\\","--","/*","*/","&&","||","/","+","?","&",";","=",",","'","\"","(",")","<",">","*","!","$","#","|","^","{","}","\\","%","~","@",".","`","[","]",":","NullChar","SQL","HTML","JavaScript","OSCommand","Number","PureString","HexString","UnicodeString","MixString","LFI","RFI","CRLF","RestrictedFile","Label"]
 
-print(f"Length of DATASET_FEATURES {len(DATASET_FEATURES)}")
-# print(f" DATASET_FEATURES {DATASET_FEATURES.index('RestrictedFile')}")
+# for i in DATASET_FEATURES:
+#   print(i)
+
+# print(f"Length of DATASET_FEATURES {len(DATASET_FEATURES)}")
+# print(f" DATASET_FEATURES {DATASET_FEATURES.index('LFI')}")
 # print(f" DATASET_FEATURES {DATASET_FEATURES[52]}")
+
+#anormalous
+
 DATASET_LABELS = 1
 
-DATASET_PATH = "/home/yoyoo/KLTN/detect_attack_by_reinforcement_learning/data/matrix4/origin/demo.txt"
-PARSED_DATASET_PATH = '../data/matrix4/temp/demo.csv'
+DATASET_PATH = "../data/matrix4/origin/train.txt"
+PARSED_DATASET_PATH = '../data/matrix4/temp/train.csv'
+
+# DATASET_PATH = "../data/matrix4/origin/TEST_OK_csic2010.txt"
+# PARSED_DATASET_PATH = '../data/matrix4/temp/TEST_OK_csic2010.csv'
+
+# DATASET_PATH = "../data/matrix4/origin/TEST_OK_fwaf.txt"
+# PARSED_DATASET_PATH = '../data/matrix4/temp/TEST_OK_fwaf.csv'
+
+# DATASET_PATH = "../data/matrix4/origin/TEST_OK_httpParams.txt"
+# PARSED_DATASET_PATH = '../data/matrix4/temp/TEST_OK_httpParams.csv'
+
+def has_unicode_characters(text):
+    for char in text:
+        if ord(char) > 127:
+            return True
+    return False
 
 def parse_data_from_request(request):
-    # print("#######################")
+    print("#######################")
     request_transforming_matrix = [0]*(len(DATASET_FEATURES)-1)
+    print(request_transforming_matrix)
     # print(f"len(request_transforming_matrix) {len(request_transforming_matrix)}")
     # request = request.replace('\r', '').strip('\r\n')
     request = request.strip('\r\n')
@@ -62,41 +84,34 @@ def parse_data_from_request(request):
         return []
 
     data = ''
-    # if fields[0].lower().startswith('get'):
     # print("fields", fields)  #fields ['/bmeun223.exe?<meta http-equiv=set-cookie content="testhhwu=7044">']
     # print("fields[0]", fields[0]) # fields[0] /bmeun223.exe?<meta http-equiv=set-cookie content="testhhwu=7044">
 
     elements = fields[0].split()
     elements = list(filter(None, elements))
-    # print("elements",elements)
     for item in  (elements):
         print(f"item {item}")
-        #     if elements[0] and elements[0].lower() != 'get':
-        #         print('Invalid request.\n' %(request))
-        #         return []
         if item:
             data = item.strip()
         else:
             return []
-        print("data: ",data)
+        # print("data: ",data)
 
         # print("-----------")
     
         ### Get URL path and query
-        # try:
-        #     url = urlparse(data)
-        #     data = '%s %s' %(url.path, url.query)
-        # except:
-        #     print('Invalid URL: %s'%(data))
+
+        split_data = data.split('?', 1)
+        path = split_data[0]
+        query = split_data[1] if len(split_data) > 1 else ""
+        data = '%s %s' %(path, query)
         
         data = data.lower()
         print("data2: ",data)
 
         # ################# counter data ############
-         ### Find ?
-        c = '?'
-        request_transforming_matrix[DATASET_FEATURES.index('?')] += data.count(c)
-        data = data.replace(c,' ')
+
+
 
         ### Find %0d
         c = "%0d"
@@ -169,7 +184,10 @@ def parse_data_from_request(request):
         request_transforming_matrix[DATASET_FEATURES.index('+')] += data.count(c)
         data = data.replace(c,' ')
 
-       
+        ### Find ?
+        c = '?'
+        request_transforming_matrix[DATASET_FEATURES.index('?')] += data.count(c)
+        data = data.replace(c,' ')
 
         ### Find &
         c = '&'
@@ -238,12 +256,8 @@ def parse_data_from_request(request):
 
         ### Find #
         c = '#'
-        print("------")
-        print("b4 #:", data)
         request_transforming_matrix[DATASET_FEATURES.index('#')] += data.count(c)
         data = data.replace(c,' ')
-        print("after #:",data)
-        print("------")
 
         ### Find |
         c = '|'
@@ -322,7 +336,6 @@ def parse_data_from_request(request):
         ### Find SQLKeyword, OSCommand, Numbers, PureString, UnicodeString, HexString, MixString
         for i in range(0, len(data)):
             print(f"data[{i}]:", data[i])
-            
            
             if re.search(QUERY_LFI_TRANSFORMATION, data[i]):
                 request_transforming_matrix[DATASET_FEATURES.index('LFI')] += 1
@@ -339,11 +352,9 @@ def parse_data_from_request(request):
             elif re.search(RestrictedFile_TRANSFORMATION, data[i]):
                 request_transforming_matrix[DATASET_FEATURES.index('RestrictedFile')] += 1 
                 print('!! RestrictedFile')
-
             elif data[i] in QUERY_SQL_KEYWORD_TRANSFORMATION:
                 request_transforming_matrix[DATASET_FEATURES.index('SQL')] += 1
                 print("!! SQL")
-           
             elif data[i] in QUERY_HTML_KEYWORD_TRANSFORMATION:
                 request_transforming_matrix[DATASET_FEATURES.index('HTML')] += 1
                 print('!! HTML')
@@ -362,14 +373,16 @@ def parse_data_from_request(request):
             elif re.fullmatch(QUERY_HEX_STR_TRANSFORMATION, data[i]):
                 request_transforming_matrix[DATASET_FEATURES.index('HexString')] += 1
                 print('!! HexString')
-            elif re.fullmatch(QUERY_UNICODE_STR_TRANSFORMATION, data[i]):
+            elif has_unicode_characters(data[i]):
                 request_transforming_matrix[DATASET_FEATURES.index('UnicodeString')] += 1
                 print('!! UnicodeString')
             else:
                 request_transforming_matrix[DATASET_FEATURES.index('MixString')] += 1
                 print('MixString')
 
-        for i in range(0, len(request_transforming_matrix)):
+            print("feature:",request_transforming_matrix)
+
+    for i in range(0, len(request_transforming_matrix)):
             if request_transforming_matrix[i] > 255:
                 request_transforming_matrix[i] = 255
 
@@ -385,7 +398,7 @@ def read_requests_from_file(file):
         matrix[f] = []
     # print("!!!!!!!!!!__!!!!!!!!!!")
     parsed_lines = 0
-    # parsed_file = open(PARSED_DATASET_PATH, "w")
+    parsed_file = open(PARSED_DATASET_PATH, "w")
     with open(file,"r") as fi:
         lines = fi.readlines()
         # total_lines = len(lines)
@@ -410,7 +423,7 @@ def read_requests_from_file(file):
             matrix[DATASET_FEATURES[-1]].append(DATASET_LABELS)
 
             parsed_lines += 1
-            # request = ''
+            # # request = ''
     #         # request = ln
     #         else:
     #             request = ''
@@ -430,7 +443,7 @@ def read_requests_from_file(file):
     #     matrix[DATASET_FEATURES[i]].append(data[i])
     # matrix[DATASET_FEATURES[-1]].append(DATASET_LABELS)
 
-    parsed_lines += 1
+    # parsed_lines += 1
 
     # try:
     #   df = pd.DataFrame(matrix)
@@ -447,6 +460,7 @@ def read_requests_from_file(file):
     return parsed_lines
 
 
+########
 parsed_lines = read_requests_from_file(DATASET_PATH)
 
 print('%s requests are parsed.' %parsed_lines)
