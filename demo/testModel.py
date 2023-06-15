@@ -4,27 +4,20 @@ from functions_final import DeepQLearning
 import pandas as pd
 # numpy
 import numpy as np
-import random
-import sys
 
-# TEST_PATH='../data/matrix3/normal/TEST_OK_csic2010.csv'
-# TEST_PATH='../data/matrix3/normal/TEST_OK_fwaf.csv'
-TEST_PATH='../data/matrix3/normal/TEST_OK_httpParams.csv'
+# TEST_PATH='../data/matrix4/normal/TEST_OK_csic2010.csv'
+TEST_PATH='../data/matrix4/normal/TEST_OK_fwaf.csv'
+# TEST_PATH='../data/matrix4/normal/TEST_OK_httpParams.csv'
 
-MODEL_PATH = 'trained_model_in_episode_2.h5'
+MODEL_PATH = 'trained_model_in_episode_1.h5'
 
 dataTest = pd.read_csv(TEST_PATH)
+dataTest = dataTest.to_numpy()
+np.random.shuffle(dataTest)
+
 # print(type(dataset))
 
-# select the parameters
-gamma=1
-# probability parameter for the epsilon-greedy approach
-epsilon=0.1
-
-state_size = 38  # column in dataset exculde label
-action_size = 2
-batch_size = 100 # mô hình cập nhật sau khi train 100 dữ liệu
-# episodes = data.shape[0]
+state_size = dataTest.shape[1] - 1  # column in dataset exculde label
 
 # load the model
 loaded_model = keras.models.load_model(MODEL_PATH,custom_objects={'my_loss_fn':DeepQLearning.my_loss_fn})
@@ -41,33 +34,32 @@ recall=0
 
 # create the environment, here you need to keep render_mode='rgb_array' since otherwise it will not generate the movie
 # reset the environment
-for row in range(0,len(dataTest),1):
+for row in dataTest:
 
     # (currentState,prob)=env.reset()
-    currentState= dataTest.iloc[row].values[:-1]
+    state = row[:-1]
+    state = state.reshape(1,state_size)
+    state = np.array(state, dtype=np.float32)
     # since the initial state is not a terminal state, set this flag to false
     # get the Q-value (1 by 2 vector)
-    Qvalues=loaded_model.predict(currentState.reshape(1,state_size))
+    Qvalues=loaded_model.predict(state)
     # select the action that gives the max Qvalue
     action=np.random.choice(np.where(Qvalues[0,:]==np.max(Qvalues[0,:]))[0])
-    label = dataTest.iloc[row].values[-1]
+    label = row[-1]
     # if you want random actions for comparison
     #action = env.action_space.sample()
     # apply the action
 
     if label==1 and action==1:
         TP +=1
-        print(f"label: {label} - action {action}", end='')
-        print(' - TP')
     elif label==0 and action==0:
         TN +=1
     elif label==1 and action==0:
         FP +=1
     elif label==0 and action==1:
         FN +=1
-        print(f"label: {label} - action {action}", end='')
-        print(' - FN')
     # sum the rewards
+    # print(f"Label: {label}, Action {action}")
 
 print('Dataset records: %s' %len(dataTest))
 print("_______________")

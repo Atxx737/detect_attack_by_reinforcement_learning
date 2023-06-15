@@ -178,18 +178,23 @@ class DeepQLearning:
                     # train network
                     self.trainNetwork()
                     minibatch_counter = 0
+
+                    ## clean memory
                     self.replayBuffer.clear()
+                    del self.replayBuffer
+                    ## free unused memory
+                    print('Free unused memory of episode %s: %s' %(indexEpisode, gc.get_count()))
+                    gc.collect()
+                    print(gc.get_count())
+
+                    ## init new relay buffer
+                    self.replayBuffer = deque(maxlen=self.batchReplayBufferSize)
             
             print("Sum of rewards {}".format(np.sum(rewardsEpisode)))        
             self.sumRewardsEpisode.append(np.sum(rewardsEpisode))
             try:
                 self.mainNetwork.save(f"trained_model_in_episode_{indexEpisode}.h5")
                 print('Saved model of episode %s.' %(indexEpisode))
-
-                ## free unused memory
-                print('Free unused memory of episode %s: %s' %(indexEpisode, gc.get_count()))
-                gc.collect()
-                print(gc.get_count())
             except:
                 pass
 
