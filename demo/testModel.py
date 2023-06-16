@@ -5,11 +5,11 @@ import pandas as pd
 # numpy
 import numpy as np
 
-# TEST_PATH='../data/matrix4/normal/TEST_OK_csic2010.csv'
-TEST_PATH='../data/matrix4/normal/TEST_OK_fwaf.csv'
+TEST_PATH='../data/matrix4/normal/TEST_OK_csic2010.csv'
+# TEST_PATH='../data/matrix4/normal/TEST_OK_fwaf.csv'
 # TEST_PATH='../data/matrix4/normal/TEST_OK_httpParams.csv'
 
-MODEL_PATH = 'trained_model_in_episode_1.h5'
+MODEL_PATH = 'trained_model_2023-06-16_04-55-51.h5'
 
 dataTest = pd.read_csv(TEST_PATH)
 dataTest = dataTest.to_numpy()
@@ -36,9 +36,9 @@ recall=0
 # reset the environment
 for row in dataTest:
 
-    # (currentState,prob)=env.reset()
     state = row[:-1]
-    state = state.reshape(1,state_size)
+    # state = state.reshape(1,state_size)
+    state = np.reshape(state, [1, state_size])
     state = np.array(state, dtype=np.float32)
     # since the initial state is not a terminal state, set this flag to false
     # get the Q-value (1 by 2 vector)
@@ -52,12 +52,15 @@ for row in dataTest:
 
     if label==1 and action==1:
         TP +=1
+        print("TP")
     elif label==0 and action==0:
         TN +=1
     elif label==1 and action==0:
         FP +=1
     elif label==0 and action==1:
         FN +=1
+        print("FN")
+
     # sum the rewards
     # print(f"Label: {label}, Action {action}")
 
@@ -73,7 +76,6 @@ accurancy = (TP + TN) / (TP + TN + FP + FN)
 precision = TP / (TP + FP)
 recall = TP / (TP + FN)
 F1_score = 2 * (precision * recall) / (precision + recall)
-
 
 print("accurancy: ",accurancy)
 print("precision: ",precision)

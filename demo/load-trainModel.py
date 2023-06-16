@@ -14,7 +14,8 @@ date_string = current_datetime.strftime("%Y-%m-%d_%H-%M-%S")
 # TRAIN_PATH='../data/matrix1/normal/train-normal.csv'
 # TRAIN_PATH='/home/yoyoo/KLTN/detect_attack_by_reinforcement_learning/data/matrix1/normal/train-normal.csv'
 # TRAIN_PATH='../data/matrix2/normal/train.csv'
-TRAIN_PATH='../data/matrix4/normal/train1.csv'
+TRAIN_PATH='../data/matrix4/normal/train.csv'
+MODEL_PATH = 'trained_model_in_episode_4.h5'
 
 dataset = pd.read_csv(TRAIN_PATH)
 dataset = dataset.to_numpy()
@@ -26,7 +27,7 @@ gamma=1
 epsilon=0.1
 
 # number of training episodes
-startEpisode=0
+startEpisode=5
 endEpisode=10
 
 stateDimension = dataset.shape[1] - 1  # column in dataset exculde label
@@ -34,6 +35,13 @@ actionDimension = 2
 
 # create an object
 LearningQDeep = DeepQLearning(dataset,stateDimension,actionDimension,gamma,epsilon,startEpisode,endEpisode)
+
+# Load the saved model
+model = keras.models.load_model(MODEL_PATH,custom_objects={'my_loss_fn':DeepQLearning.my_loss_fn})
+
+# Assign the loaded model to mainNetwork and targetNetwork attribute of LearningQDeep
+LearningQDeep.mainNetwork.set_weights(model.get_weights())
+LearningQDeep.targetNetwork.set_weights(model.get_weights())
 
 # run the learning process
 LearningQDeep.trainingEpisodes()

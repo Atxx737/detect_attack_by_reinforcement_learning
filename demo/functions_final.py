@@ -19,15 +19,16 @@ class DeepQLearning:
     # env - Cart Pole environment
     # gamma - discount rate
     # epsilon - parameter for epsilon-greedy approach
-    # numberEpisodes - total number of simulation episodes
+    # endEpisode - total number of simulation episodes
     
             
-    def __init__(self,dataset,stateDimension,actionDimension,gamma,epsilon,numberEpisodes):
+    def __init__(self,dataset,stateDimension,actionDimension,gamma,epsilon,startEpisode,endEpisode):
     
         # self.env=env
         self.gamma = gamma
         self.epsilon = epsilon
-        self.numberEpisodes = numberEpisodes
+        self.startEpisode = startEpisode
+        self.endEpisode = endEpisode
         self.dataset = dataset
         
         # state dimension
@@ -141,7 +142,7 @@ class DeepQLearning:
 
     def trainingEpisodes(self):
         # here we loop through the episodes
-        for indexEpisode in range(self.numberEpisodes):
+        for indexEpisode in range(self.startEpisode,self.endEpisode):
             # list that stores rewards per episode - this is necessary for keeping track of convergence 
             rewardsEpisode=[]
 
@@ -156,7 +157,7 @@ class DeepQLearning:
             for index in range(batch_iteration):
                 currentState = self.dataset[index % dataset_size][:-1]
                 currentState = np.reshape(currentState, [1, self.stateDimension])
-                currentState = np.array(currentState, dtype=np.float32)
+                currentState = np.array(currentState, dtype=np.float32)/255.0
                     
                 # select an action on the basis of the current state, denoted by currentState
                 action = self.selectAction(currentState, index)
@@ -168,7 +169,7 @@ class DeepQLearning:
                 # define nextstate
                 nextState = self.dataset[(index+1) % dataset_size][:-1]
                 nextState = np.reshape(nextState, [1, self.stateDimension])
-                nextState = np.array(nextState, dtype=np.float32)
+                nextState = np.array(nextState, dtype=np.float32)/255.0
 
                 # add current state, action, reward, next state, and terminal flag to the replay buffer
                 self.replayBuffer.append((currentState,action,reward,nextState))
@@ -178,20 +179,23 @@ class DeepQLearning:
                     # train network
                     self.trainNetwork()
                     minibatch_counter = 0
+                    print('Done %s in %s of episode %s' %(index, batch_iteration, indexEpisode))
 
                     ## clean memory
                     self.replayBuffer.clear()
                     del self.replayBuffer
                     ## free unused memory
-                    print('Free unused memory of episode %s: %s' %(indexEpisode, gc.get_count()))
+                    # print('Free unused memory of episode %s: %s' %(indexEpisode, gc.get_count()))
                     gc.collect()
-                    print(gc.get_count())
+                    # print(gc.get_count())
 
                     ## init new relay buffer
                     self.replayBuffer = deque(maxlen=self.batchReplayBufferSize)
             
-            print("Sum of rewards {}".format(np.sum(rewardsEpisode)))        
+            print("Sum of rewards {}".format(np.sum(rewardsEpisode)))      
+            print(f"------{indexEpisode}--------")  
             self.sumRewardsEpisode.append(np.sum(rewardsEpisode))
+            del rewardsEpisode
             try:
                 self.mainNetwork.save(f"trained_model_in_episode_{indexEpisode}.h5")
                 print('Saved model of episode %s.' %(indexEpisode))
@@ -221,7 +225,7 @@ class DeepQLearning:
         randomNumber=np.random.random()
 
         # after index episodes, we slowly start to decrease the epsilon parameter
-        if index > round(self.batchReplayBufferSize * 200 / 1000):
+        if index > self.batchReplayBufferSize:
             self.epsilon=0.999*self.epsilon
         
         # if this condition is satisfied, we are exploring, that is, we select random actions
