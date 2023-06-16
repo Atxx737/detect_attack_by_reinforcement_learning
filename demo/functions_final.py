@@ -179,7 +179,7 @@ class DeepQLearning:
                     # train network
                     self.trainNetwork()
                     minibatch_counter = 0
-                    print('Done %s in %s of episode %s' %(index, batch_iteration, indexEpisode))
+                    print('Done %s in %s of episode %s. Reward: %s' %(index, batch_iteration, indexEpisode, np.sum(rewardsEpisode)))
 
                     ## clean memory
                     self.replayBuffer.clear()
@@ -231,6 +231,7 @@ class DeepQLearning:
         # if this condition is satisfied, we are exploring, that is, we select random actions
         if randomNumber < self.epsilon:
             # returns a random action selected from: 0,1,...,actionNumber-1
+            print('Index %s, random action.' %(index))
             return np.random.choice(self.actionDimension)            
         
         # otherwise, we are selecting greedy actions

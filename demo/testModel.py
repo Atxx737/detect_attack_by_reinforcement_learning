@@ -9,7 +9,7 @@ TEST_PATH='../data/matrix4/normal/TEST_OK_csic2010.csv'
 # TEST_PATH='../data/matrix4/normal/TEST_OK_fwaf.csv'
 # TEST_PATH='../data/matrix4/normal/TEST_OK_httpParams.csv'
 
-MODEL_PATH = 'trained_model_2023-06-16_04-55-51.h5'
+MODEL_PATH = 'trained_model_2023-06-16_19-28-03.h5'
 
 dataTest = pd.read_csv(TEST_PATH)
 dataTest = dataTest.to_numpy()
