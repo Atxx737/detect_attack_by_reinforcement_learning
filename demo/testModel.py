@@ -10,6 +10,7 @@ TEST_PATH='../data/matrix4/normal/TEST_OK_csic2010.csv'
 # TEST_PATH='../data/matrix4/normal/TEST_OK_httpParams.csv'
 
 MODEL_PATH = 'trained_model_2023-06-16_19-28-03.h5'
+MODEL_PATH = 'trained_model_train1.h5'
 
 dataTest = pd.read_csv(TEST_PATH)
 dataTest = dataTest.to_numpy()
@@ -39,7 +40,7 @@ for row in dataTest:
     state = row[:-1]
     # state = state.reshape(1,state_size)
     state = np.reshape(state, [1, state_size])
-    state = np.array(state, dtype=np.float32)
+    state = np.array(state, dtype=np.float32)/255.0
     # since the initial state is not a terminal state, set this flag to false
     # get the Q-value (1 by 2 vector)
     Qvalues=loaded_model.predict(state)

@@ -14,7 +14,7 @@ date_string = current_datetime.strftime("%Y-%m-%d_%H-%M-%S")
 # TRAIN_PATH='../data/matrix1/normal/train-normal.csv'
 # TRAIN_PATH='/home/yoyoo/KLTN/detect_attack_by_reinforcement_learning/data/matrix1/normal/train-normal.csv'
 # TRAIN_PATH='../data/matrix2/normal/train.csv'
-TRAIN_PATH='../data/matrix4/normal/train1.csv'
+TRAIN_PATH='../data/matrix4/normal/train.csv'
 
 dataset = pd.read_csv(TRAIN_PATH)
 dataset = dataset.to_numpy()
@@ -45,4 +45,5 @@ LearningQDeep.sumRewardsEpisode
 LearningQDeep.mainNetwork.summary()
 # save the model, this is important, since it takes long time to train the model 
 # and we will need model in another file to visualize the trained model performance
-LearningQDeep.mainNetwork.save(f"trained_model_{date_string}.h5")
+# LearningQDeep.mainNetwork.save(f"trained_model_{date_string}.h5")
+LearningQDeep.mainNetwork.save(f"trained_model_train1.h5")

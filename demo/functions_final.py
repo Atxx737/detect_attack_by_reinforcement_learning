@@ -123,7 +123,7 @@ class DeepQLearning:
     def  createNetwork(self):
         model=Sequential()
 
-        model.add(Dense(128,input_dim=self.stateDimension,activation='relu'))
+        model.add(Dense(256,input_dim=self.stateDimension,activation='relu'))
         model.add(Dense(56,activation='relu'))
         model.add(Dense(self.actionDimension,activation='relu'))
 
@@ -154,17 +154,21 @@ class DeepQLearning:
             dataset_size = self.dataset.shape[0]
             batch_iteration = self.batchReplayBufferSize * (int(dataset_size/self.batchReplayBufferSize)+1)
 
+            epsilon_index = indexEpisode * batch_iteration
             for index in range(batch_iteration):
                 currentState = self.dataset[index % dataset_size][:-1]
                 currentState = np.reshape(currentState, [1, self.stateDimension])
                 currentState = np.array(currentState, dtype=np.float32)/255.0
                     
                 # select an action on the basis of the current state, denoted by currentState
-                action = self.selectAction(currentState, index)
+                action = self.selectAction(currentState, epsilon_index)
+                epsilon_index += 1
 
                 #define reward
                 reward = 1 if action == self.dataset[index % dataset_size][-1] else 0
                 rewardsEpisode.append(reward)
+
+                print('Index %s, action %s, label %s, reward %s' %(index, action, self.dataset[index % dataset_size][-1], reward))
 
                 # define nextstate
                 nextState = self.dataset[(index+1) % dataset_size][:-1]
@@ -179,12 +183,12 @@ class DeepQLearning:
                     # train network
                     self.trainNetwork()
                     minibatch_counter = 0
-                    print('Done %s in %s of episode %s. Reward: %s' %(index, batch_iteration, indexEpisode, np.sum(rewardsEpisode)))
+                    print('Done %s in %s of episode %s. Reward: %s (%s)' %(index, batch_iteration, indexEpisode, np.sum(rewardsEpisode), np.sum(rewardsEpisode)/index))
 
                     ## clean memory
                     self.replayBuffer.clear()
                     del self.replayBuffer
-                    ## free unused memory
+                    # ## free unused memory
                     # print('Free unused memory of episode %s: %s' %(indexEpisode, gc.get_count()))
                     gc.collect()
                     # print(gc.get_count())
@@ -192,8 +196,7 @@ class DeepQLearning:
                     ## init new relay buffer
                     self.replayBuffer = deque(maxlen=self.batchReplayBufferSize)
             
-            print("Sum of rewards {}".format(np.sum(rewardsEpisode)))      
-            print(f"------{indexEpisode}--------")  
+            print("Sum of rewards {}".format(np.sum(rewardsEpisode)))        
             self.sumRewardsEpisode.append(np.sum(rewardsEpisode))
             del rewardsEpisode
             try:
@@ -231,7 +234,6 @@ class DeepQLearning:
         # if this condition is satisfied, we are exploring, that is, we select random actions
         if randomNumber < self.epsilon:
             # returns a random action selected from: 0,1,...,actionNumber-1
-            print('Index %s, random action.' %(index))
             return np.random.choice(self.actionDimension)            
         
         # otherwise, we are selecting greedy actions
@@ -268,11 +270,11 @@ class DeepQLearning:
         for index,tupleS in enumerate(self.replayBuffer):
             # first entry of the tuple is the current state
             currentStateBatch[index,:]=tupleS[0]
-            currentStateBatch[index, :] = np.reshape(tupleS[0], (1, self.stateDimension))
+            # currentStateBatch[index,:] = np.reshape(tupleS[0], (1, self.stateDimension))
 
             # fourth entry of the tuple is the next state
             nextStateBatch[index,:]=tupleS[3]
-            nextStateBatch[index, :] = np.reshape(tupleS[3], (1, self.stateDimension))
+            # nextStateBatch[index, :] = np.reshape(tupleS[3], (1, self.stateDimension))
         
         # here, use the target network to predict Q-values 
         QnextStateTargetNetwork=self.targetNetwork.predict(nextStateBatch)
@@ -318,4 +320,3 @@ class DeepQLearning:
     ###########################################################################
     #    END - function trainNetwork() 
     ###########################################################################     
-
