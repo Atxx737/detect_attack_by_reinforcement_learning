@@ -9,7 +9,7 @@ from urllib.parse import urlparse
 import pandas as pd
 
 # define PATH
-TRAIN_PATH='../../data/matrix4/origin/train.txt'
+TRAIN_PATH='../../data/matrix5/origin/train.txt'
 
 ########################
 def count_lines(listLine):
@@ -39,7 +39,7 @@ def distribute_lines(input_files, test_file):
 ########################
 def create_fwaf():
     # define PATH
-    TEST_FWAF_PATH='../../data/matrix4/origin/TEST_OK_fwaf.txt'
+    TEST_FWAF_PATH='../../data/matrix5/origin/TEST_OK_fwaf.txt'
     sum_lines= []
     listPath = [ '../../new_data/anomalous/fwaf/OK_fwaf-badqueries_BufferOverflow.txt',
                 '../../new_data/anomalous/fwaf/OK_fwaf-badqueries_External_Redirect.txt',
@@ -67,7 +67,7 @@ def create_fwaf():
 # =========================================================================================
 
 def create_csic2010():
-    TEST_csic2010_PATH='../../data/matrix4/origin/TEST_OK_csic2010.txt'
+    TEST_csic2010_PATH='../../data/matrix5/origin/TEST_OK_csic2010.txt'
     sum_lines= []
 
     listPath = [ '../../new_data/anomalous/HTTP_DATASET_CSIC_2010/OK_csic2010-anomalous_Restricted_files.txt',
@@ -91,7 +91,7 @@ def create_csic2010():
 # =========================================================================================
 
 def create_https():
-    TEST_https_PATH='../../data/matrix4/origin/TEST_OK_httpParams.txt'
+    TEST_https_PATH='../../data/matrix5/origin/TEST_OK_httpParams.txt'
     sum_lines= []
     listPath = [ '../../new_data/anomalous/HttpParamsDataset-master/http-params/OK_payload_full.csv_cmdi.txt',
             '../../new_data/anomalous/HttpParamsDataset-master/http-params/OK_payload_full.csv_path-traversal.txt',
