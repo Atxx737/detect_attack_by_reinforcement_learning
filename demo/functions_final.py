@@ -41,7 +41,7 @@ class DeepQLearning:
         # self.replayBufferSize = 300
 
         # this is the size of the training batch that is randomly sampled from the replay buffer
-        self.batchReplayBufferSize = 128
+        self.batchReplayBufferSize = 64
         
         # number of training episodes it takes to update the target network parameters
         # that is, every updateTargetNetworkPeriod we update the target network parameters

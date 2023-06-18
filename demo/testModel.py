@@ -5,12 +5,12 @@ import pandas as pd
 # numpy
 import numpy as np
 
-# TEST_PATH='../data/matrix4/normal/TEST_OK_csic2010.csv'
+TEST_PATH='../data/matrix4/normal/TEST_OK_csic2010.csv'
 # TEST_PATH='../data/matrix4/normal/TEST_OK_fwaf.csv'
-TEST_PATH='../data/matrix4/normal/TEST_OK_httpParams.csv'
+# TEST_PATH='../data/matrix4/normal/TEST_OK_httpParams.csv'
 
-# MODEL_PATH = 'trained_model_2023-06-16_19-28-03.h5'
-MODEL_PATH = 'trained_model_in_episode_2.h5'
+MODEL_PATH = 'trained_model_2023-06-18_05-35-36.h5'
+# MODEL_PATH = 'trained_model_in_episode_2.h5'
 
 dataTest = pd.read_csv(TEST_PATH)
 dataTest = dataTest.to_numpy()
