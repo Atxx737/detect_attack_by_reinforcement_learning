@@ -5,12 +5,12 @@ import pandas as pd
 # numpy
 import numpy as np
 
-TEST_PATH='../data/matrix4/normal/TEST_OK_csic2010.csv'
+# TEST_PATH='../data/matrix4/normal/TEST_OK_csic2010.csv'
 # TEST_PATH='../data/matrix4/normal/TEST_OK_fwaf.csv'
-# TEST_PATH='../data/matrix4/normal/TEST_OK_httpParams.csv'
+TEST_PATH='../data/matrix4/normal/TEST_OK_httpParams.csv'
 
-MODEL_PATH = 'trained_model_2023-06-16_19-28-03.h5'
-MODEL_PATH = 'trained_model_train1.h5'
+# MODEL_PATH = 'trained_model_2023-06-16_19-28-03.h5'
+MODEL_PATH = 'trained_model_in_episode_2.h5'
 
 dataTest = pd.read_csv(TEST_PATH)
 dataTest = dataTest.to_numpy()
@@ -53,14 +53,12 @@ for row in dataTest:
 
     if label==1 and action==1:
         TP +=1
-        print("TP")
     elif label==0 and action==0:
         TN +=1
     elif label==1 and action==0:
         FP +=1
     elif label==0 and action==1:
         FN +=1
-        print("FN")
 
     # sum the rewards
     # print(f"Label: {label}, Action {action}")
