@@ -5,11 +5,14 @@ import pandas as pd
 # numpy
 import numpy as np
 
-TEST_PATH='../data/matrix5/normal/TEST_OK_csic2010.csv'
+# TEST_PATH='../data/matrix5/normal/TEST_OK_csic2010.csv'
 # TEST_PATH='../data/matrix5/normal/TEST_OK_fwaf.csv'
 # TEST_PATH='../data/matrix5/normal/TEST_OK_httpParams.csv'
+TEST_PATH='../data/matrix5/normal/TEST_OK_ECML.csv'
 
-MODEL_PATH = 'trained_model_2023-06-20_09-52-23.h5'
+# MODEL_PATH = 'trained_model_2023-06-20_09-52-23.h5'
+# MODEL_PATH = 'model-20-06/trained_model_in_episode_9.h5'
+MODEL_PATH = 'model-20-06/trained_model_2023-06-20_09-52-23.h5'
 # MODEL_PATH = 'trained_model_in_episode_1.h5'
 
 dataTest = pd.read_csv(TEST_PATH)

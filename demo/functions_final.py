@@ -124,7 +124,7 @@ class DeepQLearning:
         model=Sequential()
 
         model.add(Dense(256,input_dim=self.stateDimension,activation='relu'))
-        model.add(Dense(56,activation='relu'))
+        model.add(Dense(128,activation='relu'))
         model.add(Dense(self.actionDimension,activation='relu'))
 
         # compile the network with the custom loss defined in my_loss_fn
@@ -200,8 +200,11 @@ class DeepQLearning:
             self.sumRewardsEpisode.append(np.sum(rewardsEpisode))
             del rewardsEpisode
             try:
-                self.mainNetwork.save(f"trained_model_in_episode_{indexEpisode}.h5")
-                print('Saved model of episode %s.' %(indexEpisode))
+                self.mainNetwork.save(f"main_model_in_episode_{indexEpisode}.h5")
+                print('Saved main model of episode %s.' %(indexEpisode))
+
+                self.targetNetwork.save(f"target_model_in_episode_{indexEpisode}.h5")
+                print('Saved target model of episode %s.' %(indexEpisode))
             except:
                 pass
 
@@ -229,7 +232,7 @@ class DeepQLearning:
 
         # after index episodes, we slowly start to decrease the epsilon parameter
         if index > self.batchReplayBufferSize:
-            self.epsilon=0.999*self.epsilon
+            self.epsilon=0.99*self.epsilon
         
         # if this condition is satisfied, we are exploring, that is, we select random actions
         if randomNumber < self.epsilon:

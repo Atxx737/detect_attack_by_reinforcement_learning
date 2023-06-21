@@ -14,14 +14,15 @@ date_string = current_datetime.strftime("%Y-%m-%d_%H-%M-%S")
 # TRAIN_PATH='../data/matrix1/normal/train-normal.csv'
 # TRAIN_PATH='/home/yoyoo/KLTN/detect_attack_by_reinforcement_learning/data/matrix1/normal/train-normal.csv'
 # TRAIN_PATH='../data/matrix2/normal/train.csv'
-TRAIN_PATH='../data/matrix4/normal/train.csv'
-MODEL_PATH = 'trained_model_in_episode_4.h5'
+TRAIN_PATH='../data/matrix5/normal/train.csv'
+MAIN_MODEL_PATH = 'main_model_in_episode_4.h5'
+TARGET_MODEL_PATH = 'target_model_in_episode_4.h5'
 
 dataset = pd.read_csv(TRAIN_PATH)
 dataset = dataset.to_numpy()
 
 # select the parameters
-gamma=1
+gamma=0.01
 
 # probability parameter for the epsilon-greedy approach
 epsilon=0.1
@@ -37,11 +38,12 @@ actionDimension = 2
 LearningQDeep = DeepQLearning(dataset,stateDimension,actionDimension,gamma,epsilon,startEpisode,endEpisode)
 
 # Load the saved model
-model = keras.models.load_model(MODEL_PATH,custom_objects={'my_loss_fn':DeepQLearning.my_loss_fn})
+main_model = keras.models.load_model(MAIN_MODEL_PATH,custom_objects={'my_loss_fn':DeepQLearning.my_loss_fn})
+target_model = keras.models.load_model(TARGET_MODEL_PATH,custom_objects={'my_loss_fn':DeepQLearning.my_loss_fn})
 
 # Assign the loaded model to mainNetwork and targetNetwork attribute of LearningQDeep
-LearningQDeep.mainNetwork.set_weights(model.get_weights())
-LearningQDeep.targetNetwork.set_weights(model.get_weights())
+LearningQDeep.mainNetwork.set_weights(main_model.get_weights())
+LearningQDeep.targetNetwork.set_weights(target_model.get_weights())
 
 # run the learning process
 LearningQDeep.trainingEpisodes()

@@ -20,14 +20,14 @@ dataset = pd.read_csv(TRAIN_PATH)
 dataset = dataset.to_numpy()
 
 # select the parameters
-gamma=1
+gamma=0.01
 
 # probability parameter for the epsilon-greedy approach
-epsilon=0.1
+epsilon=0.2
 
 # number of training episodes
 startEpisode=0
-endEpisode=10
+endEpisode=5
 
 stateDimension = dataset.shape[1] - 1  # column in dataset exculde label
 actionDimension = 2
