@@ -15,8 +15,8 @@ date_string = current_datetime.strftime("%Y-%m-%d_%H-%M-%S")
 # TRAIN_PATH='/home/yoyoo/KLTN/detect_attack_by_reinforcement_learning/data/matrix1/normal/train-normal.csv'
 # TRAIN_PATH='../data/matrix2/normal/train.csv'
 TRAIN_PATH='../data/matrix5/normal/train.csv'
-MAIN_MODEL_PATH = 'main_model_in_episode_4.h5'
-TARGET_MODEL_PATH = 'target_model_in_episode_4.h5'
+MAIN_MODEL_PATH = 'main_model_in_episode_14.h5'
+TARGET_MODEL_PATH = 'target_model_in_episode_14.h5'
 
 dataset = pd.read_csv(TRAIN_PATH)
 dataset = dataset.to_numpy()
@@ -25,11 +25,11 @@ dataset = dataset.to_numpy()
 gamma=0.01
 
 # probability parameter for the epsilon-greedy approach
-epsilon=0.1
+epsilon=0.2
 
 # number of training episodes
-startEpisode=5
-endEpisode=10
+startEpisode=15
+endEpisode=20
 
 stateDimension = dataset.shape[1] - 1  # column in dataset exculde label
 actionDimension = 2

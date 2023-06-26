@@ -10,8 +10,10 @@ import time
 
 # MODEL_PATH = 'trained_model_2023-06-20_09-52-23.h5'
 # MODEL_PATH = 'model-20-06/trained_model_in_episode_9.h5'
-MODEL_PATH = 'model-20-06/trained_model_2023-06-20_09-52-23.h5'
+# MODEL_PATH = 'model-20-06/trained_model_2023-06-20_09-52-23.h5'
 # MODEL_PATH = 'trained_model_in_episode_1.h5'
+MODEL_PATH = 'model-OK/main_model_in_episode_12.h5'
+
 
 LIST_PATH_TEST = ['../data/matrix5/normal/TEST_OK_csic2010.csv', '../data/matrix5/normal/TEST_OK_fwaf.csv', '../data/matrix5/normal/TEST_OK_httpParams.csv','../data/matrix5/normal/TEST_OK_ECML.csv' ]
 
