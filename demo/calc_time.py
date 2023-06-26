@@ -19,9 +19,8 @@ LIST_PATH_TEST = ['../data/matrix5/normal/TEST_OK_csic2010.csv', '../data/matrix
 
 TEST_PATH = '../data/matrix5/normal/TEST_TIME.csv'
 
-def sample_test():
-    random_value = random.choice(LIST_PATH_TEST)
-    row = pd.read_csv(random_value)
+def sample_test(csv_test):
+    row = pd.read_csv(csv_test)
     random_sample = row.sample(n=100)
 
     random_sample.to_csv(TEST_PATH,index=False)
@@ -39,15 +38,7 @@ def test(TEST_PATH):
     # load the model
     loaded_model = keras.models.load_model(MODEL_PATH,custom_objects={'my_loss_fn':DeepQLearning.my_loss_fn})
 
-    TN=0
-    FN=0
-    TP=0
-    FP=0
-
-    accurancy=0
-    precision=0
-    F1_score=0
-    recall=0
+   
     time_list = []
 
     # create the environment, here you need to keep render_mode='rgb_array' since otherwise it will not generate the movie
@@ -66,43 +57,10 @@ def test(TEST_PATH):
         action=np.random.choice(np.where(Qvalues[0,:]==np.max(Qvalues[0,:]))[0])
         end_time = time.time()
         execution_time = end_time - start_time
-        print("Thời gian predict: ", execution_time, " giây")
         time_list.append(execution_time)
-        label = row[-1]
-        # if you want random actions for comparison
-        #action = env.action_space.sample()
-        # apply the action
-
-        if label==1 and action==1:
-            TP +=1
-        elif label==0 and action==0:
-            TN +=1
-        elif label==1 and action==0:
-            FP +=1
-        elif label==0 and action==1:
-            FN +=1
-
-        # sum the rewards
-        # print(f"Label: {label}, Action {action}")
+        
     print('Dataset records: %s' %len(dataTest))
-    print("_______________")
-    print("TP: ",TP)
-    print("TN: ",TN)
-    print("FP: ",FP)
-    print("FN: ",FN)
-    print("_______________")
-
-    accurancy = (TP + TN) / (TP + TN + FP + FN)
-    precision = TP / (TP + FP)
-    recall = TP / (TP + FN)
-    F1_score = 2 * (precision * recall) / (precision + recall)
-
-    print("accurancy: ",accurancy)
-    print("precision: ",precision)
-    print("recall: ",recall)
-    print("F1_score: ",F1_score)
-    print("_______________")
-
+   
     sum_values = sum(time_list)
     count_values = len(time_list)
 
@@ -111,7 +69,10 @@ def test(TEST_PATH):
     print("Minimum time predict:", min(time_list))
 
     print(MODEL_PATH)
-    print(TEST_PATH)
+    # print(TEST_PATH)
 
-sample_test()
-test(TEST_PATH)
+for path in LIST_PATH_TEST:
+    print(path)
+    sample_test(path)
+    test(TEST_PATH)
+    print("---------------")
