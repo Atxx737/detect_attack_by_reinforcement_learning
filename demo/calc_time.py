@@ -48,6 +48,7 @@ def test(TEST_PATH):
     precision=0
     F1_score=0
     recall=0
+    time_list = []
 
     # create the environment, here you need to keep render_mode='rgb_array' since otherwise it will not generate the movie
     # reset the environment
@@ -63,6 +64,10 @@ def test(TEST_PATH):
         Qvalues=loaded_model.predict(state)
         # select the action that gives the max Qvalue
         action=np.random.choice(np.where(Qvalues[0,:]==np.max(Qvalues[0,:]))[0])
+        end_time = time.time()
+        execution_time = end_time - start_time
+        print("Thời gian predict: ", execution_time, " giây")
+        time_list.append(execution_time)
         label = row[-1]
         # if you want random actions for comparison
         #action = env.action_space.sample()
@@ -79,8 +84,6 @@ def test(TEST_PATH):
 
         # sum the rewards
         # print(f"Label: {label}, Action {action}")
-    end_time = time.time()
-    execution_time = end_time - start_time
     print('Dataset records: %s' %len(dataTest))
     print("_______________")
     print("TP: ",TP)
@@ -100,9 +103,15 @@ def test(TEST_PATH):
     print("F1_score: ",F1_score)
     print("_______________")
 
+    sum_values = sum(time_list)
+    count_values = len(time_list)
+
+    print("Average time predict:", sum_values / count_values)
+    print("Maximum time predict:", max(time_list))
+    print("Minimum time predict:", min(time_list))
+
     print(MODEL_PATH)
     print(TEST_PATH)
-    print("Thời gian thực thi: ", execution_time, " giây")
 
 sample_test()
 test(TEST_PATH)
