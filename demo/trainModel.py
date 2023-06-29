@@ -1,15 +1,15 @@
 import pandas as pd
-import datetime
 import keras
 import tensorflow as tf
 from tensorflow.keras.optimizers import RMSprop
 from tensorflow.keras.losses import mean_squared_error 
 from functions_final import DeepQLearning
 
+import datetime
 # Get the current date and time
 current_datetime = datetime.datetime.now()
 # Format the date and time as a string
-date_string = current_datetime.strftime("%Y-%m-%d_%H-%M-%S")
+date_string = current_datetime.strftime("%Y-%m-%d")
 
 # TRAIN_PATH='../data/matrix1/normal/train-normal.csv'
 # TRAIN_PATH='/home/yoyoo/KLTN/detect_attack_by_reinforcement_learning/data/matrix1/normal/train-normal.csv'
