@@ -1,10 +1,10 @@
-## Introduction
-![Model propose](images/mohinhtongquan.png"Overview model")
-
+## Introduction 
 ### A NOVEL WEB ATTACK DETECTION MODEL BASED ON REINFORCEMENT
+![Model proposed](./images/mohinhtongquan.png)
 
 Detect web attack using RL
 
+Hi, I'm Hai Ha - 4th year student in Infomation Technology with major in Infomation Security. 
 ## Structure
 
 ```
