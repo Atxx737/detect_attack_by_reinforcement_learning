@@ -39,4 +39,6 @@ Hi, I'm Hai Ha - 4th year student in Infomation Technology with major in Infomat
     └── create_new_dataset (code create new dataset for RL)
 ```
 
+Link result test model RL: https://www.youtube.com/watch?v=rw0VSBjCE-E
+
 Hai Ha - 30.06.2023
